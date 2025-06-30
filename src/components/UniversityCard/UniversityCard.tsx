@@ -54,8 +54,15 @@ const UniversityCard = React.memo(({ university }: UniversityCardProps) => {
   const navigate = useNavigate();
 
   const handleViewProfile = useCallback(() => {
-    navigate(`/university/${university.id}`);
-  }, [navigate, university.id]);
+    // Create a URL-safe slug from the university name if one is not provided
+    const slug = university.slug || university.name
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .trim();
+    navigate(`/university/${slug}`);
+  }, [navigate, university.slug, university.name]);
 
   return (
     <div className="university-card glassmorphism-box">
