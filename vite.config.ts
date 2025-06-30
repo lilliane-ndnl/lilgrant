@@ -30,12 +30,6 @@ export default defineConfig({
       scopeBehaviour: 'local',
       localsConvention: 'camelCase',
       generateScopedName: '[name]__[local]__[hash:base64:5]'
-    },
-    postcss: {
-      plugins: [
-        require('autoprefixer'),
-        require('postcss-nested')
-      ]
     }
   }
 })
