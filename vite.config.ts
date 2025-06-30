@@ -23,6 +23,8 @@ export default defineConfig({
         },
       },
     },
+    copyPublicDir: true,
+    assetsDir: 'assets',
   },
   css: {
     devSourcemap: true,
@@ -31,5 +33,6 @@ export default defineConfig({
       localsConvention: 'camelCase',
       generateScopedName: '[name]__[local]__[hash:base64:5]'
     }
-  }
+  },
+  publicDir: 'public'
 })
