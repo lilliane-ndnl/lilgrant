@@ -1,0 +1,82 @@
+/* Footer Component Styles */
+.footer {
+  background: transparent; /* Let the gradient show through */
+  padding: 25px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.footer-line {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  font-style: italic; /* Make all footer text italic */
+  color: #FFFFFF; /* Simple white color for better visibility */
+  margin: 8px 0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Stronger shadow for better readability */
+  line-height: 1.4;
+}
+
+/* Link Styling */
+.footer-link {
+  color: #FFFFFF; /* Simple white color */
+  font-style: italic; /* Make link italic too */
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.footer-link:hover {
+  color: #F8F8F8; /* Slightly brighter white on hover */
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Subtle underline effect on hover */
+.footer-link::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #FFFFFF;
+  transition: width 0.3s ease;
+}
+
+.footer-link:hover::after {
+  width: 100%;
+}
+
+/* Ensure italic styling is preserved for em tag */
+.footer-link em {
+  font-style: italic;
+  color: inherit;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 0;
+  }
+  
+  .footer-line {
+    font-size: 0.85rem;
+    margin: 6px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 18px 0;
+  }
+  
+  .footer-line {
+    font-size: 0.8rem;
+    margin: 5px 0;
+  }
+} 

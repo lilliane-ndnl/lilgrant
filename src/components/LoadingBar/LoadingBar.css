@@ -1,0 +1,22 @@
+.loading-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  z-index: 9999;
+  background: linear-gradient(90deg, #8A2BE2, #FF85A1);
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(138, 43, 226, 0.15);
+  transition: width 0.2s;
+  pointer-events: none;
+}
+
+.loading-bar.active {
+  animation: loading-bar-run 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes loading-bar-run {
+  from { width: 0%; }
+  to { width: 100%; }
+} 

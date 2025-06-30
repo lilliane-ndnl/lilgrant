@@ -1,0 +1,88 @@
+.religious-affiliation-display {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  position: relative;
+}
+
+.affiliation-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.info-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.25rem;
+  width: 1em;
+  height: 1em;
+  font-size: 0.95em;
+  color: #888;
+  background: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  font-weight: 400;
+  cursor: help;
+  user-select: none;
+  line-height: 1;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  letter-spacing: 0;
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.info-icon:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+.info-icon:hover, .info-icon:focus {
+  background: #e0e7ef;
+  color: #555;
+  border-color: #bbb;
+}
+
+.info-tooltip {
+  position: absolute;
+  left: 50%;
+  bottom: 120%;
+  transform: translateX(-50%);
+  background: #222;
+  color: #fff;
+  padding: 0.6em 1em;
+  border-radius: 6px;
+  font-size: 0.95em;
+  min-width: 220px;
+  max-width: 320px;
+  z-index: 9999;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  white-space: normal;
+  pointer-events: none;
+  text-align: left;
+}
+
+.info-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 7px;
+  border-style: solid;
+  border-color: #222 transparent transparent transparent;
+}
+
+@media (max-width: 600px) {
+  .info-tooltip {
+    min-width: 180px;
+    max-width: 90vw;
+  }
+}
+
+/* Remove custom tooltip styling */
+/* .info-icon[title]:hover::after { ... } */ 

@@ -1,0 +1,194 @@
+.university-profile-tabs {
+  margin: 2rem 0;
+}
+
+.tabs-navigation {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid rgba(44, 62, 80, 0.1);
+  padding-bottom: 0;
+}
+
+.tab-button {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: none;
+  border-radius: 12px 12px 0 0;
+  padding: 1rem 1.5rem;
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: none;
+  position: relative;
+}
+
+.tab-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.tab-button.active {
+  background: linear-gradient(135deg, #8A2BE2, #9370DB);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(138, 43, 226, 0.3);
+}
+
+.tab-button.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(135deg, #8A2BE2, #9370DB);
+}
+
+.tab-content {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0 12px 12px 12px;
+  padding: 2rem;
+  min-height: 400px;
+}
+
+.tab-panel h3 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0 0 1.5rem 0;
+  text-shadow: none;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(44, 62, 80, 0.1);
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.info-item {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.info-item:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.info-label {
+  width: 100%;
+}
+
+.info-label strong {
+  color: #2c3e50;
+  font-weight: 600;
+  text-shadow: none;
+  font-size: 0.95rem;
+}
+
+.info-value {
+  width: 100%;
+  color: #2c3e50 !important;
+  text-shadow: none;
+  font-size: 1rem;
+  text-align: left;
+  word-break: break-word;
+  line-height: 1.4;
+}
+
+.scholarship-insights-section {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(44, 62, 80, 0.1);
+}
+
+.scholarship-insights-section h4 {
+  color: #2c3e50;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  text-shadow: none;
+}
+
+.scholarship-notes-box {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .info-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0.75rem;
+  }
+  
+  .tab-content {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .tabs-navigation {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .tab-button {
+    border-radius: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .tab-button.active::after {
+    display: none;
+  }
+  
+  .tab-content {
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  
+  .tab-panel h3 {
+    font-size: 1.5rem;
+  }
+  
+  .info-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tab-button {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .tab-content {
+    padding: 0.75rem;
+  }
+  
+  .tab-panel h3 {
+    font-size: 1.3rem;
+  }
+  
+  .info-item {
+    padding: 0.75rem;
+  }
+} 

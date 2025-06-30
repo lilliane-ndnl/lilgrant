@@ -1,0 +1,206 @@
+{
+  "general": {
+    "id": "id",
+    "slug": "(auto-generated)",
+    "name": "school.name",
+    "city": "school.city",
+    "state": "school.state",
+    "zip": "school.zip",
+    "url": "school.school_url",
+    "control": "school.ownership",
+    "locale": "school.locale",
+    "region": "school.region_id",
+    "latitude": "location.lat",
+    "longitude": "location.lon",
+    "carnegieBasic": "school.carnegie_basic",
+    "carnegieUndergrad": "school.carnegie_undergrad",
+    "carnegieSizeSetting": "school.carnegie_size_setting",
+    "predominantDegree": "school.degrees_awarded.predominant",
+    "highestDegree": "school.degrees_awarded.highest",
+    "underInvestigation": "school.under_investigation",
+    "mainCampus": "school.main_campus",
+    "branches": "school.branches"
+  },
+  "costs": {
+    "avgAnnualCost": "latest.cost.avg_net_price.overall",
+    "tuitionInState": "latest.cost.tuition.in_state",
+    "tuitionOutOfState": "latest.cost.tuition.out_of_state",
+    "roomAndBoardOnCampus": "latest.cost.roomboard.oncampus",
+    "attendanceAcademicYear": "latest.cost.attendance.academic_year",
+    "attendanceProgramYear": "latest.cost.attendance.program_year",
+    "netPriceByIncome": {
+      "level1": "latest.cost.net_price.private.by_income_level.0-30000",
+      "level2": "latest.cost.net_price.private.by_income_level.30001-48000",
+      "level3": "latest.cost.net_price.private.by_income_level.48001-75000",
+      "level4": "latest.cost.net_price.private.by_income_level.75001-110000",
+      "level5": "latest.cost.net_price.private.by_income_level.110001-plus"
+    },
+    "netPricePublicByIncome": {
+      "level1": "latest.cost.net_price.public.by_income_level.0-30000",
+      "level2": "latest.cost.net_price.public.by_income_level.30001-48000",
+      "level3": "latest.cost.net_price.public.by_income_level.48001-75000",
+      "level4": "latest.cost.net_price.public.by_income_level.75001-110000",
+      "level5": "latest.cost.net_price.public.by_income_level.110001-plus"
+    },
+    "titleIvStudents": {
+      "public": "latest.cost.title_iv.public.all",
+      "private": "latest.cost.title_iv.private.all"
+    }
+  },
+  "admissions": {
+    "admissionRate": "latest.admissions.admission_rate.overall",
+    "admissionRateSuppressed": "latest.admissions.admission_rate_suppressed.overall",
+    "openAdmissionsPolicy": "school.open_admissions_policy",
+    "testRequirements": "latest.admissions.test_requirements",
+    "satScores": {
+      "math25": "latest.admissions.sat_scores.25th_percentile.math",
+      "math50": "latest.admissions.sat_scores.50th_percentile.math",
+      "math75": "latest.admissions.sat_scores.75th_percentile.math",
+      "reading25": "latest.admissions.sat_scores.25th_percentile.critical_reading",
+      "reading50": "latest.admissions.sat_scores.50th_percentile.critical_reading",
+      "reading75": "latest.admissions.sat_scores.75th_percentile.critical_reading",
+      "average": "latest.admissions.sat_scores.average.overall"
+    },
+    "actScores": {
+      "cumulative25": "latest.admissions.act_scores.25th_percentile.cumulative",
+      "cumulative50": "latest.admissions.act_scores.50th_percentile.cumulative",
+      "cumulative75": "latest.admissions.act_scores.75th_percentile.cumulative",
+      "english25": "latest.admissions.act_scores.25th_percentile.english",
+      "english50": "latest.admissions.act_scores.50th_percentile.english",
+      "english75": "latest.admissions.act_scores.75th_percentile.english",
+      "math25": "latest.admissions.act_scores.25th_percentile.math",
+      "math50": "latest.admissions.act_scores.50th_percentile.math",
+      "math75": "latest.admissions.act_scores.75th_percentile.math"
+    }
+  },
+  "academics": {
+    "predominantDegree": "school.degrees_awarded.predominant",
+    "highestDegree": "school.degrees_awarded.highest",
+    "studentFacultyRatio": "latest.student.demographics.student_faculty_ratio"
+  },
+  "studentLife": {
+    "enrollmentTotal": "latest.student.size",
+    "partTimeShare": "latest.student.part_time_share",
+    "demographics": {
+      "white": "latest.student.demographics.race_ethnicity.white",
+      "black": "latest.student.demographics.race_ethnicity.black",
+      "hispanic": "latest.student.demographics.race_ethnicity.hispanic",
+      "asian": "latest.student.demographics.race_ethnicity.asian",
+      "aian": "latest.student.demographics.race_ethnicity.aian",
+      "nhpi": "latest.student.demographics.race_ethnicity.nhpi",
+      "twoOrMore": "latest.student.demographics.race_ethnicity.two_or_more",
+      "international": "latest.student.demographics.race_ethnicity.non_resident_alien",
+      "unknown": "latest.student.demographics.race_ethnicity.unknown",
+      "men": "latest.student.demographics.men",
+      "women": "latest.student.demographics.women"
+    },
+    "faculty": {
+      "white": "latest.student.demographics.faculty.race_ethnicity.white",
+      "black": "latest.student.demographics.faculty.race_ethnicity.black",
+      "hispanic": "latest.student.demographics.faculty.race_ethnicity.hispanic",
+      "asian": "latest.student.demographics.faculty.race_ethnicity.asian",
+      "aian": "latest.student.demographics.faculty.race_ethnicity.aian",
+      "nhpi": "latest.student.demographics.faculty.race_ethnicity.nhpi",
+      "twoOrMore": "latest.student.demographics.faculty.race_ethnicity.two_or_more",
+      "international": "latest.student.demographics.faculty.race_ethnicity.non_resident_alien",
+      "unknown": "latest.student.demographics.faculty.race_ethnicity.unknown",
+      "men": "latest.student.demographics.faculty.men",
+      "women": "latest.student.demographics.faculty.women"
+    }
+  },
+  "outcomes": {
+    "completionRate": "latest.completion.rate_suppressed.overall",
+    "completionRate4yr": "latest.completion.completion_rate_4yr_150nt",
+    "completionRateLessThan4yr": "latest.completion.completion_rate_less_than_4yr_150nt",
+    "completionRatePooled": "latest.completion.completion_rate_4yr_150nt_pooled",
+    "retentionRate": "latest.student.retention_rate.four_year.full_time",
+    "medianEarnings10Yrs": "latest.earnings.10_yrs_after_entry.median",
+    "medianEarnings8Yrs": "latest.earnings.8_yrs_after_entry.median",
+    "medianEarnings6Yrs": "latest.earnings.6_yrs_after_entry.median",
+    "medianEarnings4Yrs": "latest.earnings.4_yrs_after_entry.median",
+    "medianDebt": "latest.aid.median_debt_suppressed.completers.overall",
+    "medianDebtGraduates": "latest.aid.median_debt_suppressed.completers.by_income_level.0-30000",
+    "medianDebtDropouts": "latest.aid.median_debt_suppressed.noncompleters.overall",
+    "repaymentRate": "latest.aid.median_debt_suppressed.completers.by_income_level.30001-75000"
+  },
+  "aid": {
+    "pellGrantRecipients": "latest.aid.pell_grant_rate",
+    "federalLoanRate": "latest.aid.federal_loan_rate",
+    "medianDebtCompleters": "latest.aid.median_debt_suppressed.completers.overall",
+    "medianDebtNonCompleters": "latest.aid.median_debt_suppressed.noncompleters.overall",
+    "medianDebtByIncome": {
+      "low": "latest.aid.median_debt_suppressed.completers.by_income_level.0-30000",
+      "medium": "latest.aid.median_debt_suppressed.completers.by_income_level.30001-75000",
+      "high": "latest.aid.median_debt_suppressed.completers.by_income_level.75001-plus"
+    }
+  },
+  "lilGrantData": {
+    "meetsFullNeed": null,
+    "typesOfAid": null,
+    "internationalAidPercentage": null,
+    "averageAward": null,
+    "largestMeritScholarship": null,
+    "scholarshipInfo": null,
+    "totalAwardedMillions": null,
+    "acceptanceRate": null,
+    "internationalAdmissionRate": null,
+    "yield": null,
+    "internationalYield": null,
+    "earlyDecisionOffered": null,
+    "earlyActionOffered": null,
+    "earlyDecisionRate": null,
+    "earlyActionRate": null,
+    "testingRequirements": null,
+    "satPercentSubmitted": null,
+    "actPercentSubmitted": null,
+    "satScores": {
+      "comp50": null,
+      "math25": null,
+      "math75": null,
+      "ebrw25": null,
+      "ebrw75": null
+    },
+    "actScores": {
+      "comp25": null,
+      "comp50": null,
+      "comp75": null,
+      "math25": null,
+      "math75": null,
+      "english25": null,
+      "english75": null,
+      "reading25": null,
+      "reading75": null,
+      "science25": null,
+      "science75": null
+    },
+    "graduationRates": {
+      "fourYear": null,
+      "fiveYear": null,
+      "sixYear": null
+    },
+    "transferOutRate": null,
+    "rankings": {
+      "usNewsNational": null,
+      "usNewsLiberalArts": null,
+      "timesHigherEducation": null,
+      "qsWorld": null,
+      "wsjBestColleges": null,
+      "usNewsUndergradCS": null,
+      "usNewsCSAI": null,
+      "qsComputerScience": null,
+      "csRankings": null,
+      "usNewsUndergradBusiness": null,
+      "qsBusiness": null,
+      "usNewsUndergradEconomics": null,
+      "usNewsEngineering": null
+    },
+    "specialPrograms": {
+      "earlyAdmission": null,
+      "generousAid": null,
+      "affordable": null,
+      "globalTop200": null,
+      "ivyLeague": null,
+      "internationalPlaylist": null
+    }
+  }
+} 

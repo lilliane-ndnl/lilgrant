@@ -1,0 +1,80 @@
+.scholarships-search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 2.5rem 0 2.5rem 0;
+}
+
+.search-bar-container {
+  background: rgba(255,255,255,0.18);
+  border-radius: 28px;
+  box-shadow: 0 4px 24px rgba(138, 43, 226, 0.07);
+  padding: 2rem 2.5rem;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  flex: 2 1 220px;
+  min-width: 180px;
+  padding: 0.9em 1.2em;
+  border-radius: 24px;
+  border: 1px solid #d1c4e9;
+  font-size: 1rem;
+  background: rgba(255,255,255,0.15);
+  color: #2c3e50;
+  outline: none;
+  transition: border 0.2s;
+  box-shadow: 0 2px 8px rgba(138, 43, 226, 0.04);
+}
+
+.search-input:focus {
+  border: 1.5px solid #8E24AA;
+  background: rgba(255,255,255,0.22);
+}
+
+.search-select {
+  flex: 1 1 160px;
+  min-width: 120px;
+  padding: 0.8em 1.1em;
+  border-radius: 24px;
+  border: 1px solid #d1c4e9;
+  font-size: 1rem;
+  background: #faf7fd;
+  color: #333;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.search-select:focus {
+  border: 1.5px solid #8E24AA;
+}
+
+.search-btn {
+  margin-left: 0.5rem;
+  padding: 0.8em 2em;
+  font-size: 1rem;
+  border-radius: 24px;
+  min-width: 120px;
+  box-shadow: none;
+  margin-top: 0;
+}
+
+@media (max-width: 700px) {
+  .search-bar-container {
+    flex-direction: column;
+    gap: 0.7rem;
+    align-items: stretch;
+    padding: 1.2rem 0.5rem;
+  }
+  .search-btn {
+    width: 100%;
+    min-width: 0;
+  }
+} 

@@ -1,0 +1,69 @@
+/* HomePage Styles */
+.home-page {
+  width: 100%;
+  min-height: 100vh;
+  background: transparent;
+} 
+
+.features-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  color: #8A2BE2;
+  text-align: center;
+  letter-spacing: -1px;
+  text-shadow: 0 2px 4px rgba(138, 43, 226, 0.2);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  width: 100%;
+  justify-items: center;
+  align-items: stretch;
+}
+
+/* Ensure all feature cards are the same height */
+.feature-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 900px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .features-section {
+    padding: 3rem 1rem 2rem 1rem;
+  }
+  .features-title {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .features-section {
+    padding: 2.5rem 0.75rem 1.5rem 0.75rem;
+  }
+  .features-title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  .features-grid {
+    gap: 1.5rem;
+  }
+} 

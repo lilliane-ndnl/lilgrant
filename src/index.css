@@ -1,0 +1,282 @@
+/* CSS Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100vh;
+}
+
+/* Custom Scrollbar Styling */
+/* WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #B1A2D6, #8A2BE2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #C8A2C8, #6a11cb);
+}
+
+/* Firefox scrollbar styling */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #A090D0 rgba(255, 255, 255, 0.05);
+}
+
+/* Root container with animated gradient background */
+#root {
+  min-height: 100vh;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  /* Animated gradient background */
+  background: linear-gradient(135deg, #A7C7E7 0%, #B1A2D6 25%, #C8A2C8 50%, #E0BBE4 75%, #A7C7E7 100%);
+  background-size: 300% 300%;
+  animation: movingGradient 20s ease infinite;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Keyframes for the moving gradient animation */
+@keyframes movingGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Unified Search/Filter Container - Glassmorphism Style */
+.search-filter-container {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(138, 43, 226, 0.1), 0 4px 16px rgba(255, 182, 193, 0.08);
+  padding: 25px;
+  margin-bottom: 2rem;
+}
+
+.search-filter-container label,
+.search-filter-container h2,
+.search-filter-container h3,
+.search-filter-container select,
+.search-filter-container input,
+.search-filter-container option {
+  color: #2c3e50 !important;
+  text-shadow: none !important;
+}
+
+.search-filter-container input,
+.search-filter-container select {
+  background: rgba(255,255,255,0.9);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.search-filter-container input:focus,
+.search-filter-container select:focus {
+  outline: none;
+  border-color: #8A2BE2;
+  box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.1);
+  background: rgba(255,255,255,0.95);
+}
+
+.search-filter-container input::placeholder {
+  color: #7f8c8d;
+  opacity: 0.7;
+}
+
+.search-filter-container select option {
+  background: #ffffff;
+  color: #2c3e50;
+}
+
+/* Typography */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2, h3, h4, h5, h6 {
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Links */
+a {
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f0f0f0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Primary Button - matches Explore button style */
+.btn-primary {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  background: linear-gradient(135deg, #6A1B9A 0%, #8E24AA 35%, #9C27B0 70%, #AB47BC 100%);
+  border: none;
+  border-radius: 30px;
+  padding: 18px 36px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 20px rgba(106, 27, 154, 0.4);
+  position: relative;
+  overflow: hidden;
+  margin-top: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(106, 27, 154, 0.5);
+  background: linear-gradient(135deg, #5E1772 0%, #7B1FA2 35%, #8E24AA 70%, #9C27B0 100%);
+}
+
+.btn-primary:hover::before {
+  left: 100%;
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 12px rgba(106, 27, 154, 0.4);
+}
+
+.btn-primary:focus {
+  outline: none;
+  box-shadow: 0 6px 20px rgba(106, 27, 154, 0.4), 0 0 0 3px rgba(171, 71, 188, 0.4);
+}
+
+/* Buttons */
+button {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  backdrop-filter: blur(10px);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.5);
+  outline-offset: 2px;
+}
+
+/* Ensure consistent styling across all elements */
+* {
+  color: inherit;
+}
+
+/* Code elements */
+code {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+/* Custom scrollbar for modal content */
+.modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #B1A2D6, #8A2BE2);
+  border-radius: 8px;
+}
+
+.modal-body::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #C8A2C8, #6a11cb);
+}
+
+.btn-primary.btn-small {
+  font-size: 0.95rem;
+  padding: 10px 20px;
+  border-radius: 24px;
+  margin-top: 0;
+}
+
+.btn-primary.btn-card {
+  font-size: 1rem;
+  padding: 12px 0;
+  border-radius: 24px;
+  width: 100%;
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+  box-shadow: 0 3px 12px rgba(106, 27, 154, 0.10);
+}
