@@ -9,15 +9,25 @@ export default defineConfig({
   },
   build: {
     cssMinify: true,
+    cssCodeSplit: false,
     rollupOptions: {
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom', 'react-router-dom'],
+        },
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name.endsWith('.css')) {
+            return 'assets/styles.[hash].css'
+          }
+          return 'assets/[name].[hash][extname]'
         },
       },
     },
   },
   css: {
     devSourcemap: true,
+    modules: {
+      localsConvention: 'camelCase',
+    }
   }
 })
