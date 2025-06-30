@@ -17,7 +17,7 @@ export default defineConfig({
         },
         assetFileNames: (assetInfo) => {
           if (assetInfo.name.endsWith('.css')) {
-            return 'assets/styles.[hash].css'
+            return 'assets/[name].[hash].css'
           }
           return 'assets/[name].[hash][extname]'
         },
@@ -26,8 +26,10 @@ export default defineConfig({
   },
   css: {
     devSourcemap: true,
-    modules: {
-      localsConvention: 'camelCase',
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "./src/styles/preserved-styles.css";`
+      }
     }
   }
 })
