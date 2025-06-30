@@ -26,10 +26,16 @@ export default defineConfig({
   },
   css: {
     devSourcemap: true,
-    preprocessorOptions: {
-      scss: {
-        additionalData: `@import "./src/styles/preserved-styles.css";`
-      }
+    modules: {
+      scopeBehaviour: 'local',
+      localsConvention: 'camelCase',
+      generateScopedName: '[name]__[local]__[hash:base64:5]'
+    },
+    postcss: {
+      plugins: [
+        require('autoprefixer'),
+        require('postcss-nested')
+      ]
     }
   }
 })
