@@ -48,6 +48,28 @@
     margin: 0;
 }
 
+.characteristics-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.characteristic-item {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.2s ease;
+}
+
+.characteristic-item:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
 @media (max-width: 768px) {
     .overview-container {
         padding: 0;
@@ -74,5 +96,10 @@
 
     .info-item p {
         font-size: 1.15rem;
+    }
+
+    .characteristic-item {
+        font-size: 1rem;
+        padding: 0.625rem 0.875rem;
     }
 } 

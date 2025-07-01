@@ -194,6 +194,11 @@ const UniversityHubPage: React.FC = () => {
 
       <EliteCollections activeGroup={activeGroup} onGroupChange={setActiveGroup} />
 
+      <p className="data-source-disclaimer">
+        All data, unless specified otherwise (e.g., International Admission), is sourced from the U.S. Department of Education.<br />
+        LilGrant does not claim ownership of this data and presents it for informational purposes.
+      </p>
+
       <div className="results-info">
         <p>Found {filteredUniversities.length} universities</p>
       </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import './OverviewTab.css';
 
 interface OverviewTabProps {
-  universityData: any; // We'll keep the any type since it matches the parent component
+  universityData: any;
 }
 
 const OverviewTab: React.FC<OverviewTabProps> = ({ universityData }) => {
@@ -73,6 +73,46 @@ const OverviewTab: React.FC<OverviewTabProps> = ({ universityData }) => {
     }
   };
 
+  const formatStudentFacultyRatio = (ratio: number | undefined) => {
+    if (!ratio) return 'Not Available';
+    return `${Math.round(ratio)} to 1`;
+  };
+
+  const formatReligiousAffiliation = (code: string | undefined) => {
+    if (!code || code === '0') return null;
+    // This will be expanded with a complete mapping of religious affiliation codes
+    return `Religious Affiliation Code: ${code}`;
+  };
+
+  const getInstitutionalCharacteristics = () => {
+    const characteristics = [];
+    
+    if (universityData.HBCU === 1) {
+      characteristics.push('Historically Black College or University');
+    }
+    if (universityData.HSI === 1) {
+      characteristics.push('Hispanic-Serving Institution');
+    }
+    if (universityData.PBI === 1) {
+      characteristics.push('Primarily Black Institution');
+    }
+    if (universityData.WOMENONLY === 1) {
+      characteristics.push('Women-Only College');
+    }
+    if (universityData.MENONLY === 1) {
+      characteristics.push('Men-Only College');
+    }
+
+    const religiousAffiliation = formatReligiousAffiliation(universityData.RELAFFIL);
+    if (religiousAffiliation) {
+      characteristics.push(religiousAffiliation);
+    }
+
+    return characteristics;
+  };
+
+  const characteristics = getInstitutionalCharacteristics();
+
   return (
     <div className="overview-container">
       {/* At a Glance Card */}
@@ -95,8 +135,26 @@ const OverviewTab: React.FC<OverviewTabProps> = ({ universityData }) => {
             <h3>Highest Degree Awarded</h3>
             <p>{formatHighestDegree(universityData.HIGHDEG)}</p>
           </div>
+          <div className="info-item">
+            <h3>Student-to-Faculty Ratio</h3>
+            <p>{formatStudentFacultyRatio(universityData.STUFACR)}</p>
+          </div>
         </div>
       </div>
+
+      {/* Institutional Characteristics Card */}
+      {characteristics.length > 0 && (
+        <div className="overview-card">
+          <h2>Institutional Characteristics</h2>
+          <div className="characteristics-list">
+            {characteristics.map((characteristic, index) => (
+              <div key={index} className="characteristic-item">
+                {characteristic}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* About this University Card */}
       <div className="overview-card">
