@@ -269,8 +269,8 @@ const UniversityProfilePage: React.FC = () => {
         <div className="hero-content">
           <div className="header-buttons">
             <Link to="/universities" className="back-link">
-            ← Back to University Hub
-          </Link>
+              ← Back to University Hub
+            </Link>
             {universityData.INSTURL && (
               <a 
                 href={universityData.INSTURL.startsWith('http') ? universityData.INSTURL : `https://${universityData.INSTURL}`} 
@@ -335,31 +335,7 @@ const UniversityProfilePage: React.FC = () => {
 
         {/* Right Column - Content */}
         <div className="content-main">
-          {/* Tabs */}
-          <div className="profile-tabs">
-            <button
-              className={`tab-button ${activeTab === 'overview' ? 'active' : ''}`}
-              onClick={() => setActiveTab('overview')}
-            >
-              Overview
-            </button>
-            <button
-              className={`tab-button ${activeTab === 'fields-of-study' ? 'active' : ''}`}
-              onClick={() => setActiveTab('fields-of-study')}
-            >
-              Fields of Study
-            </button>
-          </div>
-
-          {/* Tab Content */}
-          <div className="tab-content">
-            {activeTab === 'overview' && universityData && (
-              <OverviewTab universityData={universityData} />
-            )}
-            {activeTab === 'fields-of-study' && universityData && (
-              <FieldsOfStudyTab universityId={universityData.id} />
-            )}
-          </div>
+          {activeTab === 'overview' && <OverviewTab universityData={universityData} />}
 
           {activeTab === 'admissions' && (
             <div className="content-card">
@@ -447,6 +423,12 @@ const UniversityProfilePage: React.FC = () => {
                   <span className="value">{formatProgramPercentage(universityData.PCIP11)}</span>
                 </div>
               </div>
+            </div>
+          )}
+
+          {activeTab === 'fields-of-study' && universityData && (
+            <div className="tab-content">
+              <FieldsOfStudyTab unitId={String(universityData.id)} />
             </div>
           )}
 
