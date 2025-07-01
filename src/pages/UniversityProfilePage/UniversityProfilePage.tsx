@@ -5,6 +5,7 @@ import './UniversityProfilePage.css';
 import { formatFullStateName } from '../../utils/universityDataHelper';
 import FieldsOfStudyTab from './tabs/FieldsOfStudyTab';
 import OverviewTab from './tabs/OverviewTab';
+import AdmissionTab from './tabs/AdmissionTab';
 
 interface University {
   id?: string;
@@ -340,27 +341,7 @@ const UniversityProfilePage: React.FC = () => {
           )}
 
           {activeTab === 'admissions' && (
-            <div className="content-card">
-              <h2>Admissions Data</h2>
-              <div className="data-grid">
-                <div className="data-item">
-                  <span className="label">Acceptance Rate</span>
-                  <span className="value">{formatAcceptanceRate(universityData.ADM_RATE)}</span>
-                </div>
-                <div className="data-item">
-                  <span className="label">SAT Reading & Writing Range</span>
-                  <span className="value">{universityData.SATVR25} - {universityData.SATVR75}</span>
-                </div>
-                <div className="data-item">
-                  <span className="label">SAT Math Range</span>
-                  <span className="value">{universityData.SATMT25} - {universityData.SATMT75}</span>
-                </div>
-                <div className="data-item">
-                  <span className="label">ACT Composite Range</span>
-                  <span className="value">{universityData.ACTCM25} - {universityData.ACTCM75}</span>
-                </div>
-              </div>
-            </div>
+            <AdmissionTab universityData={universityData} />
           )}
 
           {activeTab === 'cost-&-financial-aid' && (
