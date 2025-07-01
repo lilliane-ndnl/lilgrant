@@ -9,7 +9,7 @@ interface AdmissionTabProps {
 const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
   // Helper function to format percentage
   const formatPercentage = (value: number | undefined) => {
-    if (value === undefined || value === null) return 'Not Available';
+    if (value === undefined || value === null) return 'N/A';
     return `${Math.round(value * 100)}%`;
   };
 
@@ -31,7 +31,6 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
     { name: 'Accepted', value: acceptanceRate },
     { name: 'Not Accepted', value: 1 - acceptanceRate }
   ];
-  const COLORS = ['#4CAF50', '#f5f5f5'];
 
   // Function to render score range bar
   const renderScoreRangeBar = (min: number, max: number, fullRange: [number, number], label: string) => {
@@ -47,7 +46,8 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
             className="score-range-actual" 
             style={{ 
               width: `${width}%`, 
-              left: `${left}%` 
+              left: `${left}%`,
+              background: 'linear-gradient(120deg, #5C1F4A, #BA4A8F, #D483BA)'
             }} 
           >
             <span className="score-min">{min}</span>
@@ -81,27 +81,32 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
         <h2>Admission Statistics</h2>
         <div className="admission-stats-grid">
           <div className="acceptance-rate-container">
-            <h3>Acceptance Rate</h3>
             <div className="pie-chart-container">
-              <ResponsiveContainer width="100%" height={150}>
+              <ResponsiveContainer width="100%" height={120}>
                 <PieChart>
                   <Pie
                     data={pieData}
                     cx="50%"
                     cy="50%"
                     innerRadius={35}
-                    outerRadius={50}
-                    fill="#8884d8"
-                    paddingAngle={0}
+                    outerRadius={45}
+                    startAngle={90}
+                    endAngle={-270}
                     dataKey="value"
                   >
-                    {pieData.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={COLORS[index]} />
-                    ))}
+                    <Cell fill="url(#gradientAccepted)" />
+                    <Cell fill="#E8E8E8" />
+                    <defs>
+                      <linearGradient id="gradientAccepted" x1="0" y1="0" x2="1" y2="1">
+                        <stop offset="0%" stopColor="#5C1F4A" />
+                        <stop offset="50%" stopColor="#BA4A8F" />
+                        <stop offset="100%" stopColor="#D483BA" />
+                      </linearGradient>
+                    </defs>
                   </Pie>
                 </PieChart>
               </ResponsiveContainer>
-              <div className="acceptance-rate-label">
+              <div className="acceptance-rate-value">
                 {formatPercentage(universityData.ADM_RATE)}
               </div>
             </div>
