@@ -225,4 +225,21 @@ export function formatRegion(regionCode: string | number | null | undefined): st
     };
 
     return regionMap[code] || 'N/A';
+}
+
+export function formatTestRequirement(code: string | number | undefined): string {
+  if (code === undefined || code === null) return 'Not Specified';
+  
+  const numericCode = typeof code === 'string' ? parseInt(code, 10) : code;
+  if (isNaN(numericCode)) return 'Not Specified';
+
+  const policyMap: { [key: number]: string } = {
+    1: 'Required',
+    2: 'Recommended',
+    3: 'Neither Required nor Recommended',
+    4: 'Not Specified',
+    5: 'Considered but Not Required'
+  };
+
+  return policyMap[numericCode] || 'Not Specified';
 } 
