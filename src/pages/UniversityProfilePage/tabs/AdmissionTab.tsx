@@ -1,6 +1,5 @@
 import React from 'react';
 import './AdmissionTab.css';
-import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 
 interface AdmissionTabProps {
   universityData: any;
@@ -11,6 +10,52 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
   const formatPercentage = (value: number | undefined) => {
     if (value === undefined || value === null) return 'N/A';
     return `${Math.round(value * 100)}%`;
+  };
+
+  // Custom pie chart component
+  const AcceptanceRatePieChart: React.FC<{ value: number }> = ({ value }) => {
+    const percentage = value * 100;
+    const radius = 45;
+    const circumference = 2 * Math.PI * radius;
+    const strokeDasharray = `${(percentage * circumference) / 100} ${circumference}`;
+    
+    return (
+      <div className="pie-chart-container">
+        <svg width="120" height="120" viewBox="0 0 120 120">
+          {/* Background circle */}
+          <circle
+            cx="60"
+            cy="60"
+            r={radius}
+            fill="none"
+            stroke="#E8E8E8"
+            strokeWidth="10"
+          />
+          {/* Progress circle with gradient */}
+          <defs>
+            <linearGradient id="gradientAccepted" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#5C1F4A" />
+              <stop offset="50%" stopColor="#BA4A8F" />
+              <stop offset="100%" stopColor="#D483BA" />
+            </linearGradient>
+          </defs>
+          <circle
+            cx="60"
+            cy="60"
+            r={radius}
+            fill="none"
+            stroke="url(#gradientAccepted)"
+            strokeWidth="10"
+            strokeDasharray={strokeDasharray}
+            strokeDashoffset={circumference * 0.25} // Start from top
+            transform="rotate(-90 60 60)" // Rotate to start from top
+          />
+        </svg>
+        <div className="acceptance-rate-value">
+          {formatPercentage(value)}
+        </div>
+      </div>
+    );
   };
 
   // Helper function to format SAT/ACT scores
@@ -25,12 +70,21 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
     return `${Math.round(min)} - ${Math.round(max)}`;
   };
 
-  // Prepare data for acceptance rate pie chart
-  const acceptanceRate = universityData.ADM_RATE || 0;
-  const pieData = [
-    { name: 'Accepted', value: acceptanceRate },
-    { name: 'Not Accepted', value: 1 - acceptanceRate }
-  ];
+  // Debug log
+  console.log('Admission Data:', {
+    ADM_RATE: universityData.ADM_RATE,
+    SAT_AVG: universityData.SAT_AVG,
+    SATVR25: universityData.SATVR25,
+    SATVR75: universityData.SATVR75,
+    SATMT25: universityData.SATMT25,
+    SATMT75: universityData.SATMT75,
+    ACTCM25: universityData.ACTCM25,
+    ACTCM75: universityData.ACTCM75,
+    ACTEN25: universityData.ACTEN25,
+    ACTEN75: universityData.ACTEN75,
+    ACTMT25: universityData.ACTMT25,
+    ACTMT75: universityData.ACTMT75
+  });
 
   // Function to render score range bar
   const renderScoreRangeBar = (min: number, max: number, fullRange: [number, number], label: string) => {
@@ -58,22 +112,6 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
     );
   };
 
-  // Debug log
-  console.log('Admission Data:', {
-    ADM_RATE: universityData.ADM_RATE,
-    SAT_AVG: universityData.SAT_AVG,
-    SATVR25: universityData.SATVR25,
-    SATVR75: universityData.SATVR75,
-    SATMT25: universityData.SATMT25,
-    SATMT75: universityData.SATMT75,
-    ACTCM25: universityData.ACTCM25,
-    ACTCM75: universityData.ACTCM75,
-    ACTEN25: universityData.ACTEN25,
-    ACTEN75: universityData.ACTEN75,
-    ACTMT25: universityData.ACTMT25,
-    ACTMT75: universityData.ACTMT75
-  });
-
   return (
     <div className="admission-container">
       {/* Admission Statistics Card */}
@@ -81,35 +119,7 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
         <h2>Admission Statistics</h2>
         <div className="admission-stats-grid">
           <div className="acceptance-rate-container">
-            <div className="pie-chart-container">
-              <ResponsiveContainer width="100%" height={120}>
-                <PieChart>
-                  <Pie
-                    data={pieData}
-                    cx="50%"
-                    cy="50%"
-                    innerRadius={35}
-                    outerRadius={45}
-                    startAngle={90}
-                    endAngle={-270}
-                    dataKey="value"
-                  >
-                    <Cell fill="url(#gradientAccepted)" />
-                    <Cell fill="#E8E8E8" />
-                    <defs>
-                      <linearGradient id="gradientAccepted" x1="0" y1="0" x2="1" y2="1">
-                        <stop offset="0%" stopColor="#5C1F4A" />
-                        <stop offset="50%" stopColor="#BA4A8F" />
-                        <stop offset="100%" stopColor="#D483BA" />
-                      </linearGradient>
-                    </defs>
-                  </Pie>
-                </PieChart>
-              </ResponsiveContainer>
-              <div className="acceptance-rate-value">
-                {formatPercentage(universityData.ADM_RATE)}
-              </div>
-            </div>
+            <AcceptanceRatePieChart value={universityData.ADM_RATE || 0} />
           </div>
           <div className="test-scores-container">
             {universityData.SATVR25 && universityData.SATVR75 && (

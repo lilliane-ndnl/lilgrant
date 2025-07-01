@@ -51,7 +51,8 @@
 .pie-chart-container {
     position: relative;
     margin: 0 auto;
-    max-width: 120px;
+    width: 120px;
+    height: 120px;
 }
 
 .acceptance-rate-value {
