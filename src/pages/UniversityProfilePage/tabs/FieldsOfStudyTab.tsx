@@ -17,6 +17,7 @@ interface FieldOfStudy {
 }
 
 type ViewMode = 'size' | 'earnings';
+type SortDirection = 'asc' | 'desc';
 
 const formatCurrency = (amount: number | 'PrivacySuppressed'): string => {
   if (amount === 'PrivacySuppressed') return 'Privacy Suppressed';
@@ -28,7 +29,7 @@ const FieldsOfStudyTab: React.FC<{ unitId: string }> = ({ unitId }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [viewMode, setViewMode] = useState<ViewMode>('size');
-  const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc');
+  const [sortDirection, setSortDirection] = useState<SortDirection>('desc');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -63,17 +64,17 @@ const FieldsOfStudyTab: React.FC<{ unitId: string }> = ({ unitId }) => {
       }
     };
 
-      fetchData();
+    fetchData();
   }, [unitId]);
 
-  const handleSort = (mode: ViewMode) => {
+  const handleViewModeChange = (mode: ViewMode) => {
     if (mode === viewMode) {
-      // Toggle direction if clicking the same mode
+      // Toggle sort direction if clicking the same mode
       setSortDirection(sortDirection === 'desc' ? 'asc' : 'desc');
     } else {
-      // Reset to desc when changing modes
-      setSortDirection('desc');
+      // Reset to descending order when changing modes
       setViewMode(mode);
+      setSortDirection('desc');
     }
   };
 
@@ -123,13 +124,13 @@ const FieldsOfStudyTab: React.FC<{ unitId: string }> = ({ unitId }) => {
       <div className="sort-options">
         <button
           className={`sort-button ${viewMode === 'size' ? 'active' : ''}`}
-          onClick={() => handleSort('size')}
+          onClick={() => handleViewModeChange('size')}
         >
           Size {viewMode === 'size' && <span className="sort-arrow">{sortDirection === 'desc' ? '↓' : '↑'}</span>}
         </button>
         <button
           className={`sort-button ${viewMode === 'earnings' ? 'active' : ''}`}
-          onClick={() => handleSort('earnings')}
+          onClick={() => handleViewModeChange('earnings')}
         >
           Earnings {viewMode === 'earnings' && <span className="sort-arrow">{sortDirection === 'desc' ? '↓' : '↑'}</span>}
         </button>
