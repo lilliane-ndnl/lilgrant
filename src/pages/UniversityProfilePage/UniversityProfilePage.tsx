@@ -269,8 +269,8 @@ const UniversityProfilePage: React.FC = () => {
         <div className="hero-content">
           <div className="header-buttons">
             <Link to="/universities" className="back-link">
-              ← Back to University Hub
-            </Link>
+            ← Back to University Hub
+          </Link>
             {universityData.INSTURL && (
               <a 
                 href={universityData.INSTURL.startsWith('http') ? universityData.INSTURL : `https://${universityData.INSTURL}`} 
@@ -335,7 +335,9 @@ const UniversityProfilePage: React.FC = () => {
 
         {/* Right Column - Content */}
         <div className="content-main">
-          {activeTab === 'overview' && <OverviewTab universityData={universityData} />}
+          {activeTab === 'overview' && (
+            <OverviewTab universityData={universityData} />
+          )}
 
           {activeTab === 'admissions' && (
             <div className="content-card">

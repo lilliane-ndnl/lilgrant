@@ -2,105 +2,109 @@ import React from 'react';
 import './OverviewTab.css';
 
 interface OverviewTabProps {
-  universityData: any; // Replace with proper type
+  universityData: any; // We'll keep the any type since it matches the parent component
 }
 
 const OverviewTab: React.FC<OverviewTabProps> = ({ universityData }) => {
+  const formatSchoolType = (control: string | undefined) => {
+    if (!control) return 'Not Available';
+    switch (control) {
+      case '1': return 'Public';
+      case '2': return 'Private nonprofit';
+      case '3': return 'Private for-profit';
+      default: return 'Not Available';
+    }
+  };
+
+  const formatLocale = (locale: string | undefined) => {
+    if (!locale) return 'Not Available';
+    const firstTwoDigits = locale.substring(0, 2);
+    switch (firstTwoDigits) {
+      case '11':
+      case '12':
+      case '13':
+        return 'City';
+      case '21':
+      case '22':
+      case '23':
+        return 'Suburb';
+      case '31':
+      case '32':
+      case '33':
+        return 'Town';
+      case '41':
+      case '42':
+      case '43':
+        return 'Rural';
+      default:
+        return 'Not Available';
+    }
+  };
+
+  const formatSize = (sizeset: string | undefined) => {
+    if (!sizeset || sizeset === 'NA') return 'Not Available';
+    
+    switch (sizeset) {
+      case '1':
+      case '2':
+      case '6':
+      case '7':
+        return 'Small';
+      case '3':
+      case '8':
+        return 'Medium';
+      case '4':
+      case '9':
+        return 'Large';
+      default:
+        return 'Not Available';
+    }
+  };
+
+  const formatHighestDegree = (degree: string | undefined) => {
+    if (!degree) return 'Not Available';
+    switch (degree) {
+      case '0': return 'Non-degree-granting';
+      case '1': return 'Certificate';
+      case '2': return 'Associate degree';
+      case '3': return 'Bachelor\'s degree';
+      case '4': return 'Graduate degree';
+      default: return 'Not Available';
+    }
+  };
+
   return (
     <div className="overview-container">
-      {/* Basic Information Card */}
+      {/* At a Glance Card */}
       <div className="overview-card">
-        <h2>Basic Information</h2>
+        <h2>At a Glance</h2>
         <div className="info-grid">
           <div className="info-item">
-            <h3>Institution Type</h3>
-            <p>{universityData.control || 'Not Available'}</p>
+            <h3>School Type</h3>
+            <p>{formatSchoolType(universityData.CONTROL)}</p>
           </div>
           <div className="info-item">
-            <h3>Religious Affiliation</h3>
-            <p>{universityData.religious_affiliation || 'None'}</p>
+            <h3>Setting</h3>
+            <p>{formatLocale(universityData.LOCALE)}</p>
           </div>
           <div className="info-item">
-            <h3>Region</h3>
-            <p>{universityData.region || 'Not Available'}</p>
+            <h3>Size</h3>
+            <p>{formatSize(universityData.CCSIZSET)}</p>
           </div>
           <div className="info-item">
-            <h3>Locale</h3>
-            <p>{universityData.locale || 'Not Available'}</p>
+            <h3>Highest Degree Awarded</h3>
+            <p>{formatHighestDegree(universityData.HIGHDEG)}</p>
           </div>
         </div>
       </div>
 
-      {/* Student Demographics Card */}
+      {/* About this University Card */}
       <div className="overview-card">
-        <h2>Student Demographics</h2>
-        <div className="info-grid">
-          <div className="info-item">
-            <h3>Total Enrollment</h3>
-            <p>{universityData.size ? universityData.size.toLocaleString() : 'Not Available'}</p>
-          </div>
-          <div className="info-item">
-            <h3>Undergraduate Students</h3>
-            <p>{universityData.undergrad_enrollment ? universityData.undergrad_enrollment.toLocaleString() : 'Not Available'}</p>
-          </div>
-          <div className="info-item">
-            <h3>Graduate Students</h3>
-            <p>{universityData.grad_enrollment ? universityData.grad_enrollment.toLocaleString() : 'Not Available'}</p>
-          </div>
-          <div className="info-item">
-            <h3>Student-to-Faculty Ratio</h3>
-            <p>{universityData.student_faculty_ratio || 'Not Available'}</p>
-          </div>
-        </div>
-      </div>
-
-      {/* Admissions Card */}
-      <div className="overview-card">
-        <h2>Admissions</h2>
-        <div className="info-grid">
-          <div className="info-item">
-            <h3>Acceptance Rate</h3>
-            <p>{universityData.admission_rate ? `${(universityData.admission_rate * 100).toFixed(1)}%` : 'Not Available'}</p>
-          </div>
-          <div className="info-item">
-            <h3>Average SAT Score</h3>
-            <p>{universityData.sat_average || 'Not Available'}</p>
-          </div>
-          <div className="info-item">
-            <h3>Average ACT Score</h3>
-            <p>{universityData.act_average || 'Not Available'}</p>
-          </div>
-          <div className="info-item">
-            <h3>Application Fee</h3>
-            <p>{universityData.application_fee ? `$${universityData.application_fee}` : 'Not Available'}</p>
-          </div>
-        </div>
-      </div>
-
-      {/* Costs & Aid Card */}
-      <div className="overview-card">
-        <h2>Costs & Financial Aid</h2>
-        <div className="info-grid">
-          <div className="info-item">
-            <h3>In-State Tuition</h3>
-            <p>{universityData.tuition_in_state ? `$${universityData.tuition_in_state.toLocaleString()}` : 'Not Available'}</p>
-          </div>
-          <div className="info-item">
-            <h3>Out-of-State Tuition</h3>
-            <p>{universityData.tuition_out_state ? `$${universityData.tuition_out_state.toLocaleString()}` : 'Not Available'}</p>
-          </div>
-          <div className="info-item">
-            <h3>Students Receiving Aid</h3>
-            <p>{universityData.aid_percentage ? `${(universityData.aid_percentage * 100).toFixed(1)}%` : 'Not Available'}</p>
-          </div>
-          <div className="info-item">
-            <h3>Average Aid Amount</h3>
-            <p>{universityData.average_aid ? `$${universityData.average_aid.toLocaleString()}` : 'Not Available'}</p>
-          </div>
-        </div>
+        <h2>About this University</h2>
+        <p>An AI-generated summary of this university's key strengths, programs, and campus culture will be displayed here soon.</p>
       </div>
     </div>
   );
 };
 
-export default OverviewTab; 
+export default OverviewTab;
