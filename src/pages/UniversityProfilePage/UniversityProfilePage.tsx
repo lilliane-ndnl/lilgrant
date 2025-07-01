@@ -1,254 +1,84 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import UniversityProfileTabs from '../../components/UniversityProfileTabs/UniversityProfileTabs';
 import LoadingBar from '../../components/LoadingBar/LoadingBar';
 import './UniversityProfilePage.css';
+import { formatFullStateName } from '../../utils/universityDataHelper';
 
 interface University {
-  name: string;
-  city?: string;
-  state?: string;
-  stateFull?: string;
-  control?: string;
-  region?: string;
-  metroArea?: string;
-  setting?: string;
-  institutionSize?: string;
-  gender?: string;
-  hbcu?: string;
-  primaryFocus?: string;
-  undergraduate?: string;
-  studentResidence?: string;
-  religious?: string;
-  budgetCategory?: string;
-  tuitionFees?: string;
-  roomBoard?: string;
-  totalCost?: string;
-  aidTypes?: string;
-  numIntlAid?: string;
-  pctIntlAid?: string;
-  avgAidAmount?: string;
-  avgCostAfterAid?: string;
-  totalAwardedMillions?: string;
-  meetsFullNeed?: string;
-  largestMeritAmount?: string;
-  largestMeritName?: string;
-  costAfterMeritScholarship?: string;
-  howToApply?: string;
-  acceptanceRate?: string;
-  intlAcceptanceRate?: string;
-  yield?: string;
-  intlYield?: string;
-  class2027IntlApps?: string;
-  class2027IntlAdmit?: string;
-  class2027IntlEnroll?: string;
-  rdAcceptanceRate?: string;
-  earlyPlanOffered?: string;
-  ed2Offered?: string;
-  coaYear?: string;
-  dataSource?: string;
-  costAfterMerit?: string;
-  notes?: string;
-  officialLink?: string;
-}
-
-interface ScholarshipData {
   id: string;
-  title: string;
-  amount: string;
-  awards: string;
-  deadline: string;
-  sponsors: string;
-  description: string;
-  eligibilityRequirements: string;
-  studyLevel: string;
-  fieldOfStudy: string;
-  country: string;
-  officialLink: string;
-  additionalNotes: string;
+  INSTNM: string;
+  CITY?: string;
+  STABBR?: string;
+  CONTROL?: string;
+  LOCALE?: string;
+  CCSIZSET?: string;
+  HIGHDEG?: string;
+  ADM_RATE?: string;
+  SATVR25?: string;
+  SATVR75?: string;
+  SATMT25?: string;
+  SATMT75?: string;
+  ACTCM25?: string;
+  ACTCM75?: string;
+  NPT41_PUB?: string;
+  NPT41_PRIV?: string;
+  NPT42_PUB?: string;
+  NPT42_PRIV?: string;
+  NPT43_PUB?: string;
+  NPT43_PRIV?: string;
+  NPT44_PUB?: string;
+  NPT44_PRIV?: string;
+  NPT45_PUB?: string;
+  NPT45_PRIV?: string;
+  PCIP14?: string;
+  PCIP52?: string;
+  PCIP51?: string;
+  PCIP45?: string;
+  PCIP11?: string;
+  C150_4_POOLED?: string;
+  RET_FT4?: string;
+  MD_EARN_WNE_P10?: string;
+  GT_25K_P6?: string;
+  UGDS_WHITE?: string;
+  UGDS_BLACK?: string;
+  UGDS_HISP?: string;
+  UGDS_ASIAN?: string;
+  UGDS_NRA?: string;
+  UGDS_2MOR?: string;
+  officialLink?: string;
 }
 
 const UniversityProfilePage: React.FC = () => {
   const { universityId } = useParams<{ universityId: string }>();
-  const [university, setUniversity] = useState<University | null>(null);
-  const [relevantScholarships, setRelevantScholarships] = useState<ScholarshipData[]>([]);
+  const [universityData, setUniversityData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-
-  // Function to create slug from university name (same as UniversityCard)
-  const createSlug = (name: string): string => {
-    return name
-      .toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, '') // Remove special characters except spaces and hyphens
-      .replace(/\s+/g, '-') // Replace spaces with hyphens
-      .replace(/-+/g, '-') // Replace multiple hyphens with single hyphen
-      .trim();
-  };
-
-  // Function to find university by slug
-  const findUniversityBySlug = (universities: University[], slug: string): University | null => {
-    console.log('Searching for university with slug:', slug);
-    
-    // Try exact slug match first
-    let foundUniversity = universities.find(u => createSlug(u.name) === slug);
-    
-    if (foundUniversity) {
-      console.log('Found university by exact slug match:', foundUniversity.name);
-      return foundUniversity;
-    }
-    
-    // Try partial slug match (in case of URL encoding issues)
-    foundUniversity = universities.find(u => {
-      const universitySlug = createSlug(u.name);
-      return universitySlug.includes(slug) || slug.includes(universitySlug);
-    });
-    
-    if (foundUniversity) {
-      console.log('Found university by partial slug match:', foundUniversity.name);
-      return foundUniversity;
-    }
-    
-    // Try direct name match (in case slug conversion failed)
-    const decodedSlug = decodeURIComponent(slug);
-    foundUniversity = universities.find(u => u.name.toLowerCase() === decodedSlug.toLowerCase());
-    
-    if (foundUniversity) {
-      console.log('Found university by direct name match:', foundUniversity.name);
-      return foundUniversity;
-    }
-    
-    console.log('No university found for slug:', slug);
-    return null;
-  };
-
-  // Function to calculate days until deadline
-  const getDaysUntilDeadline = (deadline: string): number => {
-    const deadlineDate = new Date(deadline);
-    const today = new Date();
-    const diffTime = deadlineDate.getTime() - today.getTime();
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-    return diffDays;
-  };
-
-  // Function to calculate scholarship relevance score
-  const calculateRelevanceScore = (scholarship: ScholarshipData, university: University): number => {
-    let score = 0;
-    
-    // Country match (highest priority)
-    if (scholarship.country.toLowerCase().includes('usa') || 
-        scholarship.country.toLowerCase().includes('united states') ||
-        scholarship.country === 'USA') {
-      score += 100;
-    }
-    
-    // Field of study match (if university has primary focus)
-    if (university.primaryFocus && 
-        scholarship.fieldOfStudy.toLowerCase().includes(university.primaryFocus.toLowerCase())) {
-      score += 50;
-    }
-    
-    // STEM field bonus (common in many universities)
-    if (scholarship.fieldOfStudy.toLowerCase().includes('stem') ||
-        scholarship.fieldOfStudy.toLowerCase().includes('science') ||
-        scholarship.fieldOfStudy.toLowerCase().includes('technology') ||
-        scholarship.fieldOfStudy.toLowerCase().includes('engineering') ||
-        scholarship.fieldOfStudy.toLowerCase().includes('mathematics')) {
-      score += 25;
-    }
-    
-    // International student focus (if university has international data)
-    if (university.intlAcceptanceRate && 
-        (scholarship.country.toLowerCase().includes('global') || 
-         scholarship.country.toLowerCase().includes('international'))) {
-      score += 30;
-    }
-    
-    // Deadline proximity (closer deadlines get higher scores)
-    const daysUntilDeadline = getDaysUntilDeadline(scholarship.deadline);
-    if (daysUntilDeadline > 0) {
-      // Closer deadlines get higher scores (max 40 points for deadlines within 30 days)
-      score += Math.max(0, 40 - daysUntilDeadline);
-    }
-    
-    return score;
-  };
-
-  // Function to fetch and filter relevant scholarships
-  const fetchRelevantScholarships = async (university: University) => {
-    try {
-      const response = await fetch('/data/scholarships.json');
-      if (!response.ok) {
-        throw new Error(`Failed to fetch scholarships: ${response.status}`);
-      }
-      
-      const allScholarships: ScholarshipData[] = await response.json();
-      
-      // Calculate relevance scores and sort
-      const scoredScholarships = allScholarships
-        .map(scholarship => ({
-          ...scholarship,
-          relevanceScore: calculateRelevanceScore(scholarship, university),
-          daysUntilDeadline: getDaysUntilDeadline(scholarship.deadline)
-        }))
-        .filter(scholarship => scholarship.daysUntilDeadline > 0) // Only show scholarships with future deadlines
-        .sort((a, b) => {
-          // Sort by relevance score first, then by deadline proximity
-          if (b.relevanceScore !== a.relevanceScore) {
-            return b.relevanceScore - a.relevanceScore;
-          }
-          return a.daysUntilDeadline - b.daysUntilDeadline;
-        })
-        .slice(0, 6); // Take top 6 most relevant scholarships
-      
-      setRelevantScholarships(scoredScholarships);
-    } catch (err) {
-      console.error('Error fetching relevant scholarships:', err);
-    }
-  };
+  const [activeTab, setActiveTab] = useState('overview');
 
   useEffect(() => {
     const fetchUniversityData = async () => {
+      if (!universityId) {
+        setError('No university ID provided');
+        setLoading(false);
+        return;
+      }
+
       try {
-        console.log('=== UNIVERSITY PROFILE PAGE DEBUG ===');
-        console.log('Attempting to find profile for slug:', universityId);
-        
         setLoading(true);
         setError(null);
-        
-        const response = await fetch('/data/university-data-final.json');
+        const response = await fetch(`/data/details/${universityId}.json`);
         if (!response.ok) {
-          throw new Error(`Failed to fetch university data: ${response.status} ${response.statusText}`);
+          throw new Error(`Failed to load university data (Status: ${response.status})`);
         }
-        
-        const universities: University[] = await response.json();
-        console.log(`Fetched ${universities.length} total universities.`);
-        
-        if (!universityId) {
-          console.log('No university slug provided in URL');
-          setError('No university specified');
-          setLoading(false);
-          return;
+        const data = await response.json();
+        if (!data || typeof data !== 'object') {
+          throw new Error('Invalid university data received');
         }
-        
-        const foundUniversity = findUniversityBySlug(universities, universityId);
-        console.log('Found university object:', foundUniversity);
-        
-        if (!foundUniversity) {
-          console.log('University not found - setting error state');
-          setError(`University not found for slug: ${universityId}`);
-        } else {
-          console.log('University found - setting university state');
-          setUniversity(foundUniversity);
-          // Fetch relevant scholarships for this university
-          await fetchRelevantScholarships(foundUniversity);
-        }
-        
-        console.log('Setting loading to false');
-        setLoading(false);
-        
+        setUniversityData(data);
       } catch (err) {
-        console.error('CRITICAL: Failed to fetch or process data:', err);
-        setError(err instanceof Error ? err.message : 'An error occurred');
+        setError(err instanceof Error ? err.message : 'Failed to load university data');
+        console.error('Error loading university data:', err);
+      } finally {
         setLoading(false);
       }
     };
@@ -256,104 +86,415 @@ const UniversityProfilePage: React.FC = () => {
     fetchUniversityData();
   }, [universityId]);
 
-  // Function to format deadline display
-  const formatDeadline = (deadline: string): string => {
-    const daysUntilDeadline = getDaysUntilDeadline(deadline);
-    if (daysUntilDeadline <= 0) return 'Deadline passed';
-    if (daysUntilDeadline === 1) return 'Due tomorrow';
-    if (daysUntilDeadline <= 7) return `Due in ${daysUntilDeadline} days`;
-    if (daysUntilDeadline <= 30) return `Due in ${Math.ceil(daysUntilDeadline / 7)} weeks`;
-    return `Due in ${Math.ceil(daysUntilDeadline / 30)} months`;
+  const formatAcceptanceRate = (rate: string | undefined) => {
+    if (!rate || rate === 'NA') return 'Not Available';
+    return `${(parseFloat(rate) * 100).toFixed(0)}%`;
   };
 
+  const formatGraduationRate = (rate: string | undefined) => {
+    if (!rate || rate === 'NA') return 'Not Available';
+    return `${(parseFloat(rate) * 100).toFixed(0)}%`;
+  };
+
+  const getAverageAnnualCost = (pubCost: string | undefined, privCost: string | undefined) => {
+    const cost = pubCost !== 'NA' ? pubCost : privCost;
+    if (!cost || cost === 'NA') return 'Not Available';
+    return `$${parseInt(cost).toLocaleString()}k`;
+  };
+
+  const formatMedianEarnings = (earnings: string | undefined) => {
+    if (!earnings || earnings === 'NA') return 'Not Available';
+    return `$${parseInt(earnings).toLocaleString()}k`;
+  };
+
+  const formatSchoolType = (control: string | undefined) => {
+    if (!control) return 'Not Available';
+    switch (control) {
+      case '1': return 'Public';
+      case '2': return 'Private nonprofit';
+      case '3': return 'Private for-profit';
+      default: return 'Not Available';
+    }
+  };
+
+  const formatLocale = (locale: string | undefined) => {
+    if (!locale) return 'Not Available';
+    const firstTwoDigits = locale.substring(0, 2);
+    switch (firstTwoDigits) {
+      case '11':
+      case '12':
+      case '13':
+        return 'City';
+      case '21':
+      case '22':
+      case '23':
+        return 'Suburb';
+      case '31':
+      case '32':
+      case '33':
+        return 'Town';
+      case '41':
+      case '42':
+      case '43':
+        return 'Rural';
+      default:
+        return 'Not Available';
+    }
+  };
+
+  const formatSize = (sizeset: string | undefined) => {
+    if (!sizeset || sizeset === 'NA') return 'Not Available';
+    
+    switch (sizeset) {
+      case '1':
+      case '2':
+      case '6':
+      case '7':
+        return 'Small';
+      case '3':
+      case '8':
+        return 'Medium';
+      case '4':
+      case '9':
+        return 'Large';
+      default:
+        return 'Not Available';
+    }
+  };
+
+  const formatCurrency = (value: number) => {
+    if (!value) return 'N/A';
+    return new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'USD',
+      maximumFractionDigits: 0
+    }).format(value);
+  };
+
+  const formatPercentage = (value: number) => {
+    if (value === null || value === undefined) return 'N/A';
+    return `${(value * 100).toFixed(0)}%`;
+  };
+
+  const getAverageCost = () => {
+    const isPublic = universityData.CONTROL === 1;
+    const costField = isPublic ? 'NPT4_PUB' : 'NPT4_PRIV';
+    return universityData[costField] || null;
+  };
+
+  // Add new helper functions for formatting data
+  const formatHighestDegree = (degree: string | undefined) => {
+    if (!degree) return 'Not Available';
+    switch (degree) {
+      case '0': return 'Non-degree-granting';
+      case '1': return 'Certificate';
+      case '2': return 'Associate degree';
+      case '3': return 'Bachelor\'s degree';
+      case '4': return 'Graduate degree';
+      default: return 'Not Available';
+    }
+  };
+
+  const formatNetPrice = (pubPrice: string | undefined, privPrice: string | undefined) => {
+    const price = pubPrice !== 'NA' ? pubPrice : privPrice;
+    if (!price || price === 'NA') return 'Not Available';
+    return formatCurrency(parseInt(price));
+  };
+
+  const formatProgramPercentage = (percentage: string | undefined) => {
+    if (!percentage || percentage === 'NA') return 'Not Available';
+    return `${(parseFloat(percentage) * 100).toFixed(1)}%`;
+  };
+
+  // Enhanced defensive rendering
   if (loading) {
     return (
-      <div className="university-profile-page">
+      <div className="loading-container">
         <LoadingBar />
+        <p>Loading university data...</p>
       </div>
     );
   }
 
-  if (error || !university) {
+  if (error || !universityData) {
     return (
-      <div className="university-profile-page">
         <div className="error-container">
-          <h2>Error</h2>
-          <p>{error || 'University not found'}</p>
-          <Link to="/universities" className="back-button">
-            Back to University Hub
+        <h2>Error Loading Data</h2>
+        <p>{error || 'Failed to load university data'}</p>
+        <Link to="/university-hub" className="back-button">
+          Return to University Hub
           </Link>
         </div>
+    );
+  }
+
+  // Verify essential data is present
+  if (!universityData.INSTNM) {
+    return (
+      <div className="error-container">
+        <h2>Invalid Data</h2>
+        <p>The university data appears to be incomplete.</p>
+        <Link to="/university-hub" className="back-button">
+          Return to University Hub
+        </Link>
       </div>
     );
   }
 
+  // Safe to render the main content now
   return (
     <div className="university-profile-page">
-      {/* Header Section */}
-      <div className="profile-header">
-        <div className="header-content">
-          <Link to="/universities" className="back-link">
+      <div className="hero-header">
+        <div className="hero-content">
+          <div className="header-buttons">
+            <Link to="/university-hub" className="back-link">
             ← Back to University Hub
           </Link>
-          <h1 className="university-name">{university.name}</h1>
-          <p className="university-location">
-            {university.city}, {university.stateFull}
-          </p>
+            {universityData.INSTURL && (
+              <a 
+                href={universityData.INSTURL} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="visit-website-btn"
+              >
+                Visit Website
+              </a>
+            )}
+          </div>
+          <h1>{universityData.INSTNM}</h1>
+          <h2>
+            {universityData.CITY && formatFullStateName(universityData.STABBR) 
+              ? `${universityData.CITY}, ${formatFullStateName(universityData.STABBR)}`
+              : 'Location not available'}
+          </h2>
         </div>
       </div>
 
-      {/* Key Stats Bar */}
       <div className="key-stats-bar">
         <div className="stats-container">
           <div className="stat-item">
             <div className="stat-label">Acceptance Rate</div>
-            <div className="stat-value">{university.acceptanceRate || 'N/A'}</div>
+            <div className="stat-value">{formatPercentage(universityData.ADM_RATE)}</div>
           </div>
           <div className="stat-item">
-            <div className="stat-label">Tuition & Fees</div>
-            <div className="stat-value">{university.tuitionFees || 'N/A'}</div>
+            <div className="stat-label">Graduation Rate</div>
+            <div className="stat-value">{formatPercentage(universityData.C150_4_POOLED)}</div>
           </div>
           <div className="stat-item">
-            <div className="stat-label">International Aid</div>
-            <div className="stat-value">{university.pctIntlAid || 'N/A'}</div>
+            <div className="stat-label">Average Annual Cost</div>
+            <div className="stat-value">{formatCurrency(getAverageCost())}</div>
           </div>
           <div className="stat-item">
-            <div className="stat-label">Avg Cost After Aid</div>
-            <div className="stat-value">{university.avgCostAfterAid || 'N/A'}</div>
+            <div className="stat-label">Median Earnings</div>
+            <div className="stat-value">{formatCurrency(universityData.MD_EARN_WNE_P10)}</div>
           </div>
         </div>
       </div>
 
-      {/* Tabbed Content */}
-      <div className="profile-content">
-        <UniversityProfileTabs university={university} />
-      </div>
+      {/* Content Body */}
+      <div className="content-body">
+        {/* Left Column - Navigation */}
+        <nav className="sidebar">
+          {['Overview', 'Admissions', 'Cost & Financial Aid', 'Academics', 
+            'Fields of Study', 'Graduation & Earnings', 'Diversity'].map((tab) => (
+            <button
+              key={tab.toLowerCase().replace(/\s+/g, '-')}
+              className={`nav-link ${activeTab === tab.toLowerCase().replace(/\s+/g, '-') ? 'active' : ''}`}
+              onClick={() => setActiveTab(tab.toLowerCase().replace(/\s+/g, '-'))}
+            >
+              {tab}
+            </button>
+          ))}
+        </nav>
 
-      {/* Relevant Scholarships Section */}
-      <div className="relevant-scholarships-section">
-        <h2>Relevant Scholarships</h2>
-        <div className="scholarships-categories-row">
-          {relevantScholarships.length > 0 ? (
-            relevantScholarships.map((scholarship) => (
-              <div key={scholarship.id} className="scholarship-category-card">
-                <h3>{scholarship.title}</h3>
-                <div className="scholarship-details">
-                  <p className="scholarship-amount">{scholarship.amount}</p>
-                  <p className="scholarship-deadline">{formatDeadline(scholarship.deadline)}</p>
-                  <p className="scholarship-field">{scholarship.fieldOfStudy}</p>
+        {/* Right Column - Content */}
+        <div className="content-main">
+          {activeTab === 'overview' && (
+            <>
+              <div className="content-card">
+                <h2>At a Glance</h2>
+                <div className="glance-grid">
+                  <div className="glance-item">
+                    <span className="label">School Type</span>
+                    <span className="value">{formatSchoolType(universityData.CONTROL)}</span>
+                  </div>
+                  <div className="glance-item">
+                    <span className="label">Setting</span>
+                    <span className="value">{formatLocale(universityData.LOCALE)}</span>
+                  </div>
+                  <div className="glance-item">
+                    <span className="label">Size</span>
+                    <span className="value">{formatSize(universityData.CCSIZSET)}</span>
+                  </div>
+                  <div className="glance-item">
+                    <span className="label">Highest Degree Awarded</span>
+                    <span className="value">{formatHighestDegree(universityData.HIGHDEG)}</span>
+                  </div>
                 </div>
-                <Link to={`/scholarships`} className="scholarship-category-btn">
-                  View Details
-                </Link>
               </div>
-            ))
-          ) : (
-            <div className="no-scholarships-message">
-              <p>No relevant scholarships found at the moment.</p>
-              <Link to="/scholarships" className="scholarship-category-btn">
-                Browse All Scholarships
-              </Link>
+              <div className="content-card">
+                <h2>About this University</h2>
+                <p>An AI-generated summary of this university's key strengths, programs, and campus culture will be displayed here soon.</p>
+              </div>
+            </>
+          )}
+
+          {activeTab === 'admissions' && (
+            <div className="content-card">
+              <h2>Admissions Data</h2>
+              <div className="data-grid">
+                <div className="data-item">
+                  <span className="label">Acceptance Rate</span>
+                  <span className="value">{formatAcceptanceRate(universityData.ADM_RATE)}</span>
+                </div>
+                <div className="data-item">
+                  <span className="label">SAT Reading & Writing Range</span>
+                  <span className="value">{universityData.SATVR25} - {universityData.SATVR75}</span>
+                </div>
+                <div className="data-item">
+                  <span className="label">SAT Math Range</span>
+                  <span className="value">{universityData.SATMT25} - {universityData.SATMT75}</span>
+                </div>
+                <div className="data-item">
+                  <span className="label">ACT Composite Range</span>
+                  <span className="value">{universityData.ACTCM25} - {universityData.ACTCM75}</span>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {activeTab === 'cost-&-financial-aid' && (
+            <>
+              <div className="content-card">
+                <h2>Average Annual Cost</h2>
+                <div className="data-item">
+                  <span className="value">{getAverageAnnualCost(universityData)}</span>
+                </div>
+              </div>
+              <div className="content-card">
+                <h2>Net Price by Household Income</h2>
+                <div className="data-grid">
+                  <div className="data-item">
+                    <span className="label">$0-30,000</span>
+                    <span className="value">{formatNetPrice(universityData.NPT41_PUB, universityData.NPT41_PRIV)}</span>
+                  </div>
+                  <div className="data-item">
+                    <span className="label">$30,001-48,000</span>
+                    <span className="value">{formatNetPrice(universityData.NPT42_PUB, universityData.NPT42_PRIV)}</span>
+                  </div>
+                  <div className="data-item">
+                    <span className="label">$48,001-75,000</span>
+                    <span className="value">{formatNetPrice(universityData.NPT43_PUB, universityData.NPT43_PRIV)}</span>
+                  </div>
+                  <div className="data-item">
+                    <span className="label">$75,001-110,000</span>
+                    <span className="value">{formatNetPrice(universityData.NPT44_PUB, universityData.NPT44_PRIV)}</span>
+                  </div>
+                  <div className="data-item">
+                    <span className="label">$110,001+</span>
+                    <span className="value">{formatNetPrice(universityData.NPT45_PUB, universityData.NPT45_PRIV)}</span>
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
+
+          {activeTab === 'academics' && (
+            <div className="content-card">
+              <h2>Popular Programs</h2>
+              <p>The following are the most popular fields of study by percentage of degrees awarded:</p>
+              <div className="data-grid">
+                <div className="data-item">
+                  <span className="label">Engineering</span>
+                  <span className="value">{formatProgramPercentage(universityData.PCIP14)}</span>
+                </div>
+                <div className="data-item">
+                  <span className="label">Business & Marketing</span>
+                  <span className="value">{formatProgramPercentage(universityData.PCIP52)}</span>
+                </div>
+                <div className="data-item">
+                  <span className="label">Health Professions</span>
+                  <span className="value">{formatProgramPercentage(universityData.PCIP51)}</span>
+                </div>
+                <div className="data-item">
+                  <span className="label">Social Sciences</span>
+                  <span className="value">{formatProgramPercentage(universityData.PCIP45)}</span>
+                </div>
+                <div className="data-item">
+                  <span className="label">Computer Science</span>
+                  <span className="value">{formatProgramPercentage(universityData.PCIP11)}</span>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {activeTab === 'fields-of-study' && (
+            <div className="content-card">
+              <h2>Field of Study Details</h2>
+              <p>Detailed data on earnings and outcomes for specific fields of study will be implemented here.</p>
+            </div>
+          )}
+
+          {activeTab === 'graduation-&-earnings' && (
+            <>
+              <div className="content-card">
+                <h2>Student Outcomes</h2>
+                <div className="data-grid">
+                  <div className="data-item">
+                    <span className="label">Graduation Rate (4-Year)</span>
+                    <span className="value">{formatGraduationRate(universityData.C150_4_POOLED)}</span>
+                  </div>
+                  <div className="data-item">
+                    <span className="label">Retention Rate (Full-time)</span>
+                    <span className="value">{formatPercentage(universityData.RET_FT4)}</span>
+                  </div>
+                </div>
+              </div>
+              <div className="content-card">
+                <h2>Financial Outcomes</h2>
+                <div className="data-grid">
+                  <div className="data-item">
+                    <span className="label">Median Earnings (10 years after entry)</span>
+                    <span className="value">{formatMedianEarnings(universityData.MD_EARN_WNE_P10)}</span>
+                  </div>
+                  <div className="data-item">
+                    <span className="label">% Earning More Than a High School Graduate</span>
+                    <span className="value">{formatPercentage(universityData.GT_25K_P6)}</span>
+                  </div>
+                </div>
+      </div>
+            </>
+          )}
+
+          {activeTab === 'diversity' && (
+            <div className="content-card">
+              <h2>Student Body Demographics</h2>
+              <div className="data-grid">
+                <div className="data-item">
+                  <span className="label">White</span>
+                  <span className="value">{formatPercentage(universityData.UGDS_WHITE)}</span>
+                </div>
+                <div className="data-item">
+                  <span className="label">Black</span>
+                  <span className="value">{formatPercentage(universityData.UGDS_BLACK)}</span>
+                </div>
+                <div className="data-item">
+                  <span className="label">Hispanic</span>
+                  <span className="value">{formatPercentage(universityData.UGDS_HISP)}</span>
+                </div>
+                <div className="data-item">
+                  <span className="label">Asian</span>
+                  <span className="value">{formatPercentage(universityData.UGDS_ASIAN)}</span>
+                </div>
+                <div className="data-item">
+                  <span className="label">International Students</span>
+                  <span className="value">{formatPercentage(universityData.UGDS_NRA)}</span>
+                </div>
+                <div className="data-item">
+                  <span className="label">Two or More Races</span>
+                  <span className="value">{formatPercentage(universityData.UGDS_2MOR)}</span>
+                </div>
+              </div>
             </div>
           )}
         </div>

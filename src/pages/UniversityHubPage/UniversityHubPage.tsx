@@ -11,7 +11,7 @@ import './UniversityHubPage.css';
 
 // Interface matching the new summary.json structure
 interface UniversityData {
-  id: number;
+  id: string | number;
   name: string;
   city: string;
   state: string;
@@ -72,16 +72,49 @@ const UniversityHubPage: React.FC = () => {
       try {
         setLoading(true);
         setError(null);
+        console.log('Starting to fetch universities data...');
+        
         const response = await fetch('/data/summary.json');
-        if (!response.ok) throw new Error('Failed to fetch university data');
-        const data = await response.json();
+        console.log('Fetch response:', response.status, response.statusText);
+        
+        if (!response.ok) {
+          throw new Error(`Failed to fetch university data (Status: ${response.status}, ${response.statusText})`);
+        }
+        
+        const text = await response.text();
+        console.log('Response text length:', text.length);
+        console.log('First 100 characters:', text.substring(0, 100));
+        
+        let data;
+        try {
+          data = JSON.parse(text);
+          console.log('Successfully parsed JSON data');
+        } catch (parseError) {
+          console.error('JSON parse error:', parseError);
+          throw new Error('Failed to parse university data as JSON');
+        }
+        
+        if (!Array.isArray(data)) {
+          console.error('Data is not an array:', typeof data);
+          throw new Error('Received data is not an array');
+        }
+        
+        console.log('Universities data received:', {
+          count: data.length,
+          firstItem: data[0],
+          lastItem: data[data.length - 1]
+        });
+        
         setAllUniversities(data);
       } catch (err) {
+        console.error('Error in fetchUniversities:', err);
         setError(err instanceof Error ? err.message : 'An error occurred while loading universities');
       } finally {
         setLoading(false);
       }
     };
+    
+    console.log('UniversityHubPage mounted, fetching data...');
     fetchUniversities();
   }, []);
 
@@ -96,16 +129,22 @@ const UniversityHubPage: React.FC = () => {
 
   // Filter universities for the active group using the sourceList code
   const universitiesForGroup = useMemo(() => {
+    console.log('Filtering universities for group:', activeGroup);
+    console.log('All universities count:', allUniversities.length);
     if (activeGroup === 'all') return allUniversities;
     const code = GROUP_CODE_MAP[activeGroup];
     if (!code) return allUniversities;
-    return allUniversities.filter(university => 
+    const filtered = allUniversities.filter(university => 
       university.sourceList && university.sourceList.includes(code)
     );
+    console.log('Universities after group filtering:', filtered.length);
+    return filtered;
   }, [allUniversities, activeGroup]);
 
   // Apply search and advanced filters to the group's universities
   const filteredUniversities = useMemo(() => {
+    console.log('Applying filters to universities');
+    console.log('Universities before filtering:', universitiesForGroup.length);
     let filtered = universitiesForGroup.filter(university => {
       // Basic search filters
       if (filters.searchTerm && !university.name.toLowerCase().includes(filters.searchTerm.toLowerCase())) {
@@ -134,6 +173,7 @@ const UniversityHubPage: React.FC = () => {
       
       return true;
     });
+    console.log('Universities after filtering:', filtered.length);
     return filtered;
   }, [universitiesForGroup, filters, advancedFilters]);
 
@@ -142,6 +182,14 @@ const UniversityHubPage: React.FC = () => {
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const currentUniversities = filteredUniversities.slice(startIndex, endIndex);
+
+  console.log('Current universities to display:', {
+    total: filteredUniversities.length,
+    currentPage,
+    startIndex,
+    endIndex,
+    displayCount: currentUniversities.length
+  });
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
@@ -177,55 +225,67 @@ const UniversityHubPage: React.FC = () => {
   if (error) {
     return (
       <div className="university-hub-page">
-        <div className="error-container">
-          <h1>Error Loading Universities</h1>
+        <div className="error-message">
+          <h2>Error Loading Universities</h2>
           <p>{error}</p>
-          <button onClick={() => window.location.reload()} className="btn-primary">
-            Try Again
-          </button>
         </div>
       </div>
     );
   }
 
+  if (!allUniversities || allUniversities.length === 0) {
+    return (
+      <div className="university-hub-page">
+        <div className="error-message">
+          <h2>No Universities Found</h2>
+          <p>No university data is currently available. Please try again later.</p>
+        </div>
+      </div>
+    );
+  }
+
+  console.log('Rendering UniversityHubPage with:', {
+    totalUniversities: allUniversities.length,
+    filteredCount: filteredUniversities.length,
+    currentPageUniversities: currentUniversities.length,
+    currentPage,
+    activeGroup,
+    filters,
+    advancedFilters
+  });
+
   return (
     <div className="university-hub-page">
-      <EliteCollections onGroupChange={group => setActiveGroup(group.key)} />
-      <AdvancedUniversitySearch 
-        filters={filters}
-        onFiltersChange={handleFiltersChange}
-        onShowAdvancedFilters={handleShowAdvancedFilters}
-      />
-      <section className="universities-section">
-        <div className="universities-container">
-          <div className="results-header">
-            <h2>Universities ({filteredUniversities.length} found)</h2>
-          </div>
-          {currentUniversities.length > 0 ? (
-            <>
-              <div className="universities-grid">
-                {currentUniversities.map((university, index) => (
-                  <UniversityCard key={`${university.id}-${index}`} university={university} />
-                ))}
-              </div>
-              <Pagination
-                currentPage={currentPage}
-                totalPages={totalPages}
-                onPageChange={handlePageChange}
-                totalItems={filteredUniversities.length}
-                itemsPerPage={itemsPerPage}
-              />
-            </>
-          ) : (
-            <div className="no-results">
-              <h3>No universities found</h3>
-              <p>Try adjusting your search criteria or filters to find more results.</p>
-            </div>
-          )}
-        </div>
-      </section>
+      <div className="search-section">
+        <AdvancedUniversitySearch
+          filters={filters}
+          onFiltersChange={handleFiltersChange}
+          onShowAdvancedFilters={handleShowAdvancedFilters}
+        />
+      </div>
+
+      <EliteCollections activeGroup={activeGroup} onGroupChange={setActiveGroup} />
+
+      <div className="results-info">
+        <p>Found {filteredUniversities.length} universities</p>
+      </div>
+
+      <div className="university-grid">
+        {currentUniversities.map((university) => (
+          <UniversityCard key={university.id} university={university} />
+        ))}
+      </div>
+
+      {filteredUniversities.length > itemsPerPage && (
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={handlePageChange}
+        />
+      )}
+
       <AdvancedFilterDrawer
-        isOpen={showAdvancedFilters}
+        show={showAdvancedFilters}
         onClose={handleCloseAdvancedFilters}
         filters={advancedFilters}
         onFiltersChange={handleAdvancedFiltersChange}

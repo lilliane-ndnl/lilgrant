@@ -22,7 +22,7 @@ interface ScholarshipData {
   additionalNotes: string
 }
 
-const ITEMS_PER_PAGE = 28
+const ITEMS_PER_PAGE = 20
 
 const ScholarshipsPage = () => {
   const [scholarships, setScholarships] = useState<ScholarshipData[]>([])

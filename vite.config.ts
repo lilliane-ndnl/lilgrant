@@ -7,6 +7,11 @@ export default defineConfig({
   define: {
     'process.env': {}
   },
+  server: {
+    watch: {
+      usePolling: true
+    }
+  },
   build: {
     cssMinify: true,
     cssCodeSplit: false,
@@ -28,11 +33,7 @@ export default defineConfig({
   },
   css: {
     devSourcemap: true,
-    modules: {
-      scopeBehaviour: 'local',
-      localsConvention: 'camelCase',
-      generateScopedName: '[name]__[local]__[hash:base64:5]'
-    }
+    modules: false
   },
   publicDir: 'public'
 })

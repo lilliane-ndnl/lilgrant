@@ -12,7 +12,7 @@ import {
 import './UniversityCard.css';
 
 export interface UniversityData {
-  id: number;
+  id: string | number;
   slug: string;
   name: string;
   city: string;
@@ -54,15 +54,12 @@ const UniversityCard = React.memo(({ university }: UniversityCardProps) => {
   const navigate = useNavigate();
 
   const handleViewProfile = useCallback(() => {
-    // Create a URL-safe slug from the university name if one is not provided
-    const slug = university.slug || university.name
-      .toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/-+/g, '-')
-      .trim();
-    navigate(`/university/${slug}`);
-  }, [navigate, university.slug, university.name]);
+    navigate(`/university/${university.id}`);
+  }, [navigate, university.id]);
+
+  if (!university || !university.id || !university.name) {
+    return null;
+  }
 
   return (
     <div className="university-card glassmorphism-box">

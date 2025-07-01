@@ -1,110 +1,227 @@
 .university-profile-page {
   min-height: 100vh;
-  background: transparent !important;
-  padding: 0;
-  color: #2c3e50;
+  color: rgba(255, 255, 255, 0.95);
 }
 
-/* Header Section */
-.profile-header {
-  background: rgba(255, 255, 255, 0.1);
+/* Hero Header */
+.hero-header {
+  background: linear-gradient(135deg, rgba(92, 31, 74, 0.95), rgba(186, 74, 143, 0.9));
+  min-height: 240px;
+  padding: 2rem 5%;
+  color: rgba(255, 255, 255, 0.95);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(92, 31, 74, 0.2), rgba(186, 74, 143, 0.2));
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 2rem 0;
-  margin-bottom: 0;
 }
 
-.header-content {
+.hero-content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
 }
 
 .back-link {
   display: inline-flex;
   align-items: center;
-  color: #2c3e50;
+  color: rgba(255, 255, 255, 0.95);
   text-decoration: none;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  transition: color 0.3s ease;
-  text-shadow: none;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
 }
 
 .back-link:hover {
-  color: #8A2BE2;
+  background: rgba(255, 255, 255, 0.2);
 }
 
-.university-name {
-  font-size: 3rem;
+.visit-website-btn {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.95);
+  color: #5C1F4A;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.visit-website-btn:hover {
+  background: #fff;
+  transform: translateY(-2px);
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
   font-weight: 700;
-  margin: 0 0 0.5rem 0;
-  color: #2c3e50;
-  text-shadow: none;
-  line-height: 1.2;
+  margin: 0.5rem 0;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.university-location {
+.hero-content h2 {
   font-size: 1.2rem;
-  color: #2c3e50;
+  font-weight: 500;
   margin: 0;
-  text-shadow: none;
-  opacity: 0.8;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 /* Key Stats Bar */
 .key-stats-bar {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(92, 31, 74, 0.4);
+  padding: 1.5rem 5%;
+  color: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 1.5rem 0;
+  border-radius: 24px;
+  margin: -2rem 5% 2rem;
+  position: relative;
+  z-index: 3;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .stats-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
 }
 
 .stat-item {
   text-align: center;
-  padding: 1rem;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 12px;
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.stat-item:hover {
-  transform: translateY(-2px);
-  background: rgba(255, 255, 255, 0.15);
 }
 
 .stat-label {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 0.5rem;
-  text-shadow: none;
-  opacity: 0.8;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0.25rem;
+  font-weight: 500;
 }
 
 .stat-value {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: #2c3e50;
-  text-shadow: none;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  line-height: 1;
 }
 
-/* Profile Content */
-.profile-content {
+/* Content Body */
+.content-body {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 3rem 5%;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 3rem;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+  position: sticky;
+  top: 2rem;
+  height: fit-content;
+}
+
+.nav-link {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  text-align: left;
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+}
+
+.nav-link:hover {
+  background: rgba(92, 31, 74, 0.2);
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.nav-link.active {
+  background: rgba(92, 31, 74, 0.95);
+  color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+}
+
+/* Main Content Area */
+.content-main {
+  min-height: 500px;
+}
+
+.content-card {
+  background: rgba(92, 31, 74, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
   padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.content-card h2 {
+  font-size: 1.8rem;
+  margin: 0 0 1.5rem 0;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.glance-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.glance-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.glance-item .label {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.glance-item .value {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
 }
 
 /* Relevant Scholarships Section */
@@ -366,119 +483,77 @@
 
 .back-button {
   display: inline-block;
-  background: linear-gradient(135deg, #8A2BE2, #9370DB);
-  color: white;
+  padding: 0.8rem 1.5rem;
+  background: rgba(92, 31, 74, 0.95);
+  color: rgba(255, 255, 255, 0.95);
   text-decoration: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  font-weight: 600;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-shadow: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
 }
 
 .back-button:hover {
+  background: rgba(92, 31, 74, 1);
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(138, 43, 226, 0.3);
 }
 
 /* Responsive Design */
 @media (max-width: 1024px) {
-  .university-name {
-    font-size: 2.5rem;
-  }
-  
   .stats-container {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
   }
   
-  .profile-content,
-  .relevant-scholarships-section {
-    padding: 1.5rem;
+  .hero-content h1 {
+    font-size: 3rem;
   }
   
-  .scholarships-container {
-    gap: 1.2rem;
-  }
-  
-  .scholarship-card {
-    padding: 2rem 1.2rem 1.5rem 1.2rem;
+  .visit-website-btn {
+    position: static;
+    margin-top: 2rem;
   }
 }
 
 @media (max-width: 768px) {
-  .header-content {
-    padding: 0 1rem;
+  .content-body {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
   
-  .university-name {
-    font-size: 2rem;
+  .sidebar {
+    position: static;
+    margin-bottom: 2rem;
   }
   
-  .university-location {
-    font-size: 1rem;
+  .nav-link {
+    padding: 0.8rem;
   }
   
-  .stats-container {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.75rem;
+  .hero-content h1 {
+    font-size: 2.5rem;
   }
   
-  .stat-item {
-    padding: 0.75rem;
+  .hero-content h2 {
+    font-size: 1.2rem;
   }
   
-  .stat-value {
-    font-size: 1.1rem;
-  }
-  
-  .profile-content,
-  .relevant-scholarships-section {
-    padding: 1rem;
-  }
-  
-  .scholarships-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 1.2rem;
-  }
-  
-  .scholarship-card {
-    max-width: 95vw;
-    min-width: 0;
-    width: 100%;
-    padding: 1.5rem 1rem 1.2rem 1rem;
+  .key-stats-bar {
+    margin: 0;
+    border-radius: 0;
   }
 }
 
 @media (max-width: 480px) {
-  .profile-header {
-    padding: 1.5rem 0;
-  }
-  
-  .university-name {
-    font-size: 1.8rem;
-  }
-  
   .stats-container {
     grid-template-columns: 1fr;
-    gap: 0.5rem;
   }
   
-  .stat-item {
-    padding: 0.5rem;
+  .glance-grid {
+    grid-template-columns: 1fr;
   }
   
-  .stat-value {
-    font-size: 1rem;
-  }
-  
-  .relevant-scholarships-section h2 {
-    font-size: 1.6rem;
-  }
-  
-  .scholarship-card h3 {
-    font-size: 1.2rem;
+  .hero-content h1 {
+    font-size: 2rem;
   }
 }
 
