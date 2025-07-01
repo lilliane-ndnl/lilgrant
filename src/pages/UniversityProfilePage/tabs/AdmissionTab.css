@@ -1,5 +1,8 @@
 .admission-container {
-    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0;
 }
 
 .admission-card {
@@ -9,14 +12,14 @@
     border-radius: 24px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 8px 32px rgba(92, 31, 74, 0.25);
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .admission-card h2 {
     color: #ffffff;
     font-size: 1.6rem;
     font-weight: 700;
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 1.25rem 0;
 }
 
 .admission-card h3 {
@@ -26,49 +29,124 @@
     margin: 0 0 1rem 0;
 }
 
-.admission-grid {
+.admission-stats-grid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: minmax(200px, 300px) 1fr;
     gap: 2rem;
-    align-items: flex-start;
+    align-items: start;
 }
 
-.acceptance-rate-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-}
-
-.test-scores-section {
-    padding: 1rem;
-}
-
-.no-data {
-    color: rgba(255, 255, 255, 0.5);
+.acceptance-rate-container {
     text-align: center;
+}
+
+.acceptance-rate-container h3 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.pie-chart-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.acceptance-rate-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.test-scores-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.score-range-container {
+    width: 100%;
+}
+
+.score-range-container h3 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.score-range-bar {
+    position: relative;
+    height: 24px;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.score-range-full {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+}
+
+.score-range-actual {
+    position: absolute;
+    top: 0;
+    height: 24px;
+    background: rgba(76, 175, 80, 0.3);
+    border: 2px solid rgba(76, 175, 80, 0.8);
+    border-radius: 12px;
+}
+
+.score-min,
+.score-max {
+    position: absolute;
+    top: 100%;
+    transform: translateX(-50%);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+.score-min {
+    left: 0;
+}
+
+.score-max {
+    right: 0;
+    transform: translateX(50%);
+}
+
+.coming-soon-note {
+    color: rgba(255, 255, 255, 0.7);
     font-size: 0.9rem;
+    font-style: italic;
 }
 
 /* Responsive Design */
 @media (max-width: 1024px) {
-    .admission-grid {
+    .admission-stats-grid {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
 
-    .acceptance-rate-section {
-        padding: 0;
-    }
-
-    .test-scores-section {
-        padding: 0;
+    .acceptance-rate-container {
+        max-width: 300px;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 768px) {
     .admission-card {
-        padding: 1.5rem;
+        padding: 1rem;
     }
 
     .admission-card h2 {
