@@ -7,6 +7,33 @@ interface OverviewTabProps {
 }
 
 const OverviewTab: React.FC<OverviewTabProps> = ({ universityData }) => {
+  // Helper function to check if a flag is true (can be either '1' or 1)
+  const isTrue = (value: any): boolean => {
+    return value === 1 || value === '1';
+  };
+
+  const isFalse = (value: any): boolean => {
+    return value === 0 || value === '0';
+  };
+
+  // Debug log
+  console.log('University Data:', {
+    HBCU: universityData.HBCU,
+    PBI: universityData.PBI,
+    HSI: universityData.HSI,
+    AANAPII: universityData.AANAPII,
+    TRIBAL: universityData.TRIBAL,
+    WOMENONLY: universityData.WOMENONLY,
+    MENONLY: universityData.MENONLY,
+    RELAFFIL: universityData.RELAFFIL,
+    CONTROL: universityData.CONTROL,
+    LOCALE: universityData.LOCALE,
+    UGDS: universityData.UGDS,
+    REGION: universityData.REGION,
+    HIGHDEG: universityData.HIGHDEG,
+    STUFACR: universityData.STUFACR
+  });
+
   const formatSchoolType = (control: string | undefined) => {
     if (!control) return 'Not Available';
     switch (control) {
@@ -59,41 +86,6 @@ const OverviewTab: React.FC<OverviewTabProps> = ({ universityData }) => {
     return `${Math.round(ratio)} to 1`;
   };
 
-  const formatReligiousAffiliation = (code: string | undefined) => {
-    if (!code || code === '0') return null;
-    // This will be expanded with a complete mapping of religious affiliation codes
-    return `Religious Affiliation Code: ${code}`;
-  };
-
-  const getInstitutionalCharacteristics = () => {
-    const characteristics = [];
-    
-    if (universityData.HBCU === 1) {
-      characteristics.push('Historically Black College or University');
-    }
-    if (universityData.HSI === 1) {
-      characteristics.push('Hispanic-Serving Institution');
-    }
-    if (universityData.PBI === 1) {
-      characteristics.push('Primarily Black Institution');
-    }
-    if (universityData.WOMENONLY === 1) {
-      characteristics.push('Women-Only College');
-    }
-    if (universityData.MENONLY === 1) {
-      characteristics.push('Men-Only College');
-    }
-
-    const religiousAffiliation = formatReligiousAffiliation(universityData.RELAFFIL);
-    if (religiousAffiliation) {
-      characteristics.push(religiousAffiliation);
-    }
-
-    return characteristics;
-  };
-
-  const characteristics = getInstitutionalCharacteristics();
-
   return (
     <div className="overview-container">
       {/* At a Glance Card */}
@@ -132,20 +124,29 @@ const OverviewTab: React.FC<OverviewTabProps> = ({ universityData }) => {
         <h2>Institutional Characteristics</h2>
         <p className="characteristics-note">Special designations and affiliations that make this institution unique</p>
         <div className="tags-container">
-          {universityData.HBCU === 1 && (
-            <span className="characteristic-tag">Historically Black College or University</span>
+          {isTrue(universityData.HBCU) && (
+            <span className="characteristic-tag">HBCU</span>
           )}
-          {universityData.HSI === 1 && (
-            <span className="characteristic-tag">Hispanic-Serving Institution</span>
-          )}
-          {universityData.PBI === 1 && (
+          {isTrue(universityData.PBI) && (
             <span className="characteristic-tag">Primarily Black Institution</span>
           )}
-          {universityData.WOMENONLY === 1 && (
-            <span className="characteristic-tag">Women's College</span>
+          {isTrue(universityData.HSI) && (
+            <span className="characteristic-tag">Hispanic-Serving Institution</span>
           )}
-          {universityData.MENONLY === 1 && (
-            <span className="characteristic-tag">Men's College</span>
+          {isTrue(universityData.AANAPII) && (
+            <span className="characteristic-tag">AANAPII-Serving</span>
+          )}
+          {isTrue(universityData.TRIBAL) && (
+            <span className="characteristic-tag">Tribal College</span>
+          )}
+          {isTrue(universityData.WOMENONLY) && (
+            <span className="characteristic-tag">Women's School</span>
+          )}
+          {isTrue(universityData.MENONLY) && (
+            <span className="characteristic-tag">Men's School</span>
+          )}
+          {isFalse(universityData.MENONLY) && isFalse(universityData.WOMENONLY) && (
+            <span className="characteristic-tag">Co-educational</span>
           )}
           {getReligiousAffiliation(universityData.RELAFFIL) && (
             <span className="characteristic-tag">
