@@ -83,7 +83,7 @@ export function getAverageAnnualCost(university: any): string {
 }
 
 /**
- * Format school size category based on the UGDS field
+ * Format school size category based on the UGDS field with updated thresholds
  */
 export function formatSizeCategory(size: string | number | null | undefined): string {
     if (size === null || size === undefined || String(size).toUpperCase() === 'NULL') {
@@ -95,7 +95,7 @@ export function formatSizeCategory(size: string | number | null | undefined): st
     }
     
     if (numericSize >= 15000) return 'Large';
-    if (numericSize >= 5000) return 'Medium';
+    if (numericSize >= 2000) return 'Medium';
     return 'Small';
 }
 
@@ -145,6 +145,41 @@ export function formatEarnings(earning: string | number | null | undefined): str
     return `$${numericEarning.toLocaleString()}`;
 }
 
+export function getReligiousAffiliation(code: string | number | null | undefined): string | null {
+  if (!code || code === -2 || code === -1 || code === 0) return null;
+  
+  const affiliationMap: { [key: number]: string } = {
+    22: "Roman Catholic",
+    24: "Jewish",
+    30: "United Methodist",
+    52: "Lutheran Church",
+    54: "Presbyterian Church",
+    23: "Baptist",
+    27: "Methodist",
+    28: "Lutheran",
+    33: "Christian Reformed Church",
+    34: "Reformed Church",
+    35: "Disciples of Christ",
+    36: "Church of Christ",
+    37: "Church of God",
+    38: "Seventh Day Adventists",
+    39: "Other Protestant",
+    40: "Multiple Protestant Denominations",
+    41: "Other Christian",
+    42: "Orthodox",
+    43: "Islamic",
+    44: "Other Non-Christian",
+    51: "Evangelical Lutheran",
+    57: "Episcopal Church",
+    61: "Greek Orthodox",
+    81: "Mennonite",
+    99: "Other (none of the above)"
+  };
+
+  const numericCode = typeof code === 'string' ? parseInt(code) : code;
+  return affiliationMap[numericCode] || null;
+}
+
 export const formatFullStateName = (stateAbbr: string | undefined): string => {
   if (!stateAbbr) return '';
   
@@ -165,4 +200,29 @@ export const formatFullStateName = (stateAbbr: string | undefined): string => {
   };
   
   return stateNames[stateAbbr] || stateAbbr;
-}; 
+};
+
+/**
+ * Format the region based on the REGION code
+ */
+export function formatRegion(regionCode: string | number | null | undefined): string {
+    if (regionCode === null || regionCode === undefined) return 'N/A';
+    
+    const code = parseInt(String(regionCode));
+    if (isNaN(code)) return 'N/A';
+
+    const regionMap: { [key: number]: string } = {
+        0: 'U.S. Service Schools',
+        1: 'New England',
+        2: 'Mid-Atlantic',
+        3: 'Great Lakes',
+        4: 'Plains',
+        5: 'Southeast',
+        6: 'Southwest',
+        7: 'Rocky Mountains',
+        8: 'Far West',
+        9: 'Outlying Areas'
+    };
+
+    return regionMap[code] || 'N/A';
+} 

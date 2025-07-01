@@ -1,5 +1,6 @@
 import React from 'react';
 import './OverviewTab.css';
+import { getReligiousAffiliation, formatSizeCategory, formatRegion } from '../../../utils/universityDataHelper';
 
 interface OverviewTabProps {
   universityData: any;
@@ -36,26 +37,6 @@ const OverviewTab: React.FC<OverviewTabProps> = ({ universityData }) => {
       case '42':
       case '43':
         return 'Rural';
-      default:
-        return 'Not Available';
-    }
-  };
-
-  const formatSize = (sizeset: string | undefined) => {
-    if (!sizeset || sizeset === 'NA') return 'Not Available';
-    
-    switch (sizeset) {
-      case '1':
-      case '2':
-      case '6':
-      case '7':
-        return 'Small';
-      case '3':
-      case '8':
-        return 'Medium';
-      case '4':
-      case '9':
-        return 'Large';
       default:
         return 'Not Available';
     }
@@ -129,7 +110,11 @@ const OverviewTab: React.FC<OverviewTabProps> = ({ universityData }) => {
           </div>
           <div className="info-item">
             <h3>Size</h3>
-            <p>{formatSize(universityData.CCSIZSET)}</p>
+            <p>{formatSizeCategory(universityData.UGDS)}</p>
+          </div>
+          <div className="info-item">
+            <h3>Region</h3>
+            <p>{formatRegion(universityData.REGION)}</p>
           </div>
           <div className="info-item">
             <h3>Highest Degree Awarded</h3>
@@ -143,18 +128,32 @@ const OverviewTab: React.FC<OverviewTabProps> = ({ universityData }) => {
       </div>
 
       {/* Institutional Characteristics Card */}
-      {characteristics.length > 0 && (
-        <div className="overview-card">
-          <h2>Institutional Characteristics</h2>
-          <div className="characteristics-list">
-            {characteristics.map((characteristic, index) => (
-              <div key={index} className="characteristic-item">
-                {characteristic}
-              </div>
-            ))}
-          </div>
+      <div className="overview-card">
+        <h2>Institutional Characteristics</h2>
+        <p className="characteristics-note">Special designations and affiliations that make this institution unique</p>
+        <div className="tags-container">
+          {universityData.HBCU === 1 && (
+            <span className="characteristic-tag">Historically Black College or University</span>
+          )}
+          {universityData.HSI === 1 && (
+            <span className="characteristic-tag">Hispanic-Serving Institution</span>
+          )}
+          {universityData.PBI === 1 && (
+            <span className="characteristic-tag">Primarily Black Institution</span>
+          )}
+          {universityData.WOMENONLY === 1 && (
+            <span className="characteristic-tag">Women's College</span>
+          )}
+          {universityData.MENONLY === 1 && (
+            <span className="characteristic-tag">Men's College</span>
+          )}
+          {getReligiousAffiliation(universityData.RELAFFIL) && (
+            <span className="characteristic-tag">
+              {getReligiousAffiliation(universityData.RELAFFIL)}
+            </span>
+          )}
         </div>
-      )}
+      </div>
 
       {/* About this University Card */}
       <div className="overview-card">
