@@ -4,6 +4,7 @@ import LoadingBar from '../../components/LoadingBar/LoadingBar';
 import './UniversityProfilePage.css';
 import { formatFullStateName } from '../../utils/universityDataHelper';
 import FieldsOfStudyTab from './tabs/FieldsOfStudyTab';
+import OverviewTab from './tabs/OverviewTab';
 
 interface University {
   id?: string;
@@ -311,6 +312,11 @@ const UniversityProfilePage: React.FC = () => {
         </div>
       </div>
 
+      <p className="data-source-disclaimer">
+        All data, unless specified otherwise (e.g., International Admission), is sourced from the U.S. Department of Education.<br />
+        LilGrant does not claim ownership of this data and presents it for informational purposes.
+      </p>
+
       {/* Content Body */}
       <div className="content-body">
         {/* Left Column - Navigation */}
@@ -329,35 +335,31 @@ const UniversityProfilePage: React.FC = () => {
 
         {/* Right Column - Content */}
         <div className="content-main">
-          {activeTab === 'overview' && (
-            <>
-              <div className="content-card">
-                <h2>At a Glance</h2>
-                <div className="glance-grid">
-                  <div className="glance-item">
-                    <span className="label">School Type</span>
-                    <span className="value">{formatSchoolType(universityData.CONTROL)}</span>
-                  </div>
-                  <div className="glance-item">
-                    <span className="label">Setting</span>
-                    <span className="value">{formatLocale(universityData.LOCALE)}</span>
-                  </div>
-                  <div className="glance-item">
-                    <span className="label">Size</span>
-                    <span className="value">{formatSize(universityData.CCSIZSET)}</span>
-                  </div>
-                  <div className="glance-item">
-                    <span className="label">Highest Degree Awarded</span>
-                    <span className="value">{formatHighestDegree(universityData.HIGHDEG)}</span>
-                  </div>
-                </div>
-              </div>
-              <div className="content-card">
-                <h2>About this University</h2>
-                <p>An AI-generated summary of this university's key strengths, programs, and campus culture will be displayed here soon.</p>
-              </div>
-            </>
-          )}
+          {/* Tabs */}
+          <div className="profile-tabs">
+            <button
+              className={`tab-button ${activeTab === 'overview' ? 'active' : ''}`}
+              onClick={() => setActiveTab('overview')}
+            >
+              Overview
+            </button>
+            <button
+              className={`tab-button ${activeTab === 'fields-of-study' ? 'active' : ''}`}
+              onClick={() => setActiveTab('fields-of-study')}
+            >
+              Fields of Study
+            </button>
+          </div>
+
+          {/* Tab Content */}
+          <div className="tab-content">
+            {activeTab === 'overview' && universityData && (
+              <OverviewTab universityData={universityData} />
+            )}
+            {activeTab === 'fields-of-study' && universityData && (
+              <FieldsOfStudyTab universityId={universityData.id} />
+            )}
+          </div>
 
           {activeTab === 'admissions' && (
             <div className="content-card">
@@ -446,10 +448,6 @@ const UniversityProfilePage: React.FC = () => {
                 </div>
               </div>
             </div>
-          )}
-
-          {activeTab === 'fields-of-study' && (
-            <FieldsOfStudyTab university={universityData} />
           )}
 
           {activeTab === 'graduation-&-earnings' && (

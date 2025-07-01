@@ -67,25 +67,14 @@ const FieldsOfStudyTab: React.FC<{ unitId: string }> = ({ unitId }) => {
   }, [unitId]);
 
   const handleSort = (mode: ViewMode) => {
-    if (!data) return;
-
-    const newDirection = mode === viewMode ? (sortDirection === 'desc' ? 'asc' : 'desc') : 'desc';
-    setSortDirection(newDirection);
-    setViewMode(mode);
-
-    const sortedData = [...data].sort((a, b) => {
-      if (mode === 'size') {
-        return newDirection === 'desc' 
-          ? b.graduates.total - a.graduates.total
-          : a.graduates.total - b.graduates.total;
-      } else {
-        const aEarnings = a.earnings.annual === 'PrivacySuppressed' ? 0 : a.earnings.annual;
-        const bEarnings = b.earnings.annual === 'PrivacySuppressed' ? 0 : b.earnings.annual;
-        return newDirection === 'desc' ? bEarnings - aEarnings : aEarnings - bEarnings;
-      }
-    });
-
-    setData(sortedData);
+    if (mode === viewMode) {
+      // Toggle direction if clicking the same mode
+      setSortDirection(sortDirection === 'desc' ? 'asc' : 'desc');
+    } else {
+      // Reset to desc when changing modes
+      setSortDirection('desc');
+      setViewMode(mode);
+    }
   };
 
   const getFilteredData = () => {
@@ -136,13 +125,13 @@ const FieldsOfStudyTab: React.FC<{ unitId: string }> = ({ unitId }) => {
           className={`sort-button ${viewMode === 'size' ? 'active' : ''}`}
           onClick={() => handleSort('size')}
         >
-          Size {viewMode === 'size' && <span className="sort-arrow">↓</span>}
+          Size {viewMode === 'size' && <span className="sort-arrow">{sortDirection === 'desc' ? '↓' : '↑'}</span>}
         </button>
         <button
           className={`sort-button ${viewMode === 'earnings' ? 'active' : ''}`}
           onClick={() => handleSort('earnings')}
         >
-          Earnings {viewMode === 'earnings' && <span className="sort-arrow">↓</span>}
+          Earnings {viewMode === 'earnings' && <span className="sort-arrow">{sortDirection === 'desc' ? '↓' : '↑'}</span>}
         </button>
       </div>
       
