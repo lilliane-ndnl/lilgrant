@@ -66,15 +66,29 @@ const UniversityProfilePage: React.FC = () => {
       try {
         setLoading(true);
         setError(null);
-        const response = await fetch(`/data/details/${universityId}.json`);
+        
+        // First try to fetch from the details directory
+        let response = await fetch(`/data/details/${universityId}.json`);
+        
+        // If that fails, try fetching from university-data-final.json
         if (!response.ok) {
-          throw new Error(`Failed to load university data (Status: ${response.status})`);
+          const allUniversitiesResponse = await fetch('/data/university-data-final.json');
+          if (!allUniversitiesResponse.ok) {
+            throw new Error(`Failed to load university data (Status: ${allUniversitiesResponse.status})`);
+          }
+          const allUniversities = await allUniversitiesResponse.json();
+          const university = allUniversities.find((u: any) => u.id === universityId);
+          if (!university) {
+            throw new Error('University not found');
+          }
+          setUniversityData(university);
+        } else {
+          const data = await response.json();
+          if (!data || typeof data !== 'object') {
+            throw new Error('Invalid university data received');
+          }
+          setUniversityData(data);
         }
-        const data = await response.json();
-        if (!data || typeof data !== 'object') {
-          throw new Error('Invalid university data received');
-        }
-        setUniversityData(data);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load university data');
         console.error('Error loading university data:', err);
