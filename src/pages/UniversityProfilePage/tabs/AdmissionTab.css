@@ -60,13 +60,16 @@
 .admission-stats-grid {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 3rem;
+    gap: 2rem;
     align-items: start;
+    padding: 1rem;
 }
 
 .acceptance-rate-container {
-    text-align: center;
-    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .acceptance-rate-container h3 {
@@ -126,10 +129,10 @@
 }
 
 .test-scores-container {
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-    max-width: 600px;
 }
 
 .score-range-container {
@@ -200,12 +203,11 @@
 }
 
 .summary-text {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 0.95rem;
+    grid-column: 1 / -1;
+    margin-top: 1rem;
     line-height: 1.6;
-    margin: 1.5rem 0 0 0;
-    padding-top: 1rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1rem;
 }
 
 /* Responsive Design */

@@ -125,7 +125,7 @@ const OverviewTab: React.FC<OverviewTabProps> = ({ universityData }) => {
         <p className="characteristics-note">Special designations and affiliations that make this institution unique</p>
         <div className="tags-container">
           {isTrue(universityData.HBCU) && (
-            <span className="characteristic-tag">HBCU</span>
+            <span className="characteristic-tag">Historically Black College or University</span>
           )}
           {isTrue(universityData.PBI) && (
             <span className="characteristic-tag">Primarily Black Institution</span>
@@ -134,16 +134,16 @@ const OverviewTab: React.FC<OverviewTabProps> = ({ universityData }) => {
             <span className="characteristic-tag">Hispanic-Serving Institution</span>
           )}
           {isTrue(universityData.AANAPII) && (
-            <span className="characteristic-tag">AANAPII-Serving</span>
+            <span className="characteristic-tag">Asian American and Native American Pacific Islander-Serving Institution</span>
           )}
           {isTrue(universityData.TRIBAL) && (
             <span className="characteristic-tag">Tribal College</span>
           )}
           {isTrue(universityData.WOMENONLY) && (
-            <span className="characteristic-tag">Women's School</span>
+            <span className="characteristic-tag">Women Only</span>
           )}
           {isTrue(universityData.MENONLY) && (
-            <span className="characteristic-tag">Men's School</span>
+            <span className="characteristic-tag">Men Only</span>
           )}
           {isFalse(universityData.MENONLY) && isFalse(universityData.WOMENONLY) && (
             <span className="characteristic-tag">Co-educational</span>

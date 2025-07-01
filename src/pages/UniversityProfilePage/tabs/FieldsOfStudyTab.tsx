@@ -16,7 +16,7 @@ interface FieldOfStudy {
   };
 }
 
-type ViewMode = 'size' | 'earnings';
+type ViewMode = 'size' | 'earnings' | 'all';
 type SortDirection = 'asc' | 'desc';
 
 const formatCurrency = (amount: number | 'PrivacySuppressed'): string => {
@@ -79,13 +79,32 @@ const FieldsOfStudyTab: React.FC<{ unitId: string }> = ({ unitId }) => {
   };
 
   const getFilteredData = () => {
+    let filtered = [...data];
+    
     if (viewMode === 'earnings') {
-      return data.filter(item => 
+      filtered = data.filter(item => 
         item.earnings.annual !== 'PrivacySuppressed' && 
         item.earnings.annual > 0
       );
+    } else if (viewMode === 'size') {
+      filtered = data.filter(item => item.graduates.total > 0);
     }
-    return data.filter(item => item.graduates.total > 0);
+
+    // Sort the data based on view mode and direction
+    return filtered.sort((a, b) => {
+      if (viewMode === 'earnings') {
+        const aEarnings = a.earnings.annual === 'PrivacySuppressed' ? 0 : a.earnings.annual;
+        const bEarnings = b.earnings.annual === 'PrivacySuppressed' ? 0 : b.earnings.annual;
+        return sortDirection === 'desc' ? Number(bEarnings) - Number(aEarnings) : Number(aEarnings) - Number(bEarnings);
+      } else if (viewMode === 'size') {
+        return sortDirection === 'desc' ? b.graduates.total - a.graduates.total : a.graduates.total - b.graduates.total;
+      } else {
+        // 'all' mode - alphabetical sort
+        return sortDirection === 'desc' 
+          ? b.programName.localeCompare(a.programName) 
+          : a.programName.localeCompare(b.programName);
+      }
+    });
   };
 
   const getPrivacyNote = (sortMode: ViewMode) => {
@@ -117,11 +136,19 @@ const FieldsOfStudyTab: React.FC<{ unitId: string }> = ({ unitId }) => {
       <p className="description">
         {viewMode === 'earnings' 
           ? `Showing ${programsWithData} programs with earnings data out of ${totalPrograms} total programs.`
-          : `Showing ${programsWithData} programs with enrollment data out of ${totalPrograms} total programs.`
+          : viewMode === 'size'
+          ? `Showing ${programsWithData} programs with enrollment data out of ${totalPrograms} total programs.`
+          : `Showing all ${totalPrograms} programs, sorted alphabetically.`
         }
       </p>
       
       <div className="sort-options">
+        <button
+          className={`sort-button ${viewMode === 'all' ? 'active' : ''}`}
+          onClick={() => handleViewModeChange('all')}
+        >
+          All Majors {viewMode === 'all' && <span className="sort-arrow">{sortDirection === 'desc' ? '↓' : '↑'}</span>}
+        </button>
         <button
           className={`sort-button ${viewMode === 'size' ? 'active' : ''}`}
           onClick={() => handleViewModeChange('size')}
@@ -142,7 +169,7 @@ const FieldsOfStudyTab: React.FC<{ unitId: string }> = ({ unitId }) => {
             <tr>
               <th className="program-col">Program & Credential</th>
               <th className="metric-col">
-                {viewMode === 'size' ? 'Total Graduates' : 'Annual Earnings'}
+                {viewMode === 'size' ? 'Total Graduates' : viewMode === 'earnings' ? 'Annual Earnings' : ''}
               </th>
             </tr>
           </thead>
@@ -156,7 +183,9 @@ const FieldsOfStudyTab: React.FC<{ unitId: string }> = ({ unitId }) => {
                 <td className="metric-col">
                   {viewMode === 'size' 
                     ? field.graduates.total.toLocaleString()
-                    : formatCurrency(field.earnings.annual)
+                    : viewMode === 'earnings'
+                    ? formatCurrency(field.earnings.annual)
+                    : ''
                   }
                 </td>
               </tr>

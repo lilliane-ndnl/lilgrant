@@ -165,8 +165,8 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
                 'ACT Composite'
               )
             )}
-            <p className="summary-text">{summaryText}</p>
           </div>
+          <p className="summary-text">{summaryText}</p>
         </div>
       </div>
 
