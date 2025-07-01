@@ -5,53 +5,48 @@ import './UniversityProfilePage.css';
 import { formatFullStateName } from '../../utils/universityDataHelper';
 
 interface University {
-  id: string;
-  INSTNM: string;
-  CITY?: string;
-  STABBR?: string;
-  CONTROL?: string;
-  LOCALE?: string;
-  CCSIZSET?: string;
-  HIGHDEG?: string;
-  ADM_RATE?: string;
-  SATVR25?: string;
-  SATVR75?: string;
-  SATMT25?: string;
-  SATMT75?: string;
-  ACTCM25?: string;
-  ACTCM75?: string;
-  NPT41_PUB?: string;
-  NPT41_PRIV?: string;
-  NPT42_PUB?: string;
-  NPT42_PRIV?: string;
-  NPT43_PUB?: string;
-  NPT43_PRIV?: string;
-  NPT44_PUB?: string;
-  NPT44_PRIV?: string;
-  NPT45_PUB?: string;
-  NPT45_PRIV?: string;
-  PCIP14?: string;
-  PCIP52?: string;
-  PCIP51?: string;
-  PCIP45?: string;
-  PCIP11?: string;
-  C150_4_POOLED?: string;
-  RET_FT4?: string;
-  MD_EARN_WNE_P10?: string;
-  GT_25K_P6?: string;
-  UGDS_WHITE?: string;
-  UGDS_BLACK?: string;
-  UGDS_HISP?: string;
-  UGDS_ASIAN?: string;
-  UGDS_NRA?: string;
-  UGDS_2MOR?: string;
-  officialLink?: string;
+  id?: string;
+  name: string;
+  city?: string;
+  state?: string;
+  stateFull?: string;
+  control?: string;
+  region?: string;
+  metroArea?: string;
+  setting?: string;
+  institutionSize?: string;
+  hbcu?: string;
+  primaryFocus?: string;
+  undergraduate?: string;
+  studentResidence?: string;
+  religious?: string;
+  budgetCategory?: string;
+  tuitionFees?: string;
+  roomBoard?: string;
+  totalCost?: string;
+  aidTypes?: string;
+  numIntlAid?: string;
+  pctIntlAid?: string;
+  avgAidAmount?: string;
+  avgCostAfterAid?: string;
+  totalAwardedMillions?: string;
+  meetsFullNeed?: string;
+  howToApply?: string;
+  acceptanceRate?: string;
+  intlAcceptanceRate?: string;
+  intlYield?: string;
+  class2027IntlApps?: string;
+  class2027IntlAdmit?: string;
+  class2027IntlEnroll?: string;
+  dataSource?: string;
+  website?: string;
+  INSTURL?: string;
 }
 
 const UniversityProfilePage: React.FC = () => {
   const { universityId } = useParams<{ universityId: string }>();
-  const [universityData, setUniversityData] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
+  const [universityData, setUniversityData] = useState<University | null>(null);
+  const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState('overview');
 
@@ -66,32 +61,36 @@ const UniversityProfilePage: React.FC = () => {
       try {
         setLoading(true);
         setError(null);
-        
-        // First try to fetch from the details directory
-        let response = await fetch(`/data/details/${universityId}.json`);
-        
-        // If that fails, try fetching from university-data-final.json
-        if (!response.ok) {
-          const allUniversitiesResponse = await fetch('/data/university-data-final.json');
-          if (!allUniversitiesResponse.ok) {
-            throw new Error(`Failed to load university data (Status: ${allUniversitiesResponse.status})`);
-          }
+
+        // Try to fetch from university-data-final.json first
+        const allUniversitiesResponse = await fetch('/data/university-data-final.json');
+        if (allUniversitiesResponse.ok) {
           const allUniversities = await allUniversitiesResponse.json();
-          const university = allUniversities.find((u: any) => u.id === universityId);
-          if (!university) {
-            throw new Error('University not found');
+          // Try to find the university by ID or name
+          const university = allUniversities.find((u: any) => 
+            String(u.id) === universityId || 
+            u.name.toLowerCase().replace(/[^a-z0-9]/g, '-') === universityId.toLowerCase()
+          );
+          if (university) {
+            setUniversityData(university);
+            setLoading(false);
+            return;
           }
-          setUniversityData(university);
-        } else {
-          const data = await response.json();
-          if (!data || typeof data !== 'object') {
-            throw new Error('Invalid university data received');
-          }
-          setUniversityData(data);
         }
+
+        // If not found in university-data-final.json, try individual file
+        const response = await fetch(`/data/details/${universityId}.json`);
+        if (!response.ok) {
+          throw new Error('University not found');
+        }
+        const data = await response.json();
+        if (!data || typeof data !== 'object') {
+          throw new Error('Invalid university data received');
+        }
+        setUniversityData(data);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load university data');
         console.error('Error loading university data:', err);
+        setError('University not found');
       } finally {
         setLoading(false);
       }
@@ -230,14 +229,20 @@ const UniversityProfilePage: React.FC = () => {
     );
   }
 
-  if (error || !universityData) {
+  if (error) {
+    return (
+      <div className="error-container">
+        <h2>{error}</h2>
+        <Link to="/universities" className="back-link">Back to University Hub</Link>
+      </div>
+    );
+  }
+
+  if (!universityData) {
     return (
         <div className="error-container">
-        <h2>Error Loading Data</h2>
-        <p>{error || 'Failed to load university data'}</p>
-        <Link to="/university-hub" className="back-button">
-          Return to University Hub
-          </Link>
+        <h2>University not found</h2>
+        <Link to="/universities" className="back-link">Back to University Hub</Link>
         </div>
     );
   }
@@ -248,7 +253,7 @@ const UniversityProfilePage: React.FC = () => {
       <div className="error-container">
         <h2>Invalid Data</h2>
         <p>The university data appears to be incomplete.</p>
-        <Link to="/university-hub" className="back-button">
+        <Link to="/universities" className="back-link">
           Return to University Hub
         </Link>
       </div>
@@ -261,12 +266,12 @@ const UniversityProfilePage: React.FC = () => {
       <div className="hero-header">
         <div className="hero-content">
           <div className="header-buttons">
-            <Link to="/university-hub" className="back-link">
+            <Link to="/universities" className="back-link">
             ← Back to University Hub
           </Link>
             {universityData.INSTURL && (
               <a 
-                href={universityData.INSTURL} 
+                href={universityData.INSTURL.startsWith('http') ? universityData.INSTURL : `https://${universityData.INSTURL}`} 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="visit-website-btn"

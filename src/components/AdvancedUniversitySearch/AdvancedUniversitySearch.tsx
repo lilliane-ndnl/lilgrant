@@ -11,13 +11,11 @@ export interface SearchFilters {
 interface AdvancedUniversitySearchProps {
   filters: SearchFilters;
   onFiltersChange: (filters: SearchFilters) => void;
-  onShowAdvancedFilters: () => void;
 }
 
 const AdvancedUniversitySearch: React.FC<AdvancedUniversitySearchProps> = ({
   filters,
   onFiltersChange,
-  onShowAdvancedFilters
 }) => {
   const handleInputChange = (field: keyof SearchFilters, value: string) => {
     onFiltersChange({
@@ -89,9 +87,6 @@ const AdvancedUniversitySearch: React.FC<AdvancedUniversitySearchProps> = ({
             <option key={affiliation.value} value={affiliation.value}>{affiliation.label}</option>
           ))}
         </select>
-        <button className="btn-primary search-btn" type="button" onClick={onShowAdvancedFilters}>
-          All Filters
-        </button>
       </div>
     </section>
   );

@@ -54,7 +54,9 @@ const UniversityCard = React.memo(({ university }: UniversityCardProps) => {
   const navigate = useNavigate();
 
   const handleViewProfile = useCallback(() => {
-    navigate(`/university/${university.id}`);
+    // Create a URL-friendly slug from the university name
+    const slug = String(university.id);
+    navigate(`/university/${slug}`);
   }, [navigate, university.id]);
 
   if (!university || !university.id || !university.name) {

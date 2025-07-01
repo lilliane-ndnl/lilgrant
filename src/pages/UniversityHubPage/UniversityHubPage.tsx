@@ -1,8 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import AdvancedUniversitySearch from '../../components/AdvancedUniversitySearch/AdvancedUniversitySearch';
 import type { SearchFilters } from '../../components/AdvancedUniversitySearch/AdvancedUniversitySearch';
-import AdvancedFilterDrawer from '../../components/AdvancedFilterDrawer/AdvancedFilterDrawer';
-import type { AdvancedFilters } from '../../components/AdvancedFilterDrawer/AdvancedFilterDrawer';
 import UniversityCard from '../../components/UniversityCard/UniversityCard';
 import Pagination from '../../components/Pagination/Pagination';
 import LoadingBar from '../../components/LoadingBar/LoadingBar';
@@ -32,7 +30,6 @@ const UniversityHubPage: React.FC = () => {
   const [allUniversities, setAllUniversities] = useState<UniversityData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
   const [filters, setFilters] = useState<SearchFilters>({
     searchTerm: '',
     state: '',
@@ -41,28 +38,6 @@ const UniversityHubPage: React.FC = () => {
     genderFocus: '',
     primaryFocus: '',
     religiousAffiliation: ''
-  });
-  const [advancedFilters, setAdvancedFilters] = useState<AdvancedFilters>({
-    minTuition: '',
-    maxTuition: '',
-    minAidAmount: '',
-    maxAidAmount: '',
-    aidTypes: [],
-    meetsFullNeed: '',
-    minAcceptanceRate: '',
-    maxAcceptanceRate: '',
-    minIntlAcceptanceRate: '',
-    maxIntlAcceptanceRate: '',
-    control: [],
-    region: [],
-    institutionSize: [],
-    hbcu: '',
-    undergraduate: [],
-    earlyPlanOffered: [],
-    minIntlAid: '',
-    maxIntlAid: '',
-    minPctIntlAid: '',
-    maxPctIntlAid: ''
   });
   const itemsPerPage = 28;
 
@@ -141,7 +116,7 @@ const UniversityHubPage: React.FC = () => {
     return filtered;
   }, [allUniversities, activeGroup]);
 
-  // Apply search and advanced filters to the group's universities
+  // Apply search filters to the group's universities
   const filteredUniversities = useMemo(() => {
     console.log('Applying filters to universities');
     console.log('Universities before filtering:', universitiesForGroup.length);
@@ -156,40 +131,17 @@ const UniversityHubPage: React.FC = () => {
       if (filters.city && !university.city?.toLowerCase().includes(filters.city.toLowerCase())) {
         return false;
       }
-      
-      // Advanced filters adapted to new data structure
-      if (advancedFilters.control.length > 0 && !advancedFilters.control.includes(String(university.CONTROL))) {
-        return false;
-      }
-      
-      // Handle admission rate filtering with proper null checking
-      const admRate = university.ADM_RATE ? parseFloat(String(university.ADM_RATE)) : null;
-      if (advancedFilters.minAcceptanceRate && admRate !== null) {
-        if (admRate < parseFloat(advancedFilters.minAcceptanceRate)) return false;
-      }
-      if (advancedFilters.maxAcceptanceRate && admRate !== null) {
-        if (admRate > parseFloat(advancedFilters.maxAcceptanceRate)) return false;
-      }
-      
       return true;
     });
     console.log('Universities after filtering:', filtered.length);
     return filtered;
-  }, [universitiesForGroup, filters, advancedFilters]);
+  }, [universitiesForGroup, filters]);
 
   // Pagination
   const totalPages = Math.ceil(filteredUniversities.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const currentUniversities = filteredUniversities.slice(startIndex, endIndex);
-
-  console.log('Current universities to display:', {
-    total: filteredUniversities.length,
-    currentPage,
-    startIndex,
-    endIndex,
-    displayCount: currentUniversities.length
-  });
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
@@ -199,19 +151,6 @@ const UniversityHubPage: React.FC = () => {
   const handleFiltersChange = (newFilters: SearchFilters) => {
     setFilters(newFilters);
     setCurrentPage(1);
-  };
-
-  const handleAdvancedFiltersChange = (newAdvancedFilters: AdvancedFilters) => {
-    setAdvancedFilters(newAdvancedFilters);
-    setCurrentPage(1);
-  };
-
-  const handleShowAdvancedFilters = () => {
-    setShowAdvancedFilters(true);
-  };
-
-  const handleCloseAdvancedFilters = () => {
-    setShowAdvancedFilters(false);
   };
 
   if (loading) {
@@ -244,23 +183,12 @@ const UniversityHubPage: React.FC = () => {
     );
   }
 
-  console.log('Rendering UniversityHubPage with:', {
-    totalUniversities: allUniversities.length,
-    filteredCount: filteredUniversities.length,
-    currentPageUniversities: currentUniversities.length,
-    currentPage,
-    activeGroup,
-    filters,
-    advancedFilters
-  });
-
   return (
     <div className="university-hub-page">
       <div className="search-section">
         <AdvancedUniversitySearch
           filters={filters}
           onFiltersChange={handleFiltersChange}
-          onShowAdvancedFilters={handleShowAdvancedFilters}
         />
       </div>
 
@@ -283,13 +211,6 @@ const UniversityHubPage: React.FC = () => {
           onPageChange={handlePageChange}
         />
       )}
-
-      <AdvancedFilterDrawer
-        show={showAdvancedFilters}
-        onClose={handleCloseAdvancedFilters}
-        filters={advancedFilters}
-        onFiltersChange={handleAdvancedFiltersChange}
-      />
     </div>
   );
 };
