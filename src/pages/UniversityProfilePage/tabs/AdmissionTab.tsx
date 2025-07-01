@@ -116,38 +116,30 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
   // Generate summary text
   const acceptanceRate = formatAcceptanceRate(universityData.ADM_RATE);
   const testingPolicy = formatTestRequirement(universityData.ADMCON7).toLowerCase();
-  let testingPolicyPhrase = 'considers admission test scores (SAT/ACT) during the application process.';
+  let testingPolicyPhrase = 'requires the submission of SAT/ACT scores as a key part of the application';
 
-  if (testingPolicy === 'required') {
-    testingPolicyPhrase = 'requires the submission of SAT/ACT scores as a key part of the application.';
-  } else if (testingPolicy === 'recommended') {
-    testingPolicyPhrase = 'recommends that applicants submit SAT/ACT scores to strengthen their application.';
+  if (testingPolicy === 'recommended') {
+    testingPolicyPhrase = 'recommends submitting SAT/ACT scores to strengthen your application';
   } else if (testingPolicy === 'considered but not required') {
-    testingPolicyPhrase = 'considers admission test scores, but does not require them for admission.';
+    testingPolicyPhrase = 'considers SAT/ACT scores if submitted, but does not require them';
+  } else if (testingPolicy === 'neither required nor recommended') {
+    testingPolicyPhrase = 'does not require or recommend SAT/ACT scores';
   }
 
-  const summaryText = `${universityData.INSTNM} has an acceptance rate of ${acceptanceRate}. The university ${testingPolicyPhrase} Students who were admitted typically had scores in these ranges.`;
+  const summaryText = `${universityData.INSTNM} has an acceptance rate of ${acceptanceRate}. The university ${testingPolicyPhrase}. Students who were admitted and enrolled typically had admission test scores in the ranges shown above.`;
 
   return (
     <div className="admission-container">
-      {/* Card 1: Application Information */}
+      {/* Card 1: Admission Statistics */}
       <div className="admission-card">
-        <h2>Application Information</h2>
-        <div className="info-grid">
-          <div className="info-item">
-            <span className="info-label">Testing Policy</span>
-            <span className="info-value">{formatTestRequirement(universityData.ADMCON7)}</span>
-          </div>
-        </div>
-      </div>
-
-      {/* Card 2: Test Scores & Selectivity */}
-      <div className="admission-card">
-        <h2>Test Scores & Selectivity</h2>
-        <p className="summary-text">{summaryText}</p>
-
+        <h2>Admission Statistics</h2>
         <div className="admission-stats-grid">
-          {/* Left Column: Test Score Range Bars */}
+          {/* Left Column: Acceptance Rate Donut Chart */}
+          <div className="acceptance-rate-container">
+            <AcceptanceRatePieChart value={universityData.ADM_RATE || 0} />
+          </div>
+
+          {/* Right Column: Test Score Range Bars */}
           <div className="test-scores-container">
             {universityData.SATVR25 && universityData.SATVR75 && (
               renderScoreRangeBar(
@@ -173,11 +165,18 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
                 'ACT Composite'
               )
             )}
+            <p className="summary-text">{summaryText}</p>
           </div>
+        </div>
+      </div>
 
-          {/* Right Column: Acceptance Rate Donut Chart */}
-          <div className="acceptance-rate-container">
-            <AcceptanceRatePieChart value={universityData.ADM_RATE || 0} />
+      {/* Card 2: Application Information */}
+      <div className="admission-card">
+        <h2>Application Information</h2>
+        <div className="info-grid">
+          <div className="info-item">
+            <span className="info-label">Testing Policy</span>
+            <span className="info-value">{formatTestRequirement(universityData.ADMCON7)}</span>
           </div>
         </div>
       </div>
