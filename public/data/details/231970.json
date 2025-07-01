@@ -3313,5 +3313,142 @@
   "MD_EARN_WNE_INDEP1_P11": "NA",
   "MD_EARN_WNE_MALE0_P11": "NA",
   "MD_EARN_WNE_MALE1_P11": "NA",
-  "SCORECARD_SECTOR": "1"
+  "SCORECARD_SECTOR": "1",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Veterinary Biomedical and Clinical Sciences",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Educational Administration and Supervision",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Educational Administration and Supervision",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Educational Administration and Supervision",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Cell/Cellular Biology and Anatomical Sciences",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Cell/Cellular Biology and Anatomical Sciences",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Physiology, Pathology and Related Sciences",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Physiology, Pathology and Related Sciences",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Biomathematics, Bioinformatics, and Computational Biology",
+      "CREDDESC": "Post-baccalaureate certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Biotechnology",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Ecology, Evolution, Systematics, and Population Biology",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Medicine",
+      "CREDDESC": "First professional degree",
+      "EARN_MDN_4YR": "94737"
+    },
+    {
+      "CIPDESC": "Biological and Biomedical Sciences, Other",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "78988"
+    },
+    {
+      "CIPDESC": "Biological and Biomedical Sciences, Other",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health Services/Allied Health/Health Sciences",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health and Medical Administrative Services",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health and Medical Administrative Services",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health and Medical Administrative Services",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Allied Health and Medical Assisting Services",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Allied Health Diagnostic, Intervention, and Treatment Professions",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "110059"
+    },
+    {
+      "CIPDESC": "Allied Health Diagnostic, Intervention, and Treatment Professions",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health/Medical Preparatory Programs",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Public Health",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "58545"
+    },
+    {
+      "CIPDESC": "Public Health",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Rehabilitation and Therapeutic Professions",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health Professions and Related Clinical Sciences, Other",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Biomathematics, Bioinformatics, and Computational Biology",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    }
+  ]
 }

@@ -1,0 +1,44 @@
+[
+  {
+    "cipCode": "4706",
+    "programName": "Vehicle Maintenance and Repair Technologies.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 119,
+      "workingCount": 1015
+    },
+    "earnings": {
+      "annual": 43226,
+      "monthly": 3602,
+      "byDemographic": {
+        "male": 43909,
+        "nonMale": 29918,
+        "pellRecipient": 41662,
+        "nonPellRecipient": 49961
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4706",
+    "programName": "Vehicle Maintenance and Repair Technologies.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 22,
+      "workingCount": 289
+    },
+    "earnings": {
+      "annual": 46639,
+      "monthly": 3887,
+      "byDemographic": {
+        "male": 47675,
+        "nonMale": 0,
+        "pellRecipient": 45979,
+        "nonPellRecipient": 51618
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

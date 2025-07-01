@@ -3313,5 +3313,252 @@
   "MD_EARN_WNE_INDEP1_P11": "22533",
   "MD_EARN_WNE_MALE0_P11": "19896",
   "MD_EARN_WNE_MALE1_P11": "27145",
-  "SCORECARD_SECTOR": "5"
+  "SCORECARD_SECTOR": "5",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Computer Science",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer Science",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer Systems Networking and Telecommunications",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Cosmetology and Related Personal Grooming Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Culinary Arts and Related Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Culinary Arts and Related Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Educational Administration and Supervision",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Special Education and Teaching",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Special Education and Teaching",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Teacher Education and Professional Development, Specific Levels and Methods",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Teacher Education and Professional Development, Specific Subject Areas",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Teacher Education and Professional Development, Specific Subject Areas",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Teaching English or French as a Second or Foreign Language",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Teaching English or French as a Second or Foreign Language",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Electrical, Electronics and Communications Engineering",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Industrial Engineering",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Biology",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "31224"
+    },
+    {
+      "CIPDESC": "Foods, Nutrition, and Related Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "9906"
+    },
+    {
+      "CIPDESC": "Biotechnology",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Biotechnology",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Psychology",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Criminal Justice and Corrections",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Criminal Justice and Corrections",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "19036"
+    },
+    {
+      "CIPDESC": "Criminal Justice and Corrections",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Security Science and Technology",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Electrical/Electronics Maintenance and Repair Technology",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Design and Applied Arts",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Music",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health and Medical Administrative Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Allied Health and Medical Assisting Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "20963"
+    },
+    {
+      "CIPDESC": "Allied Health and Medical Assisting Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Allied Health Diagnostic, Intervention, and Treatment Professions",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Allied Health Diagnostic, Intervention, and Treatment Professions",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "28495"
+    },
+    {
+      "CIPDESC": "Allied Health Diagnostic, Intervention, and Treatment Professions",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "22234"
+    },
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Practical Nursing, Vocational Nursing and Nursing Assistants",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Accounting and Related Services",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "26045"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "16675"
+    },
+    {
+      "CIPDESC": "Accounting and Related Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Accounting and Related Services",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Entrepreneurial and Small Business Operations",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Human Resources Management and Services",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Human Resources Management and Services",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Agricultural Production Operations",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Culinary Arts and Related Services",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Biotechnology",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Management Information Systems and Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    }
+  ]
 }

@@ -3313,5 +3313,212 @@
   "MD_EARN_WNE_INDEP1_P11": "NA",
   "MD_EARN_WNE_MALE0_P11": "NA",
   "MD_EARN_WNE_MALE1_P11": "NA",
-  "SCORECARD_SECTOR": "1"
+  "SCORECARD_SECTOR": "1",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Computer Science",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer Science",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer/Information Technology Administration and Management",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Aerospace, Aeronautical and Astronautical Engineering",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Aerospace, Aeronautical and Astronautical Engineering",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Aerospace, Aeronautical and Astronautical Engineering",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer Engineering",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer Engineering",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Electrical, Electronics and Communications Engineering",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Electrical, Electronics and Communications Engineering",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Engineering Physics",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Engineering Physics",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Engineering Physics",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Environmental/Environmental Health Engineering",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Nuclear Engineering",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Nuclear Engineering",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Systems Engineering",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Systems Engineering",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Systems Engineering",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Operations Research",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Operations Research",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Operations Research",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Mechatronics, Robotics, and Automation Engineering",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Engineering-Related Fields",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Applied Mathematics",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Applied Mathematics",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Atmospheric Sciences and Meteorology",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Physics",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Physics",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Materials Sciences",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Materials Sciences",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Economics",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Public Health",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Management Sciences and Quantitative Methods",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Nuclear Engineering",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Intelligence, Command Control and Information Operations",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Military Applied Sciences",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Data Analytics",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Data Analytics",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    }
+  ]
 }

@@ -3313,5 +3313,52 @@
   "MD_EARN_WNE_INDEP1_P11": "46966",
   "MD_EARN_WNE_MALE0_P11": "44685",
   "MD_EARN_WNE_MALE1_P11": "44328",
-  "SCORECARD_SECTOR": "9"
+  "SCORECARD_SECTOR": "9",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Health and Medical Administrative Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "92650"
+    },
+    {
+      "CIPDESC": "Practical Nursing, Vocational Nursing and Nursing Assistants",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "58583"
+    },
+    {
+      "CIPDESC": "Allied Health Diagnostic, Intervention, and Treatment Professions",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "50318"
+    },
+    {
+      "CIPDESC": "Allied Health and Medical Assisting Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "45199"
+    },
+    {
+      "CIPDESC": "Allied Health and Medical Assisting Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "33388"
+    },
+    {
+      "CIPDESC": "Allied Health Diagnostic, Intervention, and Treatment Professions",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Allied Health Diagnostic, Intervention, and Treatment Professions",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    }
+  ]
 }

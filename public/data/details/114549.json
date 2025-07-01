@@ -3313,5 +3313,67 @@
   "MD_EARN_WNE_INDEP1_P11": "NA",
   "MD_EARN_WNE_MALE0_P11": "NA",
   "MD_EARN_WNE_MALE1_P11": "NA",
-  "SCORECARD_SECTOR": "2"
+  "SCORECARD_SECTOR": "2",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Educational Administration and Supervision",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Educational Administration and Supervision",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Educational Administration and Supervision",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Human Development, Family Studies, and Related Services",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Human Development, Family Studies, and Related Services",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Clinical, Counseling and Applied Psychology",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Clinical, Counseling and Applied Psychology",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "95075"
+    },
+    {
+      "CIPDESC": "Clinical, Counseling and Applied Psychology",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "68883"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Human Resources Management and Services",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "147956"
+    },
+    {
+      "CIPDESC": "Human Resources Management and Services",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "70957"
+    },
+    {
+      "CIPDESC": "Human Resources Management and Services",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    }
+  ]
 }

@@ -3313,5 +3313,37 @@
   "MD_EARN_WNE_INDEP1_P11": "NA",
   "MD_EARN_WNE_MALE0_P11": "NA",
   "MD_EARN_WNE_MALE1_P11": "NA",
-  "SCORECARD_SECTOR": "6"
+  "SCORECARD_SECTOR": "6",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Law",
+      "CREDDESC": "First professional degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "First professional degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Management Sciences and Quantitative Methods",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Law",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    }
+  ]
 }

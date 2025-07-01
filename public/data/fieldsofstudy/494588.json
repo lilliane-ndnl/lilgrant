@@ -1,0 +1,128 @@
+[
+  {
+    "cipCode": "0183",
+    "programName": "Veterinary/Animal Health Technologies/Technicians.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 75,
+      "workingCount": 1231
+    },
+    "earnings": {
+      "annual": 34125,
+      "monthly": 2844,
+      "byDemographic": {
+        "male": 34817,
+        "nonMale": 34012,
+        "pellRecipient": 33616,
+        "nonPellRecipient": 35554
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0183",
+    "programName": "Veterinary/Animal Health Technologies/Technicians.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 0,
+      "workingCount": 366
+    },
+    "earnings": {
+      "annual": 40691,
+      "monthly": 3391,
+      "byDemographic": {
+        "male": 40701,
+        "nonMale": 40567,
+        "pellRecipient": 40609,
+        "nonPellRecipient": 42618
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5106",
+    "programName": "Dental Support Services and Allied Professions.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 18,
+      "workingCount": 978
+    },
+    "earnings": {
+      "annual": 33638,
+      "monthly": 2803,
+      "byDemographic": {
+        "male": 38524,
+        "nonMale": 33328,
+        "pellRecipient": 32697,
+        "nonPellRecipient": 38711
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 5,
+      "workingCount": 406
+    },
+    "earnings": {
+      "annual": 34662,
+      "monthly": 2889,
+      "byDemographic": {
+        "male": 42365,
+        "nonMale": 34246,
+        "pellRecipient": 35218,
+        "nonPellRecipient": 31943
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 42,
+      "workingCount": 2871
+    },
+    "earnings": {
+      "annual": 37325,
+      "monthly": 3110,
+      "byDemographic": {
+        "male": 42231,
+        "nonMale": 36534,
+        "pellRecipient": 36607,
+        "nonPellRecipient": 42310
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5110",
+    "programName": "Clinical/Medical Laboratory Science/Research and Allied Professions.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 41,
+      "workingCount": 402
+    },
+    "earnings": {
+      "annual": 36407,
+      "monthly": 3034,
+      "byDemographic": {
+        "male": 39992,
+        "nonMale": 35103,
+        "pellRecipient": 35072,
+        "nonPellRecipient": 37083
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

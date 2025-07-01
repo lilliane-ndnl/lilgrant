@@ -1,0 +1,191 @@
+[
+  {
+    "cipCode": "5106",
+    "programName": "Dental Support Services and Allied Professions.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 138,
+      "workingCount": 246
+    },
+    "earnings": {
+      "annual": 34004,
+      "monthly": 2834,
+      "byDemographic": {
+        "male": 31538,
+        "nonMale": 34062,
+        "pellRecipient": 32221,
+        "nonPellRecipient": 36930
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5106",
+    "programName": "Dental Support Services and Allied Professions.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 46,
+      "workingCount": 110
+    },
+    "earnings": {
+      "annual": 69174,
+      "monthly": 5765,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 67570,
+        "nonPellRecipient": 76758
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 8,
+      "workingCount": 63
+    },
+    "earnings": {
+      "annual": 34465,
+      "monthly": 2872,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 143,
+      "workingCount": 443
+    },
+    "earnings": {
+      "annual": 36586,
+      "monthly": 3049,
+      "byDemographic": {
+        "male": 38943,
+        "nonMale": 36494,
+        "pellRecipient": 35847,
+        "nonPellRecipient": 40402
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 15,
+      "workingCount": 53
+    },
+    "earnings": {
+      "annual": 53874,
+      "monthly": 4490,
+      "byDemographic": {
+        "male": 62919,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 0,
+      "workingCount": 114
+    },
+    "earnings": {
+      "annual": 54527,
+      "monthly": 4544,
+      "byDemographic": {
+        "male": 61311,
+        "nonMale": 52139,
+        "pellRecipient": 53440,
+        "nonPellRecipient": 54954
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 83,
+      "workingCount": 117
+    },
+    "earnings": {
+      "annual": 70242,
+      "monthly": 5854,
+      "byDemographic": {
+        "male": 78628,
+        "nonMale": 67858,
+        "pellRecipient": 70922,
+        "nonPellRecipient": 70280
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 0,
+      "workingCount": 103
+    },
+    "earnings": {
+      "annual": 82006,
+      "monthly": 6834,
+      "byDemographic": {
+        "male": 103798,
+        "nonMale": 79094,
+        "pellRecipient": 82338,
+        "nonPellRecipient": 81350
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5139",
+    "programName": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 89,
+      "workingCount": 134
+    },
+    "earnings": {
+      "annual": 60760,
+      "monthly": 5063,
+      "byDemographic": {
+        "male": 54602,
+        "nonMale": 61118,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

@@ -1,0 +1,779 @@
+[
+  {
+    "cipCode": "1107",
+    "programName": "Computer Science.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 7,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1108",
+    "programName": "Computer Software and Media Applications.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1110",
+    "programName": "Computer/Information Technology Administration and Management.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 18,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1301",
+    "programName": "Education, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1310",
+    "programName": "Special Education and Teaching.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 27,
+      "workingCount": 37
+    },
+    "earnings": {
+      "annual": 60728,
+      "monthly": 5061,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 68253,
+        "nonPellRecipient": 55948
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1312",
+    "programName": "Teacher Education and Professional Development, Specific Levels and Methods.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 16,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2301",
+    "programName": "English Language and Literature, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2401",
+    "programName": "Liberal Arts and Sciences, General Studies and Humanities.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 8,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2601",
+    "programName": "Biology, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 21,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2601",
+    "programName": "Biology, General.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 26,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2701",
+    "programName": "Mathematics.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 5,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3000",
+    "programName": "Multi-/Interdisciplinary Studies, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3105",
+    "programName": "Health and Physical Education/Fitness.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 9,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3904",
+    "programName": "Religious Education.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4005",
+    "programName": "Chemistry.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4201",
+    "programName": "Psychology, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 14,
+      "workingCount": 25
+    },
+    "earnings": {
+      "annual": 46512,
+      "monthly": 3876,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4301",
+    "programName": "Criminal Justice and Corrections.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 15,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4407",
+    "programName": "Social Work.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 63,
+      "workingCount": 75
+    },
+    "earnings": {
+      "annual": 53977,
+      "monthly": 4498,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4511",
+    "programName": "Sociology.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5102",
+    "programName": "Communication Disorders Sciences and Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5102",
+    "programName": "Communication Disorders Sciences and Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5102",
+    "programName": "Communication Disorders Sciences and Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 26,
+      "workingCount": 25
+    },
+    "earnings": {
+      "annual": 54871,
+      "monthly": 4573,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5102",
+    "programName": "Communication Disorders Sciences and Services.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 8,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 9,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5111",
+    "programName": "Health/Medical Preparatory Programs.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 24,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5132",
+    "programName": "Bioethics/Medical Ethics.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 7,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 93,
+      "workingCount": 214
+    },
+    "earnings": {
+      "annual": 92829,
+      "monthly": 7736,
+      "byDemographic": {
+        "male": 103805,
+        "nonMale": 91399,
+        "pellRecipient": 90079,
+        "nonPellRecipient": 95923
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 6,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 15,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5203",
+    "programName": "Accounting and Related Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 10,
+      "workingCount": 27
+    },
+    "earnings": {
+      "annual": 67815,
+      "monthly": 5651,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5207",
+    "programName": "Entrepreneurial and Small Business Operations.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5208",
+    "programName": "Finance and Financial Management Services.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5208",
+    "programName": "Finance and Financial Management Services.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5214",
+    "programName": "Marketing.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 6,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5299",
+    "programName": "Business, Management, Marketing, and Related Support Services, Other.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 15,
+      "workingCount": 36
+    },
+    "earnings": {
+      "annual": 81908,
+      "monthly": 6826,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5401",
+    "programName": "History.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

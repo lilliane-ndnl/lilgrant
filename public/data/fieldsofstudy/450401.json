@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "1204",
+    "programName": "Cosmetology and Related Personal Grooming Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 226,
+      "workingCount": 283
+    },
+    "earnings": {
+      "annual": 20723,
+      "monthly": 1727,
+      "byDemographic": {
+        "male": 23252,
+        "nonMale": 20873,
+        "pellRecipient": 20615,
+        "nonPellRecipient": 23703
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5004",
+    "programName": "Design and Applied Arts.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 31,
+      "workingCount": 24
+    },
+    "earnings": {
+      "annual": 18781,
+      "monthly": 1565,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5135",
+    "programName": "Somatic Bodywork and Related Therapeutic Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 46,
+      "workingCount": 46
+    },
+    "earnings": {
+      "annual": 21194,
+      "monthly": 1766,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

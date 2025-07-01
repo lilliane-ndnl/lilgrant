@@ -3313,5 +3313,22 @@
   "MD_EARN_WNE_INDEP1_P11": "30060",
   "MD_EARN_WNE_MALE0_P11": "29611",
   "MD_EARN_WNE_MALE1_P11": "32488",
-  "SCORECARD_SECTOR": "9"
+  "SCORECARD_SECTOR": "9",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Radio, Television, and Digital Communication",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Radio, Television, and Digital Communication",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Music",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "23042"
+    }
+  ]
 }

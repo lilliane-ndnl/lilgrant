@@ -3313,5 +3313,32 @@
   "MD_EARN_WNE_INDEP1_P11": "26754",
   "MD_EARN_WNE_MALE0_P11": "28189",
   "MD_EARN_WNE_MALE1_P11": "37534",
-  "SCORECARD_SECTOR": "6"
+  "SCORECARD_SECTOR": "6",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Radio, Television, and Digital Communication",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Design and Applied Arts",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "39166"
+    },
+    {
+      "CIPDESC": "Design and Applied Arts",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "General Sales, Merchandising and Related Marketing Operations",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Specialized Sales, Merchandising and Marketing Operations",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "34564"
+    }
+  ]
 }

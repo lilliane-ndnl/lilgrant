@@ -3313,5 +3313,37 @@
   "MD_EARN_WNE_INDEP1_P11": "22110",
   "MD_EARN_WNE_MALE0_P11": "19719",
   "MD_EARN_WNE_MALE1_P11": "NA",
-  "SCORECARD_SECTOR": "12"
+  "SCORECARD_SECTOR": "12",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Health Services/Allied Health/Health Sciences",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Alternative and Complementary Medicine and Medical Systems",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Alternative and Complementary Medicine and Medical Systems",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "32441"
+    },
+    {
+      "CIPDESC": "Somatic Bodywork and Related Therapeutic Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "17864"
+    },
+    {
+      "CIPDESC": "Somatic Bodywork and Related Therapeutic Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Somatic Bodywork and Related Therapeutic Services",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    }
+  ]
 }

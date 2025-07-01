@@ -3313,5 +3313,517 @@
   "MD_EARN_WNE_INDEP1_P11": "33500",
   "MD_EARN_WNE_MALE0_P11": "30819",
   "MD_EARN_WNE_MALE1_P11": "37277",
-  "SCORECARD_SECTOR": "7"
+  "SCORECARD_SECTOR": "7",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Applied Horticulture and Horticultural Business Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Applied Horticulture and Horticultural Business Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Audiovisual Communications Technologies/Technicians",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Audiovisual Communications Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Graphic Communications",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Graphic Communications",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer and Information Sciences",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "50825"
+    },
+    {
+      "CIPDESC": "Computer and Information Sciences",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "48486"
+    },
+    {
+      "CIPDESC": "Data Processing",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Information Science/Studies",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer Software and Media Applications",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Cosmetology and Related Personal Grooming Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Teaching Assistants/Aides",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "32438"
+    },
+    {
+      "CIPDESC": "Cosmetology and Related Personal Grooming Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "20393"
+    },
+    {
+      "CIPDESC": "Culinary Arts and Related Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Culinary Arts and Related Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "29304"
+    },
+    {
+      "CIPDESC": "Education",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Educational Administration and Supervision",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Teacher Education and Professional Development, Specific Levels and Methods",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Teacher Education and Professional Development, Specific Levels and Methods",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "30326"
+    },
+    {
+      "CIPDESC": "Engineering",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Civil Engineering",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Mechatronics, Robotics, and Automation Engineering",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Architectural Engineering Technologies/Technicians",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Architectural Engineering Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Civil Engineering Technologies/Technicians",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Civil Engineering Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Electrical Engineering Technologies/Technicians",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Electrical Engineering Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Electromechanical Instrumentation and Maintenance Technologies/Technicians",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Electromechanical Instrumentation and Maintenance Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Industrial Production Technologies/Technicians",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Quality Control and Safety Technologies/Technicians",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Quality Control and Safety Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Mechanical Engineering Related Technologies/Technicians",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Mechanical Engineering Related Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Engineering-Related Technologies",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Engineering-Related Technologies",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer Engineering Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Energy Systems Technologies/Technicians",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Energy Systems Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Engineering Technologies/Technicians, Other",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "American Sign Language",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "American Sign Language",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Human Development, Family Studies, and Related Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Legal Support Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "47356"
+    },
+    {
+      "CIPDESC": "Legal Support Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "40851"
+    },
+    {
+      "CIPDESC": "Liberal Arts and Sciences, General Studies and Humanities",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "36521"
+    },
+    {
+      "CIPDESC": "Liberal Arts and Sciences, General Studies and Humanities",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "30646"
+    },
+    {
+      "CIPDESC": "Nuclear and Industrial Radiologic Technologies/Technicians",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Nuclear and Industrial Radiologic Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Criminal Justice and Corrections",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "40791"
+    },
+    {
+      "CIPDESC": "Criminal Justice and Corrections",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "40332"
+    },
+    {
+      "CIPDESC": "Fire Protection",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Fire Protection",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Social Work",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Electrical and Power Transmission Installers",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Electrical and Power Transmission Installers",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Building/Construction Finishing, Management, and Inspection",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Building/Construction Finishing, Management, and Inspection",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Heavy/Industrial Equipment Maintenance Technologies",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Vehicle Maintenance and Repair Technologies",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Vehicle Maintenance and Repair Technologies",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "59300"
+    },
+    {
+      "CIPDESC": "Precision Metal Working",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Dental Support Services and Allied Professions",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "52864"
+    },
+    {
+      "CIPDESC": "Precision Metal Working",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "46439"
+    },
+    {
+      "CIPDESC": "Woodworking",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Design and Applied Arts",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "42908"
+    },
+    {
+      "CIPDESC": "Design and Applied Arts",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "32028"
+    },
+    {
+      "CIPDESC": "Dental Support Services and Allied Professions",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health and Medical Administrative Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "61843"
+    },
+    {
+      "CIPDESC": "Health and Medical Administrative Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "36638"
+    },
+    {
+      "CIPDESC": "Allied Health and Medical Assisting Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Allied Health and Medical Assisting Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "40746"
+    },
+    {
+      "CIPDESC": "Allied Health Diagnostic, Intervention, and Treatment Professions",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Allied Health Diagnostic, Intervention, and Treatment Professions",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "55776"
+    },
+    {
+      "CIPDESC": "Clinical/Medical Laboratory Science/Research and Allied Professions",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Clinical/Medical Laboratory Science/Research and Allied Professions",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health/Medical Preparatory Programs",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Mental and Social Health Services and Allied Professions",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Human Resources Management and Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "47955"
+    },
+    {
+      "CIPDESC": "Mental and Social Health Services and Allied Professions",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "31838"
+    },
+    {
+      "CIPDESC": "Ophthalmic and Optometric Support Services and Allied Professions",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Ophthalmic and Optometric Support Services and Allied Professions",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Rehabilitation and Therapeutic Professions",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Practical Nursing, Vocational Nursing and Nursing Assistants",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "37800"
+    },
+    {
+      "CIPDESC": "Accounting and Related Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Accounting and Related Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Business Operations Support and Assistant Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Hospitality Administration/Management",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Hospitality Administration/Management",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "International Business",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "International Business",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Management Information Systems and Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "46121"
+    },
+    {
+      "CIPDESC": "Management Information Systems and Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Marketing",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Marketing",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    }
+  ]
 }

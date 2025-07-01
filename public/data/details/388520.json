@@ -3313,5 +3313,47 @@
   "MD_EARN_WNE_INDEP1_P11": "48600",
   "MD_EARN_WNE_MALE0_P11": "35988",
   "MD_EARN_WNE_MALE1_P11": "52686",
-  "SCORECARD_SECTOR": "5"
+  "SCORECARD_SECTOR": "5",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Bible/Biblical Studies",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Bible/Biblical Studies",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Bible/Biblical Studies",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Religious Education",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Theological and Ministerial Studies",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "33046"
+    },
+    {
+      "CIPDESC": "Religious Education",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "29507"
+    },
+    {
+      "CIPDESC": "Pastoral Counseling and Specialized Ministries",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    }
+  ]
 }

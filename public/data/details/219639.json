@@ -3313,5 +3313,57 @@
   "MD_EARN_WNE_INDEP1_P11": "63147",
   "MD_EARN_WNE_MALE0_P11": "59112",
   "MD_EARN_WNE_MALE1_P11": "73507",
-  "SCORECARD_SECTOR": "5"
+  "SCORECARD_SECTOR": "5",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Biology",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health and Medical Administrative Services",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "47154"
+    },
+    {
+      "CIPDESC": "Allied Health Diagnostic, Intervention, and Treatment Professions",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Allied Health Diagnostic, Intervention, and Treatment Professions",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "56046"
+    },
+    {
+      "CIPDESC": "Clinical/Medical Laboratory Science/Research and Allied Professions",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health/Medical Preparatory Programs",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Public Health",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "66408"
+    },
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "First professional degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    }
+  ]
 }

@@ -1,0 +1,128 @@
+[
+  {
+    "cipCode": "1313",
+    "programName": "Teacher Education and Professional Development, Specific Subject Areas.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 10,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "1313",
+    "programName": "Teacher Education and Professional Development, Specific Subject Areas.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 9,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "3103",
+    "programName": "Parks, Recreation and Leisure Facilities Management.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "3105",
+    "programName": "Health and Physical Education/Fitness.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 10,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "3105",
+    "programName": "Health and Physical Education/Fitness.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 24,
+      "workingCount": 59
+    },
+    "earnings": {
+      "annual": 56183,
+      "monthly": 4682,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 51131,
+        "nonPellRecipient": 67618
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "3105",
+    "programName": "Health and Physical Education/Fitness.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 15,
+      "workingCount": 17
+    },
+    "earnings": {
+      "annual": 85250,
+      "monthly": 7104,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  }
+]

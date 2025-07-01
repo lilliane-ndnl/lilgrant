@@ -1,0 +1,212 @@
+[
+  {
+    "cipCode": "1304",
+    "programName": "Educational Administration and Supervision.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 39,
+      "workingCount": 110
+    },
+    "earnings": {
+      "annual": 38587,
+      "monthly": 3216,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 38896,
+        "nonPellRecipient": 37040
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1312",
+    "programName": "Teacher Education and Professional Development, Specific Levels and Methods.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 18,
+      "workingCount": 190
+    },
+    "earnings": {
+      "annual": 44875,
+      "monthly": 3740,
+      "byDemographic": {
+        "male": 50061,
+        "nonMale": 42004,
+        "pellRecipient": 44985,
+        "nonPellRecipient": 44073
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2301",
+    "programName": "English Language and Literature, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 6,
+      "workingCount": 266
+    },
+    "earnings": {
+      "annual": 45720,
+      "monthly": 3810,
+      "byDemographic": {
+        "male": 41965,
+        "nonMale": 47958,
+        "pellRecipient": 40176,
+        "nonPellRecipient": 52565
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2401",
+    "programName": "Liberal Arts and Sciences, General Studies and Humanities.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 536,
+      "workingCount": 355
+    },
+    "earnings": {
+      "annual": 45755,
+      "monthly": 3813,
+      "byDemographic": {
+        "male": 52377,
+        "nonMale": 40897,
+        "pellRecipient": 43781,
+        "nonPellRecipient": 47585
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4201",
+    "programName": "Psychology, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 32,
+      "workingCount": 660
+    },
+    "earnings": {
+      "annual": 51498,
+      "monthly": 4292,
+      "byDemographic": {
+        "male": 54171,
+        "nonMale": 50600,
+        "pellRecipient": 48426,
+        "nonPellRecipient": 57562
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4407",
+    "programName": "Social Work.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 24,
+      "workingCount": 195
+    },
+    "earnings": {
+      "annual": 44646,
+      "monthly": 3721,
+      "byDemographic": {
+        "male": 53287,
+        "nonMale": 44016,
+        "pellRecipient": 44608,
+        "nonPellRecipient": 45304
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 0,
+      "workingCount": 262
+    },
+    "earnings": {
+      "annual": 79123,
+      "monthly": 6594,
+      "byDemographic": {
+        "male": 90354,
+        "nonMale": 77859,
+        "pellRecipient": 79220,
+        "nonPellRecipient": 78544
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 0,
+      "workingCount": 242
+    },
+    "earnings": {
+      "annual": 106983,
+      "monthly": 8915,
+      "byDemographic": {
+        "male": 123134,
+        "nonMale": 104982,
+        "pellRecipient": 107034,
+        "nonPellRecipient": 106500
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5201",
+    "programName": "Business/Commerce, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 11,
+      "workingCount": 45
+    },
+    "earnings": {
+      "annual": 65016,
+      "monthly": 5418,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 53936,
+        "nonPellRecipient": 63614
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5401",
+    "programName": "History.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 3,
+      "workingCount": 160
+    },
+    "earnings": {
+      "annual": 47823,
+      "monthly": 3985,
+      "byDemographic": {
+        "male": 48191,
+        "nonMale": 46612,
+        "pellRecipient": 44732,
+        "nonPellRecipient": 52142
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

@@ -3313,5 +3313,42 @@
   "MD_EARN_WNE_INDEP1_P11": "28925",
   "MD_EARN_WNE_MALE0_P11": "27726",
   "MD_EARN_WNE_MALE1_P11": "26988",
-  "SCORECARD_SECTOR": "33570"
+  "SCORECARD_SECTOR": "33570",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Veterinary/Animal Health Technologies/Technicians",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "61744"
+    },
+    {
+      "CIPDESC": "Practical Nursing, Vocational Nursing and Nursing Assistants",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "41465"
+    },
+    {
+      "CIPDESC": "Veterinary/Animal Health Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "29757"
+    },
+    {
+      "CIPDESC": "Health and Medical Administrative Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "28742"
+    },
+    {
+      "CIPDESC": "Dental Support Services and Allied Professions",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "27565"
+    },
+    {
+      "CIPDESC": "Allied Health and Medical Assisting Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "26021"
+    }
+  ]
 }

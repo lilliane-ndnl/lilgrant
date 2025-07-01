@@ -3313,5 +3313,47 @@
   "MD_EARN_WNE_INDEP1_P11": "30061",
   "MD_EARN_WNE_MALE0_P11": "NA",
   "MD_EARN_WNE_MALE1_P11": "32660",
-  "SCORECARD_SECTOR": "9"
+  "SCORECARD_SECTOR": "9",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Audiovisual Communications Technologies/Technicians",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "24647"
+    },
+    {
+      "CIPDESC": "Audiovisual Communications Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Graphic Communications",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer Programming",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer Software and Media Applications",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Cosmetology and Related Personal Grooming Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Drama/Theatre Arts and Stagecraft",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Film/Video and Photographic Arts",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "21621"
+    }
+  ]
 }

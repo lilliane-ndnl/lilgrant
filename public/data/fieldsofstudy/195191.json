@@ -1,0 +1,44 @@
+[
+  {
+    "cipCode": "5132",
+    "programName": "Bioethics/Medical Ethics.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 0,
+      "workingCount": 121
+    },
+    "earnings": {
+      "annual": 76244,
+      "monthly": 6354,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 75802,
+        "nonPellRecipient": 75584
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 167,
+      "workingCount": 133
+    },
+    "earnings": {
+      "annual": 78846,
+      "monthly": 6571,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 78442,
+        "nonPellRecipient": 81442
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

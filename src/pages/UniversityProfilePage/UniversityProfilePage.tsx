@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import LoadingBar from '../../components/LoadingBar/LoadingBar';
 import './UniversityProfilePage.css';
 import { formatFullStateName } from '../../utils/universityDataHelper';
+import FieldsOfStudyTab from './tabs/FieldsOfStudyTab';
 
 interface University {
   id?: string;
@@ -448,10 +449,7 @@ const UniversityProfilePage: React.FC = () => {
           )}
 
           {activeTab === 'fields-of-study' && (
-            <div className="content-card">
-              <h2>Field of Study Details</h2>
-              <p>Detailed data on earnings and outcomes for specific fields of study will be implemented here.</p>
-            </div>
+            <FieldsOfStudyTab university={universityData} />
           )}
 
           {activeTab === 'graduation-&-earnings' && (
@@ -481,7 +479,7 @@ const UniversityProfilePage: React.FC = () => {
                     <span className="value">{formatPercentage(universityData.GT_25K_P6)}</span>
                   </div>
                 </div>
-      </div>
+              </div>
             </>
           )}
 

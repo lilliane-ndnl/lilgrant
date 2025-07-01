@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "4602",
+    "programName": "Carpenters.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 11,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4603",
+    "programName": "Electrical and Power Transmission Installers.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 25,
+      "workingCount": 100
+    },
+    "earnings": {
+      "annual": 53552,
+      "monthly": 4463,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 50283,
+        "nonPellRecipient": 58104
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4805",
+    "programName": "Precision Metal Working.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 30,
+      "workingCount": 107
+    },
+    "earnings": {
+      "annual": 48181,
+      "monthly": 4015,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 49624,
+        "nonPellRecipient": 46509
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

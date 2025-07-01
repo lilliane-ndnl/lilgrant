@@ -1,0 +1,86 @@
+[
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 26,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 34,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 44,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5139",
+    "programName": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 89,
+      "workingCount": 104
+    },
+    "earnings": {
+      "annual": 48804,
+      "monthly": 4067,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

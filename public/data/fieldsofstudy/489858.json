@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "5120",
+    "programName": "Pharmacy, Pharmaceutical Sciences, and Administration.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 50,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5123",
+    "programName": "Rehabilitation and Therapeutic Professions.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 60,
+      "workingCount": 37
+    },
+    "earnings": {
+      "annual": 80787,
+      "monthly": 6732,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 87853,
+        "nonPellRecipient": 75565
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5123",
+    "programName": "Rehabilitation and Therapeutic Professions.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 40,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

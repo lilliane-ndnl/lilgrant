@@ -3313,5 +3313,47 @@
   "MD_EARN_WNE_INDEP1_P11": "35016",
   "MD_EARN_WNE_MALE0_P11": "34143",
   "MD_EARN_WNE_MALE1_P11": "39073",
-  "SCORECARD_SECTOR": "12"
+  "SCORECARD_SECTOR": "12",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "38708"
+    },
+    {
+      "CIPDESC": "Allied Health Diagnostic, Intervention, and Treatment Professions",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "37244"
+    },
+    {
+      "CIPDESC": "Precision Metal Working",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "33321"
+    },
+    {
+      "CIPDESC": "Allied Health and Medical Assisting Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "29402"
+    },
+    {
+      "CIPDESC": "Dental Support Services and Allied Professions",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "29195"
+    },
+    {
+      "CIPDESC": "Health and Medical Administrative Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "25588"
+    },
+    {
+      "CIPDESC": "Allied Health and Medical Assisting Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "25108"
+    },
+    {
+      "CIPDESC": "Dental Support Services and Allied Professions",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    }
+  ]
 }

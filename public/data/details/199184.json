@@ -3313,5 +3313,57 @@
   "MD_EARN_WNE_INDEP1_P11": "61205",
   "MD_EARN_WNE_MALE0_P11": "40881",
   "MD_EARN_WNE_MALE1_P11": "40069",
-  "SCORECARD_SECTOR": "4"
+  "SCORECARD_SECTOR": "4",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Visual and Performing Arts",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Dance",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "21890"
+    },
+    {
+      "CIPDESC": "Drama/Theatre Arts and Stagecraft",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Drama/Theatre Arts and Stagecraft",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "48172"
+    },
+    {
+      "CIPDESC": "Film/Video and Photographic Arts",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "37583"
+    },
+    {
+      "CIPDESC": "Drama/Theatre Arts and Stagecraft",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "28178"
+    },
+    {
+      "CIPDESC": "Film/Video and Photographic Arts",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Music",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "31848"
+    },
+    {
+      "CIPDESC": "Music",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "28011"
+    },
+    {
+      "CIPDESC": "Music",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    }
+  ]
 }

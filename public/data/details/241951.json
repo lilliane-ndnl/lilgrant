@@ -3313,5 +3313,32 @@
   "MD_EARN_WNE_INDEP1_P11": "NA",
   "MD_EARN_WNE_MALE0_P11": "20256",
   "MD_EARN_WNE_MALE1_P11": "23544",
-  "SCORECARD_SECTOR": "4"
+  "SCORECARD_SECTOR": "4",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Teacher Education and Professional Development, Specific Subject Areas",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Visual and Performing Arts",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "28130"
+    },
+    {
+      "CIPDESC": "Design and Applied Arts",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "22790"
+    },
+    {
+      "CIPDESC": "Film/Video and Photographic Arts",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Fine and Studio Arts",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    }
+  ]
 }

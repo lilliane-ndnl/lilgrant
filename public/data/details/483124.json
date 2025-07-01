@@ -3313,5 +3313,702 @@
   "MD_EARN_WNE_INDEP1_P11": "60823",
   "MD_EARN_WNE_MALE0_P11": "53185",
   "MD_EARN_WNE_MALE1_P11": "68098",
-  "SCORECARD_SECTOR": "4"
+  "SCORECARD_SECTOR": "4",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Natural Resources Conservation and Research",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "63053"
+    },
+    {
+      "CIPDESC": "Communication and Media Studies",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "52664"
+    },
+    {
+      "CIPDESC": "Natural Resources Conservation and Research",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "47977"
+    },
+    {
+      "CIPDESC": "Natural Resources Management and Policy",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer Science",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "120456"
+    },
+    {
+      "CIPDESC": "Computer and Information Sciences",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "87406"
+    },
+    {
+      "CIPDESC": "Education",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "84490"
+    },
+    {
+      "CIPDESC": "Educational Administration and Supervision",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "60961"
+    },
+    {
+      "CIPDESC": "Curriculum and Instruction",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "58297"
+    },
+    {
+      "CIPDESC": "Communication and Media Studies",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "56820"
+    },
+    {
+      "CIPDESC": "City/Urban, Community and Regional Planning",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "52445"
+    },
+    {
+      "CIPDESC": "Ethnic, Cultural Minority, Gender, and Group Studies",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "41617"
+    },
+    {
+      "CIPDESC": "Radio, Television, and Digital Communication",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Radio, Television, and Digital Communication",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Radio, Television, and Digital Communication",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Public Relations, Advertising, and Applied Communication",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer/Information Technology Administration and Management",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer/Information Technology Administration and Management",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Bilingual, Multilingual, and Multicultural Education",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Bilingual, Multilingual, and Multicultural Education",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Educational Administration and Supervision",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Educational/Instructional Media Design",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Electrical, Electronics and Communications Engineering",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "112277"
+    },
+    {
+      "CIPDESC": "Computer Engineering",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "101600"
+    },
+    {
+      "CIPDESC": "Engineering",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "94756"
+    },
+    {
+      "CIPDESC": "Special Education and Teaching",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "51338"
+    },
+    {
+      "CIPDESC": "Special Education and Teaching",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Teacher Education and Professional Development, Specific Levels and Methods",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Teaching English or French as a Second or Foreign Language",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Electrical, Electronics and Communications Engineering",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "92588"
+    },
+    {
+      "CIPDESC": "Education, Other",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "40490"
+    },
+    {
+      "CIPDESC": "Engineering Science",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Materials Engineering",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Systems Engineering",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Industrial Engineering",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "111458"
+    },
+    {
+      "CIPDESC": "Engineering, Other",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Construction Engineering Technologies",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Engineering-Related Fields",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "84356"
+    },
+    {
+      "CIPDESC": "Legal Research and Advanced Professional Studies",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "70460"
+    },
+    {
+      "CIPDESC": "Engineering Technologies/Technicians, Other",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "67822"
+    },
+    {
+      "CIPDESC": "Rhetoric and Composition/Writing Studies",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "63308"
+    },
+    {
+      "CIPDESC": "Liberal Arts and Sciences, General Studies and Humanities",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "57628"
+    },
+    {
+      "CIPDESC": "Foods, Nutrition, and Related Services",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "56625"
+    },
+    {
+      "CIPDESC": "Multi/Interdisciplinary Studies, Other",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "55247"
+    },
+    {
+      "CIPDESC": "Liberal Arts and Sciences, General Studies and Humanities",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "54031"
+    },
+    {
+      "CIPDESC": "Multi-/Interdisciplinary Studies",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "53985"
+    },
+    {
+      "CIPDESC": "Non-Professional General Legal Studies",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "51748"
+    },
+    {
+      "CIPDESC": "Family and Consumer Economics and Related Studies",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "50479"
+    },
+    {
+      "CIPDESC": "Parks, Recreation and Leisure Studies",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "49007"
+    },
+    {
+      "CIPDESC": "Biochemistry, Biophysics and Molecular Biology",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "48808"
+    },
+    {
+      "CIPDESC": "Biology",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "46169"
+    },
+    {
+      "CIPDESC": "Foods, Nutrition, and Related Services",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "44668"
+    },
+    {
+      "CIPDESC": "English Language and Literature",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "43261"
+    },
+    {
+      "CIPDESC": "Family and Consumer Economics and Related Studies",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "41981"
+    },
+    {
+      "CIPDESC": "Romance Languages, Literatures, and Linguistics",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "40840"
+    },
+    {
+      "CIPDESC": "English Language and Literature",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Rhetoric and Composition/Writing Studies",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Biomathematics, Bioinformatics, and Computational Biology",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Biological and Biomedical Sciences, Other",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Science, Technology and Society",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Philosophy",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "48225"
+    },
+    {
+      "CIPDESC": "International/Global Studies",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "44539"
+    },
+    {
+      "CIPDESC": "Religion/Religious Studies",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Nuclear and Industrial Radiologic Technologies/Technicians",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Science Technologies/Technicians, Other",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "66007"
+    },
+    {
+      "CIPDESC": "Psychology",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "45403"
+    },
+    {
+      "CIPDESC": "Psychology",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Clinical, Counseling and Applied Psychology",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Clinical, Counseling and Applied Psychology",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "67371"
+    },
+    {
+      "CIPDESC": "Clinical, Counseling and Applied Psychology",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Criminal Justice and Corrections",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "61377"
+    },
+    {
+      "CIPDESC": "Criminal Justice and Corrections",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "49826"
+    },
+    {
+      "CIPDESC": "Criminal Justice and Corrections",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Homeland Security",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Homeland Security",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "75021"
+    },
+    {
+      "CIPDESC": "Community Organization and Advocacy",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Community Organization and Advocacy",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Public Administration",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "67474"
+    },
+    {
+      "CIPDESC": "Public Policy Analysis",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "59533"
+    },
+    {
+      "CIPDESC": "Public Policy Analysis",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Economics",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "65899"
+    },
+    {
+      "CIPDESC": "Social Work",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "54992"
+    },
+    {
+      "CIPDESC": "Geography and Cartography",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "50447"
+    },
+    {
+      "CIPDESC": "Anthropology",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "42388"
+    },
+    {
+      "CIPDESC": "Geography and Cartography",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "International Relations and National Security Studies",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Political Science and Government",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "56373"
+    },
+    {
+      "CIPDESC": "Sociology",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "45928"
+    },
+    {
+      "CIPDESC": "Sociology",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Design and Applied Arts",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "58211"
+    },
+    {
+      "CIPDESC": "Design and Applied Arts",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "120085"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "70685"
+    },
+    {
+      "CIPDESC": "Communication Disorders Sciences and Services",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "45557"
+    },
+    {
+      "CIPDESC": "Film/Video and Photographic Arts",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "37975"
+    },
+    {
+      "CIPDESC": "Fine and Studio Arts",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "36271"
+    },
+    {
+      "CIPDESC": "Health Services/Allied Health/Health Sciences",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health and Medical Administrative Services",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health and Medical Administrative Services",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health and Medical Administrative Services",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Management Sciences and Quantitative Methods",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "104448"
+    },
+    {
+      "CIPDESC": "Health/Medical Preparatory Programs",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "46969"
+    },
+    {
+      "CIPDESC": "Mental and Social Health Services and Allied Professions",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Public Health",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "79786"
+    },
+    {
+      "CIPDESC": "Public Health",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "73976"
+    },
+    {
+      "CIPDESC": "Public Health",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Hospitality Administration/Management",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Management Sciences and Quantitative Methods",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "113023"
+    },
+    {
+      "CIPDESC": "International Business",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "92715"
+    },
+    {
+      "CIPDESC": "Management Sciences and Quantitative Methods",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Marketing",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "68619"
+    },
+    {
+      "CIPDESC": "Business, Management, Marketing, and Related Support Services, Other",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "60747"
+    },
+    {
+      "CIPDESC": "History",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "50892"
+    },
+    {
+      "CIPDESC": "History",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "42745"
+    },
+    {
+      "CIPDESC": "Natural Resources Conservation and Research",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "International and Comparative Education",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Mechanical Engineering",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Human Development, Family Studies, and Related Services",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Applied Mathematics",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Science, Technology and Society",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Sustainability Studies",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Sustainability Studies",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Sustainability Studies",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Astronomy and Astrophysics",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Chemistry",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Physics",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Science Technologies/Technicians",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Homeland Security",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Security Science and Technology",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Public Policy Analysis",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Visual and Performing Arts",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Design and Applied Arts",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Health Professions and Related Clinical Sciences, Other",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Accounting and Related Services",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "Entrepreneurial and Small Business Operations",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    },
+    {
+      "CIPDESC": "International Business",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    }
+  ]
 }

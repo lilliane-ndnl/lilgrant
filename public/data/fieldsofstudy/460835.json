@@ -1,0 +1,191 @@
+[
+  {
+    "cipCode": "1204",
+    "programName": "Cosmetology and Related Personal Grooming Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 3,
+      "workingCount": 583
+    },
+    "earnings": {
+      "annual": 19935,
+      "monthly": 1661,
+      "byDemographic": {
+        "male": 20983,
+        "nonMale": 19900,
+        "pellRecipient": 18800,
+        "nonPellRecipient": 28445
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2203",
+    "programName": "Legal Support Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 5,
+      "workingCount": 106
+    },
+    "earnings": {
+      "annual": 35454,
+      "monthly": 2955,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4301",
+    "programName": "Criminal Justice and Corrections.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 17,
+      "workingCount": 287
+    },
+    "earnings": {
+      "annual": 34449,
+      "monthly": 2871,
+      "byDemographic": {
+        "male": 44971,
+        "nonMale": 29729,
+        "pellRecipient": 33920,
+        "nonPellRecipient": 52164
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4902",
+    "programName": "Ground Transportation.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 141,
+      "workingCount": 53
+    },
+    "earnings": {
+      "annual": 29387,
+      "monthly": 2449,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 31181
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 8,
+      "workingCount": 519
+    },
+    "earnings": {
+      "annual": 27239,
+      "monthly": 2270,
+      "byDemographic": {
+        "male": 34871,
+        "nonMale": 27173,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 75,
+      "workingCount": 919
+    },
+    "earnings": {
+      "annual": 25324,
+      "monthly": 2110,
+      "byDemographic": {
+        "male": 27754,
+        "nonMale": 25037,
+        "pellRecipient": 24995,
+        "nonPellRecipient": 36224
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 0,
+      "workingCount": 1333
+    },
+    "earnings": {
+      "annual": 30020,
+      "monthly": 2502,
+      "byDemographic": {
+        "male": 36142,
+        "nonMale": 29847,
+        "pellRecipient": 29957,
+        "nonPellRecipient": 33494
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5135",
+    "programName": "Somatic Bodywork and Related Therapeutic Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 0,
+      "workingCount": 648
+    },
+    "earnings": {
+      "annual": 23008,
+      "monthly": 1917,
+      "byDemographic": {
+        "male": 28255,
+        "nonMale": 22109,
+        "pellRecipient": 22747,
+        "nonPellRecipient": 27094
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 24,
+      "workingCount": 201
+    },
+    "earnings": {
+      "annual": 28532,
+      "monthly": 2378,
+      "byDemographic": {
+        "male": 30514,
+        "nonMale": 27151,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

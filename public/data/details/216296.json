@@ -3313,5 +3313,122 @@
   "MD_EARN_WNE_INDEP1_P11": "41643",
   "MD_EARN_WNE_MALE0_P11": "41427",
   "MD_EARN_WNE_MALE1_P11": "51404",
-  "SCORECARD_SECTOR": "7"
+  "SCORECARD_SECTOR": "7",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Architectural Sciences and Technology",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Computer and Information Sciences and Support Services, Other",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "49337"
+    },
+    {
+      "CIPDESC": "Graphic Communications",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "28048"
+    },
+    {
+      "CIPDESC": "Computer Engineering",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Mechatronics, Robotics, and Automation Engineering",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Environmental Control Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Industrial Production Technologies/Technicians",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Industrial Production Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Electrical/Electronics Maintenance and Repair Technology",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "63208"
+    },
+    {
+      "CIPDESC": "Engineering Technologies/Technicians, Other",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "55320"
+    },
+    {
+      "CIPDESC": "Precision Metal Working",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "54954"
+    },
+    {
+      "CIPDESC": "Carpenters",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "47548"
+    },
+    {
+      "CIPDESC": "Drafting/Design Engineering Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "45919"
+    },
+    {
+      "CIPDESC": "Mason/Masonry",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Mason/Masonry",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "54459"
+    },
+    {
+      "CIPDESC": "Plumbing and Related Water Supply Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "51224"
+    },
+    {
+      "CIPDESC": "Vehicle Maintenance and Repair Technologies",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "40206"
+    },
+    {
+      "CIPDESC": "Electrical and Power Transmission Installers",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "37291"
+    },
+    {
+      "CIPDESC": "Building/Construction Finishing, Management, and Inspection",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Precision Metal Working",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Woodworking",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "48678"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    }
+  ]
 }

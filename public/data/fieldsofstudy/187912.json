@@ -1,0 +1,23 @@
+[
+  {
+    "cipCode": "2401",
+    "programName": "Liberal Arts and Sciences, General Studies and Humanities.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 109,
+      "workingCount": 82
+    },
+    "earnings": {
+      "annual": 47138,
+      "monthly": 3928,
+      "byDemographic": {
+        "male": 48252,
+        "nonMale": 0,
+        "pellRecipient": 39442,
+        "nonPellRecipient": 59701
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

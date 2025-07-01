@@ -1,0 +1,44 @@
+[
+  {
+    "cipCode": "5112",
+    "programName": "Medicine.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 0,
+      "workingCount": 111
+    },
+    "earnings": {
+      "annual": 48156,
+      "monthly": 4013,
+      "byDemographic": {
+        "male": 43986,
+        "nonMale": 48937,
+        "pellRecipient": 46316,
+        "nonPellRecipient": 46136
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5133",
+    "programName": "Alternative and Complementary Medicine and Medical Systems.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 65,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

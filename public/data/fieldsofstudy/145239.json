@@ -1,0 +1,107 @@
+[
+  {
+    "cipCode": "0183",
+    "programName": "Veterinary/Animal Health Technologies/Technicians.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 95,
+      "workingCount": 166
+    },
+    "earnings": {
+      "annual": 41368,
+      "monthly": 3447,
+      "byDemographic": {
+        "male": 38257,
+        "nonMale": 41672,
+        "pellRecipient": 39675,
+        "nonPellRecipient": 41997
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5106",
+    "programName": "Dental Support Services and Allied Professions.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 85,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 107,
+      "workingCount": 105
+    },
+    "earnings": {
+      "annual": 50820,
+      "monthly": 4235,
+      "byDemographic": {
+        "male": 62598,
+        "nonMale": 41813,
+        "pellRecipient": 45865,
+        "nonPellRecipient": 52840
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5204",
+    "programName": "Business Operations Support and Assistant Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 6,
+      "workingCount": 33
+    },
+    "earnings": {
+      "annual": 37507,
+      "monthly": 3126,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

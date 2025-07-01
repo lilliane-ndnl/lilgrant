@@ -1,0 +1,128 @@
+[
+  {
+    "cipCode": "1003",
+    "programName": "Graphic Communications.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 44,
+      "workingCount": 20
+    },
+    "earnings": {
+      "annual": 37010,
+      "monthly": 3084,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5001",
+    "programName": "Visual and Performing Arts, General.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 14,
+      "workingCount": 18
+    },
+    "earnings": {
+      "annual": 50640,
+      "monthly": 4220,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5002",
+    "programName": "Crafts/Craft Design, Folk Art and Artisanry.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 5,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5004",
+    "programName": "Design and Applied Arts.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 119,
+      "workingCount": 241
+    },
+    "earnings": {
+      "annual": 40747,
+      "monthly": 3396,
+      "byDemographic": {
+        "male": 38037,
+        "nonMale": 41186,
+        "pellRecipient": 40474,
+        "nonPellRecipient": 40825
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5006",
+    "programName": "Film/Video and Photographic Arts.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 33,
+      "workingCount": 77
+    },
+    "earnings": {
+      "annual": 40134,
+      "monthly": 3345,
+      "byDemographic": {
+        "male": 50202,
+        "nonMale": 34080,
+        "pellRecipient": 40207,
+        "nonPellRecipient": 37349
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5007",
+    "programName": "Fine and Studio Arts.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 15,
+      "workingCount": 56
+    },
+    "earnings": {
+      "annual": 39225,
+      "monthly": 3269,
+      "byDemographic": {
+        "male": 41332,
+        "nonMale": 37320,
+        "pellRecipient": 41110,
+        "nonPellRecipient": 36260
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

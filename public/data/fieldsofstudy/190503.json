@@ -1,0 +1,128 @@
+[
+  {
+    "cipCode": "1205",
+    "programName": "Culinary Arts and Related Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 32,
+      "workingCount": 48
+    },
+    "earnings": {
+      "annual": 62294,
+      "monthly": 5191,
+      "byDemographic": {
+        "male": 45456,
+        "nonMale": 75319,
+        "pellRecipient": 49822,
+        "nonPellRecipient": 65822
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1205",
+    "programName": "Culinary Arts and Related Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 665,
+      "workingCount": 1346
+    },
+    "earnings": {
+      "annual": 41224,
+      "monthly": 3435,
+      "byDemographic": {
+        "male": 44912,
+        "nonMale": 37330,
+        "pellRecipient": 39918,
+        "nonPellRecipient": 43104
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1205",
+    "programName": "Culinary Arts and Related Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 69,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3099",
+    "programName": "Multi/Interdisciplinary Studies, Other.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 39,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5209",
+    "programName": "Hospitality Administration/Management.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 239,
+      "workingCount": 410
+    },
+    "earnings": {
+      "annual": 45707,
+      "monthly": 3809,
+      "byDemographic": {
+        "male": 48885,
+        "nonMale": 44330,
+        "pellRecipient": 43925,
+        "nonPellRecipient": 48642
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5209",
+    "programName": "Hospitality Administration/Management.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 44,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

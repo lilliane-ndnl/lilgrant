@@ -3313,5 +3313,57 @@
   "MD_EARN_WNE_INDEP1_P11": "113028",
   "MD_EARN_WNE_MALE0_P11": "102594",
   "MD_EARN_WNE_MALE1_P11": "116356",
-  "SCORECARD_SECTOR": "5"
+  "SCORECARD_SECTOR": "5",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Dentistry",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "105404"
+    },
+    {
+      "CIPDESC": "Dentistry",
+      "CREDDESC": "First professional degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Advanced/Graduate Dentistry and Oral Sciences",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Advanced/Graduate Dentistry and Oral Sciences",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Pharmacy, Pharmaceutical Sciences, and Administration",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "137312"
+    },
+    {
+      "CIPDESC": "Pharmacy, Pharmaceutical Sciences, and Administration",
+      "CREDDESC": "First professional degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "133771"
+    },
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "86451"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Graduate/professional certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PrivacySuppressed"
+    }
+  ]
 }

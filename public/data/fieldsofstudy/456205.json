@@ -1,0 +1,149 @@
+[
+  {
+    "cipCode": "0183",
+    "programName": "Veterinary/Animal Health Technologies/Technicians.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 19,
+      "workingCount": 24
+    },
+    "earnings": {
+      "annual": 30720,
+      "monthly": 2560,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1204",
+    "programName": "Cosmetology and Related Personal Grooming Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 7,
+      "workingCount": 583
+    },
+    "earnings": {
+      "annual": 19935,
+      "monthly": 1661,
+      "byDemographic": {
+        "male": 20983,
+        "nonMale": 19900,
+        "pellRecipient": 18800,
+        "nonPellRecipient": 28445
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2203",
+    "programName": "Legal Support Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 3,
+      "workingCount": 106
+    },
+    "earnings": {
+      "annual": 35454,
+      "monthly": 2955,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4902",
+    "programName": "Ground Transportation.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 51,
+      "workingCount": 53
+    },
+    "earnings": {
+      "annual": 29387,
+      "monthly": 2449,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 31181
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5106",
+    "programName": "Dental Support Services and Allied Professions.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 16,
+      "workingCount": 150
+    },
+    "earnings": {
+      "annual": 34364,
+      "monthly": 2864,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 77,
+      "workingCount": 919
+    },
+    "earnings": {
+      "annual": 25324,
+      "monthly": 2110,
+      "byDemographic": {
+        "male": 27754,
+        "nonMale": 25037,
+        "pellRecipient": 24995,
+        "nonPellRecipient": 36224
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 0,
+      "workingCount": 243
+    },
+    "earnings": {
+      "annual": 40968,
+      "monthly": 3414,
+      "byDemographic": {
+        "male": 55960,
+        "nonMale": 38247,
+        "pellRecipient": 38669,
+        "nonPellRecipient": 48132
+      }
+    },
+    "deliveryMethod": 0
+  }
+]

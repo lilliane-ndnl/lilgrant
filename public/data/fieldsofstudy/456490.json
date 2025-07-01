@@ -1,0 +1,170 @@
+[
+  {
+    "cipCode": "1107",
+    "programName": "Computer Science.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "1408",
+    "programName": "Civil Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 1,
+      "workingCount": 54
+    },
+    "earnings": {
+      "annual": 63518,
+      "monthly": 5293,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1409",
+    "programName": "Computer Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 1,
+      "workingCount": 19
+    },
+    "earnings": {
+      "annual": 60492,
+      "monthly": 5041,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "1410",
+    "programName": "Electrical, Electronics and Communications Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 8,
+      "workingCount": 51
+    },
+    "earnings": {
+      "annual": 74436,
+      "monthly": 6203,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1419",
+    "programName": "Mechanical Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 3,
+      "workingCount": 39
+    },
+    "earnings": {
+      "annual": 65413,
+      "monthly": 5451,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1515",
+    "programName": "Engineering-Related Fields.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 8,
+      "workingCount": 47
+    },
+    "earnings": {
+      "annual": 80991,
+      "monthly": 6749,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 4,
+      "workingCount": 23
+    },
+    "earnings": {
+      "annual": 64911,
+      "monthly": 5409,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  }
+]

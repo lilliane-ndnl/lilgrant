@@ -1,0 +1,107 @@
+[
+  {
+    "cipCode": "1204",
+    "programName": "Cosmetology and Related Personal Grooming Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 43,
+      "workingCount": 73
+    },
+    "earnings": {
+      "annual": 15546,
+      "monthly": 1296,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 63,
+      "workingCount": 599
+    },
+    "earnings": {
+      "annual": 27465,
+      "monthly": 2289,
+      "byDemographic": {
+        "male": 31279,
+        "nonMale": 27323,
+        "pellRecipient": 27262,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 235,
+      "workingCount": 1475
+    },
+    "earnings": {
+      "annual": 27409,
+      "monthly": 2284,
+      "byDemographic": {
+        "male": 29264,
+        "nonMale": 26754,
+        "pellRecipient": 27126,
+        "nonPellRecipient": 33560
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5203",
+    "programName": "Accounting and Related Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 12,
+      "workingCount": 384
+    },
+    "earnings": {
+      "annual": 27062,
+      "monthly": 2255,
+      "byDemographic": {
+        "male": 28795,
+        "nonMale": 26046,
+        "pellRecipient": 26886,
+        "nonPellRecipient": 33827
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5204",
+    "programName": "Business Operations Support and Assistant Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 20,
+      "workingCount": 74
+    },
+    "earnings": {
+      "annual": 21361,
+      "monthly": 1780,
+      "byDemographic": {
+        "male": 31627,
+        "nonMale": 19914,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  }
+]

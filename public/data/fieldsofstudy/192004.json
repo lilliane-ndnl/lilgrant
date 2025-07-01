@@ -1,0 +1,44 @@
+[
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 82,
+      "workingCount": 69
+    },
+    "earnings": {
+      "annual": 35266,
+      "monthly": 2939,
+      "byDemographic": {
+        "male": 38415,
+        "nonMale": 34340,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 29,
+      "workingCount": 33
+    },
+    "earnings": {
+      "annual": 38197,
+      "monthly": 3183,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  }
+]

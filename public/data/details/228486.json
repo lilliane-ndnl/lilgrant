@@ -3313,5 +3313,17 @@
   "MD_EARN_WNE_INDEP1_P11": "23668",
   "MD_EARN_WNE_MALE0_P11": "29428",
   "MD_EARN_WNE_MALE1_P11": "34360",
-  "SCORECARD_SECTOR": "8"
+  "SCORECARD_SECTOR": "8",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Liberal Arts and Sciences, General Studies and Humanities",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Bible/Biblical Studies",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    }
+  ]
 }

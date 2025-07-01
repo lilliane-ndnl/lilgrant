@@ -3313,5 +3313,12 @@
   "MD_EARN_WNE_INDEP1_P11": "NA",
   "MD_EARN_WNE_MALE0_P11": "NA",
   "MD_EARN_WNE_MALE1_P11": "NA",
-  "SCORECARD_SECTOR": "3"
+  "SCORECARD_SECTOR": "3",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Alternative and Complementary Medicine and Medical Systems",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "41044"
+    }
+  ]
 }

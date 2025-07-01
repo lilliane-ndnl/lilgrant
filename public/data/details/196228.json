@@ -3313,5 +3313,32 @@
   "MD_EARN_WNE_INDEP1_P11": "NA",
   "MD_EARN_WNE_MALE0_P11": "NA",
   "MD_EARN_WNE_MALE1_P11": "NA",
-  "SCORECARD_SECTOR": "1"
+  "SCORECARD_SECTOR": "1",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Physiology, Pathology and Related Sciences",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Physiology, Pathology and Related Sciences",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Optometry",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Optometry",
+      "CREDDESC": "First professional degree",
+      "EARN_MDN_4YR": "114501"
+    },
+    {
+      "CIPDESC": "Ophthalmic and Optometric Support Services and Allied Professions",
+      "CREDDESC": "Doctoral degree",
+      "EARN_MDN_4YR": "PS"
+    }
+  ]
 }

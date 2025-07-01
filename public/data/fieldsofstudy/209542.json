@@ -1,0 +1,4391 @@
+[
+  {
+    "cipCode": "0100",
+    "programName": "Agriculture, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 85,
+      "workingCount": 81
+    },
+    "earnings": {
+      "annual": 50564,
+      "monthly": 4214,
+      "byDemographic": {
+        "male": 62168,
+        "nonMale": 45692,
+        "pellRecipient": 49273,
+        "nonPellRecipient": 56312
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "0101",
+    "programName": "Agricultural Business and Management.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 37,
+      "workingCount": 33
+    },
+    "earnings": {
+      "annual": 71577,
+      "monthly": 5965,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "0103",
+    "programName": "Agricultural Production Operations.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "0106",
+    "programName": "Applied Horticulture and Horticultural Business Services.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0106",
+    "programName": "Applied Horticulture and Horticultural Business Services.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0109",
+    "programName": "Animal Sciences.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 82,
+      "workingCount": 82
+    },
+    "earnings": {
+      "annual": 54287,
+      "monthly": 4524,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 54698,
+        "nonPellRecipient": 54035
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0109",
+    "programName": "Animal Sciences.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0110",
+    "programName": "Food Science and Technology.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 33,
+      "workingCount": 64
+    },
+    "earnings": {
+      "annual": 61467,
+      "monthly": 5122,
+      "byDemographic": {
+        "male": 56308,
+        "nonMale": 70436,
+        "pellRecipient": 0,
+        "nonPellRecipient": 67237
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0110",
+    "programName": "Food Science and Technology.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 14,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0110",
+    "programName": "Food Science and Technology.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0111",
+    "programName": "Plant Sciences.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 53,
+      "workingCount": 67
+    },
+    "earnings": {
+      "annual": 53355,
+      "monthly": 4446,
+      "byDemographic": {
+        "male": 51574,
+        "nonMale": 59667,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "0111",
+    "programName": "Plant Sciences.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0111",
+    "programName": "Plant Sciences.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "0112",
+    "programName": "Soil Sciences.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0112",
+    "programName": "Soil Sciences.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0180",
+    "programName": "Veterinary Medicine.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 67,
+      "workingCount": 95
+    },
+    "earnings": {
+      "annual": 106174,
+      "monthly": 8848,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 103495,
+        "nonPellRecipient": 110208
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0181",
+    "programName": "Veterinary Biomedical and Clinical Sciences.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 8,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0181",
+    "programName": "Veterinary Biomedical and Clinical Sciences.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0301",
+    "programName": "Natural Resources Conservation and Research.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 104,
+      "workingCount": 76
+    },
+    "earnings": {
+      "annual": 55537,
+      "monthly": 4628,
+      "byDemographic": {
+        "male": 59133,
+        "nonMale": 47805,
+        "pellRecipient": 56662,
+        "nonPellRecipient": 47483
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "0301",
+    "programName": "Natural Resources Conservation and Research.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 23,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "0301",
+    "programName": "Natural Resources Conservation and Research.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0302",
+    "programName": "Natural Resources Management and Policy.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 155,
+      "workingCount": 99
+    },
+    "earnings": {
+      "annual": 45158,
+      "monthly": 3763,
+      "byDemographic": {
+        "male": 43720,
+        "nonMale": 47699,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "0302",
+    "programName": "Natural Resources Management and Policy.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 44,
+      "workingCount": 26
+    },
+    "earnings": {
+      "annual": 73952,
+      "monthly": 6163,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0302",
+    "programName": "Natural Resources Management and Policy.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 23,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "0303",
+    "programName": "Fishing and Fisheries Sciences and Management.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 80,
+      "workingCount": 116
+    },
+    "earnings": {
+      "annual": 49281,
+      "monthly": 4107,
+      "byDemographic": {
+        "male": 59787,
+        "nonMale": 41797,
+        "pellRecipient": 50515,
+        "nonPellRecipient": 44284
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "0303",
+    "programName": "Fishing and Fisheries Sciences and Management.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 6,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0303",
+    "programName": "Fishing and Fisheries Sciences and Management.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0303",
+    "programName": "Fishing and Fisheries Sciences and Management.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 29,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "0305",
+    "programName": "Forestry.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 10,
+      "workingCount": 29
+    },
+    "earnings": {
+      "annual": 74096,
+      "monthly": 6175,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0305",
+    "programName": "Forestry.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 24,
+      "workingCount": 17
+    },
+    "earnings": {
+      "annual": 76924,
+      "monthly": 6410,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0305",
+    "programName": "Forestry.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 10,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0305",
+    "programName": "Forestry.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 17,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "0306",
+    "programName": "Wildlife and Wildlands Science and Management.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 8,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0306",
+    "programName": "Wildlife and Wildlands Science and Management.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0306",
+    "programName": "Wildlife and Wildlands Science and Management.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 46,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "0399",
+    "programName": "Natural Resources and Conservation, Other.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 10,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "0501",
+    "programName": "Area Studies.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0502",
+    "programName": "Ethnic, Cultural Minority, Gender, and Group Studies.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 19,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "0502",
+    "programName": "Ethnic, Cultural Minority, Gender, and Group Studies.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 5,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0502",
+    "programName": "Ethnic, Cultural Minority, Gender, and Group Studies.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0901",
+    "programName": "Communication and Media Studies.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 53,
+      "workingCount": 57
+    },
+    "earnings": {
+      "annual": 56798,
+      "monthly": 4733,
+      "byDemographic": {
+        "male": 44305,
+        "nonMale": 58689,
+        "pellRecipient": 0,
+        "nonPellRecipient": 56878
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "0907",
+    "programName": "Radio, Television, and Digital Communication.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 90,
+      "workingCount": 82
+    },
+    "earnings": {
+      "annual": 52443,
+      "monthly": 4370,
+      "byDemographic": {
+        "male": 50645,
+        "nonMale": 54418,
+        "pellRecipient": 50066,
+        "nonPellRecipient": 57016
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "0909",
+    "programName": "Public Relations, Advertising, and Applied Communication.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1107",
+    "programName": "Computer Science.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 732,
+      "workingCount": 274
+    },
+    "earnings": {
+      "annual": 109905,
+      "monthly": 9159,
+      "byDemographic": {
+        "male": 108390,
+        "nonMale": 116233,
+        "pellRecipient": 108962,
+        "nonPellRecipient": 116266
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1107",
+    "programName": "Computer Science.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 95,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1107",
+    "programName": "Computer Science.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 13,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1110",
+    "programName": "Computer/Information Technology Administration and Management.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1301",
+    "programName": "Education, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 73,
+      "workingCount": 47
+    },
+    "earnings": {
+      "annual": 56237,
+      "monthly": 4686,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 49868,
+        "nonPellRecipient": 58125
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1301",
+    "programName": "Education, General.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 15,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1301",
+    "programName": "Education, General.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 5,
+      "workingCount": 18
+    },
+    "earnings": {
+      "annual": 124171,
+      "monthly": 10348,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1302",
+    "programName": "Bilingual, Multilingual, and Multicultural Education.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 91,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "1304",
+    "programName": "Educational Administration and Supervision.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 19,
+      "workingCount": 26
+    },
+    "earnings": {
+      "annual": 61023,
+      "monthly": 5085,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1311",
+    "programName": "Student Counseling and Personnel Services.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 58,
+      "workingCount": 43
+    },
+    "earnings": {
+      "annual": 60638,
+      "monthly": 5053,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 55477,
+        "nonPellRecipient": 61295
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1311",
+    "programName": "Student Counseling and Personnel Services.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 11,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1311",
+    "programName": "Student Counseling and Personnel Services.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 33,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1312",
+    "programName": "Teacher Education and Professional Development, Specific Levels and Methods.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 52,
+      "workingCount": 40
+    },
+    "earnings": {
+      "annual": 53677,
+      "monthly": 4473,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1312",
+    "programName": "Teacher Education and Professional Development, Specific Levels and Methods.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 6,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1312",
+    "programName": "Teacher Education and Professional Development, Specific Levels and Methods.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 124,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1313",
+    "programName": "Teacher Education and Professional Development, Specific Subject Areas.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 14,
+      "workingCount": 73
+    },
+    "earnings": {
+      "annual": 66005,
+      "monthly": 5500,
+      "byDemographic": {
+        "male": 66947,
+        "nonMale": 64606,
+        "pellRecipient": 67912,
+        "nonPellRecipient": 66219
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1313",
+    "programName": "Teacher Education and Professional Development, Specific Subject Areas.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1313",
+    "programName": "Teacher Education and Professional Development, Specific Subject Areas.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 143,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1403",
+    "programName": "Agricultural Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 27,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1403",
+    "programName": "Agricultural Engineering.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1404",
+    "programName": "Architectural Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 6,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1405",
+    "programName": "Biomedical/Medical Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 50,
+      "workingCount": 21
+    },
+    "earnings": {
+      "annual": 96618,
+      "monthly": 8052,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1405",
+    "programName": "Biomedical/Medical Engineering.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1407",
+    "programName": "Chemical Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 111,
+      "workingCount": 66
+    },
+    "earnings": {
+      "annual": 95971,
+      "monthly": 7998,
+      "byDemographic": {
+        "male": 90928,
+        "nonMale": 99232,
+        "pellRecipient": 97377,
+        "nonPellRecipient": 96089
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1407",
+    "programName": "Chemical Engineering.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 14,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1407",
+    "programName": "Chemical Engineering.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 11,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1408",
+    "programName": "Civil Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 98,
+      "workingCount": 104
+    },
+    "earnings": {
+      "annual": 89866,
+      "monthly": 7489,
+      "byDemographic": {
+        "male": 88283,
+        "nonMale": 95537,
+        "pellRecipient": 86013,
+        "nonPellRecipient": 95191
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1408",
+    "programName": "Civil Engineering.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 43,
+      "workingCount": 38
+    },
+    "earnings": {
+      "annual": 95640,
+      "monthly": 7970,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 94712,
+        "nonPellRecipient": 97777
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1408",
+    "programName": "Civil Engineering.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 16,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1410",
+    "programName": "Electrical, Electronics and Communications Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 129,
+      "workingCount": 90
+    },
+    "earnings": {
+      "annual": 105331,
+      "monthly": 8778,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 99902,
+        "nonPellRecipient": 113278
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1410",
+    "programName": "Electrical, Electronics and Communications Engineering.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 55,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1410",
+    "programName": "Electrical, Electronics and Communications Engineering.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 15,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1414",
+    "programName": "Environmental/Environmental Health Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 18,
+      "workingCount": 20
+    },
+    "earnings": {
+      "annual": 81214,
+      "monthly": 6768,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1414",
+    "programName": "Environmental/Environmental Health Engineering.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 10,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1414",
+    "programName": "Environmental/Environmental Health Engineering.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1419",
+    "programName": "Mechanical Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 271,
+      "workingCount": 112
+    },
+    "earnings": {
+      "annual": 94649,
+      "monthly": 7887,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 94304,
+        "nonPellRecipient": 94001
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1419",
+    "programName": "Mechanical Engineering.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 52,
+      "workingCount": 21
+    },
+    "earnings": {
+      "annual": 103349,
+      "monthly": 8612,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1419",
+    "programName": "Mechanical Engineering.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 11,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1423",
+    "programName": "Nuclear Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 29,
+      "workingCount": 27
+    },
+    "earnings": {
+      "annual": 94372,
+      "monthly": 7864,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1423",
+    "programName": "Nuclear Engineering.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 10,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1423",
+    "programName": "Nuclear Engineering.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 8,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1433",
+    "programName": "Construction Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 78,
+      "workingCount": 64
+    },
+    "earnings": {
+      "annual": 106199,
+      "monthly": 8850,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 99980,
+        "nonPellRecipient": 108961
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1434",
+    "programName": "Forest Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 40,
+      "workingCount": 35
+    },
+    "earnings": {
+      "annual": 78198,
+      "monthly": 6517,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1435",
+    "programName": "Industrial Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 59,
+      "workingCount": 31
+    },
+    "earnings": {
+      "annual": 92997,
+      "monthly": 7750,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1435",
+    "programName": "Industrial Engineering.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 20,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1435",
+    "programName": "Industrial Engineering.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 5,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1436",
+    "programName": "Manufacturing Engineering.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 63,
+      "workingCount": 19
+    },
+    "earnings": {
+      "annual": 92078,
+      "monthly": 7673,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1442",
+    "programName": "Mechatronics, Robotics, and Automation Engineering.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 15,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1442",
+    "programName": "Mechatronics, Robotics, and Automation Engineering.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 6,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1499",
+    "programName": "Engineering, Other.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 19,
+      "workingCount": 23
+    },
+    "earnings": {
+      "annual": 90867,
+      "monthly": 7572,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1515",
+    "programName": "Engineering-Related Fields.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "1605",
+    "programName": "Germanic Languages, Literatures, and Linguistics.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 14,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1609",
+    "programName": "Romance Languages, Literatures, and Linguistics.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 36,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1902",
+    "programName": "Family and Consumer Sciences/Human Sciences Business Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 50,
+      "workingCount": 93
+    },
+    "earnings": {
+      "annual": 64739,
+      "monthly": 5395,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 57007,
+        "nonPellRecipient": 71769
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1905",
+    "programName": "Foods, Nutrition, and Related Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 43,
+      "workingCount": 46
+    },
+    "earnings": {
+      "annual": 61562,
+      "monthly": 5130,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 61773,
+        "nonPellRecipient": 60992
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1905",
+    "programName": "Foods, Nutrition, and Related Services.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 5,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1905",
+    "programName": "Foods, Nutrition, and Related Services.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1907",
+    "programName": "Human Development, Family Studies, and Related Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 251,
+      "workingCount": 326
+    },
+    "earnings": {
+      "annual": 49012,
+      "monthly": 4084,
+      "byDemographic": {
+        "male": 43883,
+        "nonMale": 49013,
+        "pellRecipient": 46850,
+        "nonPellRecipient": 55261
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1907",
+    "programName": "Human Development, Family Studies, and Related Services.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1907",
+    "programName": "Human Development, Family Studies, and Related Services.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1909",
+    "programName": "Apparel and Textiles.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 21,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2301",
+    "programName": "English Language and Literature, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 47,
+      "workingCount": 35
+    },
+    "earnings": {
+      "annual": 44804,
+      "monthly": 3734,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2301",
+    "programName": "English Language and Literature, General.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 6,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2313",
+    "programName": "Rhetoric and Composition/Writing Studies.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2313",
+    "programName": "Rhetoric and Composition/Writing Studies.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 20,
+      "workingCount": 17
+    },
+    "earnings": {
+      "annual": 49178,
+      "monthly": 4098,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2401",
+    "programName": "Liberal Arts and Sciences, General Studies and Humanities.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 63,
+      "workingCount": 90
+    },
+    "earnings": {
+      "annual": 52570,
+      "monthly": 4381,
+      "byDemographic": {
+        "male": 50747,
+        "nonMale": 53428,
+        "pellRecipient": 55354,
+        "nonPellRecipient": 41356
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "2401",
+    "programName": "Liberal Arts and Sciences, General Studies and Humanities.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2601",
+    "programName": "Biology, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 190,
+      "workingCount": 91
+    },
+    "earnings": {
+      "annual": 54017,
+      "monthly": 4501,
+      "byDemographic": {
+        "male": 52647,
+        "nonMale": 54624,
+        "pellRecipient": 51973,
+        "nonPellRecipient": 57279
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2601",
+    "programName": "Biology, General.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2601",
+    "programName": "Biology, General.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 9,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2602",
+    "programName": "Biochemistry, Biophysics and Molecular Biology.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 75,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2602",
+    "programName": "Biochemistry, Biophysics and Molecular Biology.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2602",
+    "programName": "Biochemistry, Biophysics and Molecular Biology.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2603",
+    "programName": "Botany/Plant Biology.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 12,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "2603",
+    "programName": "Botany/Plant Biology.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 5,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2603",
+    "programName": "Botany/Plant Biology.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2604",
+    "programName": "Cell/Cellular Biology and Anatomical Sciences.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2604",
+    "programName": "Cell/Cellular Biology and Anatomical Sciences.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 5,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2605",
+    "programName": "Microbiological Sciences and Immunology.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 42,
+      "workingCount": 69
+    },
+    "earnings": {
+      "annual": 70583,
+      "monthly": 5882,
+      "byDemographic": {
+        "male": 67084,
+        "nonMale": 74798,
+        "pellRecipient": 73829,
+        "nonPellRecipient": 58567
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2605",
+    "programName": "Microbiological Sciences and Immunology.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2605",
+    "programName": "Microbiological Sciences and Immunology.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 5,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2607",
+    "programName": "Zoology/Animal Biology.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 61,
+      "workingCount": 46
+    },
+    "earnings": {
+      "annual": 36871,
+      "monthly": 3073,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 36080,
+        "nonPellRecipient": 38101
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "2610",
+    "programName": "Pharmacology and Toxicology.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2610",
+    "programName": "Pharmacology and Toxicology.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2612",
+    "programName": "Biotechnology.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 11,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2701",
+    "programName": "Mathematics.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 61,
+      "workingCount": 40
+    },
+    "earnings": {
+      "annual": 63194,
+      "monthly": 5266,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 61672,
+        "nonPellRecipient": 72959
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2701",
+    "programName": "Mathematics.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 13,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2701",
+    "programName": "Mathematics.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 10,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2705",
+    "programName": "Statistics.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 35,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2705",
+    "programName": "Statistics.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2705",
+    "programName": "Statistics.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 8,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "3005",
+    "programName": "Peace Studies and Conflict Resolution.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3011",
+    "programName": "Gerontology.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3018",
+    "programName": "Natural Sciences.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 0,
+      "workingCount": 41
+    },
+    "earnings": {
+      "annual": 112393,
+      "monthly": 9366,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 110775,
+        "nonPellRecipient": 137107
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3020",
+    "programName": "International/Global Studies.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3033",
+    "programName": "Sustainability Studies.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 42,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "3099",
+    "programName": "Multi/Interdisciplinary Studies, Other.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 0,
+      "workingCount": 53
+    },
+    "earnings": {
+      "annual": 62136,
+      "monthly": 5178,
+      "byDemographic": {
+        "male": 88816,
+        "nonMale": 57501,
+        "pellRecipient": 62531,
+        "nonPellRecipient": 69547
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "3099",
+    "programName": "Multi/Interdisciplinary Studies, Other.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 9,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3101",
+    "programName": "Parks, Recreation and Leisure Studies.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 14,
+      "workingCount": 22
+    },
+    "earnings": {
+      "annual": 50685,
+      "monthly": 4224,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3105",
+    "programName": "Health and Physical Education/Fitness.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 226,
+      "workingCount": 205
+    },
+    "earnings": {
+      "annual": 60964,
+      "monthly": 5080,
+      "byDemographic": {
+        "male": 58363,
+        "nonMale": 62202,
+        "pellRecipient": 61830,
+        "nonPellRecipient": 60090
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "3105",
+    "programName": "Health and Physical Education/Fitness.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3105",
+    "programName": "Health and Physical Education/Fitness.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3801",
+    "programName": "Philosophy.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 10,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "3801",
+    "programName": "Philosophy.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3801",
+    "programName": "Philosophy.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3802",
+    "programName": "Religion/Religious Studies.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 8,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "4005",
+    "programName": "Chemistry.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 43,
+      "workingCount": 28
+    },
+    "earnings": {
+      "annual": 70654,
+      "monthly": 5888,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4005",
+    "programName": "Chemistry.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 10,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4005",
+    "programName": "Chemistry.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 14,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4006",
+    "programName": "Geological and Earth Sciences/Geosciences.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 53,
+      "workingCount": 30
+    },
+    "earnings": {
+      "annual": 67728,
+      "monthly": 5644,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4006",
+    "programName": "Geological and Earth Sciences/Geosciences.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 13,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4006",
+    "programName": "Geological and Earth Sciences/Geosciences.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 7,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4008",
+    "programName": "Physics.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 34,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4008",
+    "programName": "Physics.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 7,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4008",
+    "programName": "Physics.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 6,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4010",
+    "programName": "Materials Sciences.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4010",
+    "programName": "Materials Sciences.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4201",
+    "programName": "Psychology, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 274,
+      "workingCount": 158
+    },
+    "earnings": {
+      "annual": 49486,
+      "monthly": 4124,
+      "byDemographic": {
+        "male": 50007,
+        "nonMale": 49945,
+        "pellRecipient": 45111,
+        "nonPellRecipient": 61985
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "4227",
+    "programName": "Research and Experimental Psychology.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4227",
+    "programName": "Research and Experimental Psychology.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4405",
+    "programName": "Public Policy Analysis.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "4405",
+    "programName": "Public Policy Analysis.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 18,
+      "workingCount": 18
+    },
+    "earnings": {
+      "annual": 73938,
+      "monthly": 6162,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "4405",
+    "programName": "Public Policy Analysis.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4501",
+    "programName": "Social Sciences, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 8,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4502",
+    "programName": "Anthropology.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 65,
+      "workingCount": 56
+    },
+    "earnings": {
+      "annual": 55684,
+      "monthly": 4640,
+      "byDemographic": {
+        "male": 52621,
+        "nonMale": 57024,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "4502",
+    "programName": "Anthropology.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4502",
+    "programName": "Anthropology.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4502",
+    "programName": "Anthropology.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "4506",
+    "programName": "Economics.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 109,
+      "workingCount": 86
+    },
+    "earnings": {
+      "annual": 76531,
+      "monthly": 6378,
+      "byDemographic": {
+        "male": 75204,
+        "nonMale": 85083,
+        "pellRecipient": 71112,
+        "nonPellRecipient": 83158
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "4506",
+    "programName": "Economics.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4506",
+    "programName": "Economics.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4507",
+    "programName": "Geography and Cartography.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 23,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "4507",
+    "programName": "Geography and Cartography.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 5,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4507",
+    "programName": "Geography and Cartography.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4507",
+    "programName": "Geography and Cartography.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 100,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "4510",
+    "programName": "Political Science and Government.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 78,
+      "workingCount": 46
+    },
+    "earnings": {
+      "annual": 59150,
+      "monthly": 4929,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "4511",
+    "programName": "Sociology.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 79,
+      "workingCount": 86
+    },
+    "earnings": {
+      "annual": 52350,
+      "monthly": 4363,
+      "byDemographic": {
+        "male": 56446,
+        "nonMale": 47831,
+        "pellRecipient": 53419,
+        "nonPellRecipient": 49715
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5001",
+    "programName": "Visual and Performing Arts, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 3,
+      "workingCount": 20
+    },
+    "earnings": {
+      "annual": 36748,
+      "monthly": 3062,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5004",
+    "programName": "Design and Applied Arts.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 111,
+      "workingCount": 41
+    },
+    "earnings": {
+      "annual": 53265,
+      "monthly": 4439,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 61701,
+        "nonPellRecipient": 50218
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5007",
+    "programName": "Fine and Studio Arts.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 22,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5009",
+    "programName": "Music.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 28,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 0,
+      "workingCount": 21
+    },
+    "earnings": {
+      "annual": 61448,
+      "monthly": 5121,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 13,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5111",
+    "programName": "Health/Medical Preparatory Programs.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 143,
+      "workingCount": 69
+    },
+    "earnings": {
+      "annual": 103024,
+      "monthly": 8585,
+      "byDemographic": {
+        "male": 104808,
+        "nonMale": 99041,
+        "pellRecipient": 122763,
+        "nonPellRecipient": 100088
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5120",
+    "programName": "Pharmacy, Pharmaceutical Sciences, and Administration.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 6,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5120",
+    "programName": "Pharmacy, Pharmaceutical Sciences, and Administration.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 9,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5120",
+    "programName": "Pharmacy, Pharmaceutical Sciences, and Administration.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 79,
+      "workingCount": 150
+    },
+    "earnings": {
+      "annual": 153136,
+      "monthly": 12761,
+      "byDemographic": {
+        "male": 151656,
+        "nonMale": 153459,
+        "pellRecipient": 152172,
+        "nonPellRecipient": 153503
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5122",
+    "programName": "Public Health.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 121,
+      "workingCount": 158
+    },
+    "earnings": {
+      "annual": 60183,
+      "monthly": 5015,
+      "byDemographic": {
+        "male": 61622,
+        "nonMale": 59083,
+        "pellRecipient": 58380,
+        "nonPellRecipient": 59421
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5122",
+    "programName": "Public Health.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 82,
+      "workingCount": 60
+    },
+    "earnings": {
+      "annual": 79489,
+      "monthly": 6624,
+      "byDemographic": {
+        "male": 93626,
+        "nonMale": 77628,
+        "pellRecipient": 93834,
+        "nonPellRecipient": 76273
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5122",
+    "programName": "Public Health.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 10,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5122",
+    "programName": "Public Health.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5132",
+    "programName": "Bioethics/Medical Ethics.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 61,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 483,
+      "workingCount": 171
+    },
+    "earnings": {
+      "annual": 69262,
+      "monthly": 5772,
+      "byDemographic": {
+        "male": 70078,
+        "nonMale": 69816,
+        "pellRecipient": 67587,
+        "nonPellRecipient": 71197
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 89,
+      "workingCount": 29
+    },
+    "earnings": {
+      "annual": 93312,
+      "monthly": 7776,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 6,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5203",
+    "programName": "Accounting and Related Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 93,
+      "workingCount": 71
+    },
+    "earnings": {
+      "annual": 76958,
+      "monthly": 6413,
+      "byDemographic": {
+        "male": 80627,
+        "nonMale": 76527,
+        "pellRecipient": 72700,
+        "nonPellRecipient": 84947
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5208",
+    "programName": "Finance and Financial Management Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 159,
+      "workingCount": 73
+    },
+    "earnings": {
+      "annual": 81470,
+      "monthly": 6789,
+      "byDemographic": {
+        "male": 81962,
+        "nonMale": 75931,
+        "pellRecipient": 79465,
+        "nonPellRecipient": 81703
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5209",
+    "programName": "Hospitality Administration/Management.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5212",
+    "programName": "Management Information Systems and Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 82,
+      "workingCount": 60
+    },
+    "earnings": {
+      "annual": 77803,
+      "monthly": 6484,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 80365,
+        "nonPellRecipient": 77648
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5213",
+    "programName": "Management Sciences and Quantitative Methods.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 6,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5213",
+    "programName": "Management Sciences and Quantitative Methods.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 53,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5213",
+    "programName": "Management Sciences and Quantitative Methods.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 6,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5214",
+    "programName": "Marketing.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 134,
+      "workingCount": 95
+    },
+    "earnings": {
+      "annual": 68673,
+      "monthly": 5723,
+      "byDemographic": {
+        "male": 77473,
+        "nonMale": 64209,
+        "pellRecipient": 69041,
+        "nonPellRecipient": 75210
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5401",
+    "programName": "History.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 63,
+      "workingCount": 36
+    },
+    "earnings": {
+      "annual": 51945,
+      "monthly": 4329,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5401",
+    "programName": "History.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 3,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

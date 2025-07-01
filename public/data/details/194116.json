@@ -3313,5 +3313,32 @@
   "MD_EARN_WNE_INDEP1_P11": "51077",
   "MD_EARN_WNE_MALE0_P11": "58635",
   "MD_EARN_WNE_MALE1_P11": "52233",
-  "SCORECARD_SECTOR": "NA"
+  "SCORECARD_SECTOR": "NA",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Architectural Sciences and Technology",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Design and Applied Arts",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Design and Applied Arts",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Design and Applied Arts",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Design and Applied Arts",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    }
+  ]
 }

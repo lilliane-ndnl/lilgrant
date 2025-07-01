@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "2201",
+    "programName": "Law.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 411,
+      "workingCount": 834
+    },
+    "earnings": {
+      "annual": 71846,
+      "monthly": 5987,
+      "byDemographic": {
+        "male": 74676,
+        "nonMale": 70028,
+        "pellRecipient": 68541,
+        "nonPellRecipient": 77054
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2202",
+    "programName": "Legal Research and Advanced Professional Studies.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 26,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2202",
+    "programName": "Legal Research and Advanced Professional Studies.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 0,
+      "workingCount": 60
+    },
+    "earnings": {
+      "annual": 84113,
+      "monthly": 7009,
+      "byDemographic": {
+        "male": 84307,
+        "nonMale": 80101,
+        "pellRecipient": 88762,
+        "nonPellRecipient": 68991
+      }
+    },
+    "deliveryMethod": 0
+  }
+]

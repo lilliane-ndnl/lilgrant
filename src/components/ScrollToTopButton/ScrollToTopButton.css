@@ -5,9 +5,9 @@
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background: linear-gradient(135deg, rgba(75, 0, 130, 0.9), rgba(138, 43, 226, 0.8));
+  background: linear-gradient(135deg, rgba(92, 31, 74, 0.95), rgba(186, 74, 143, 0.9));
   backdrop-filter: blur(15px);
-  border: 1px solid rgba(138, 43, 226, 0.4);
+  border: 1px solid rgba(186, 74, 143, 0.4);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -16,7 +16,7 @@
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 12px 40px rgba(75, 0, 130, 0.25), 0 6px 20px rgba(138, 43, 226, 0.15);
+  box-shadow: 0 4px 15px rgba(92, 31, 74, 0.3);
 }
 
 .scroll-to-top-btn.visible {
@@ -26,8 +26,8 @@
 
 .scroll-to-top-btn:hover {
   transform: translateY(-3px) scale(1.08);
-  box-shadow: 0 20px 60px rgba(75, 0, 130, 0.35), 0 8px 25px rgba(138, 43, 226, 0.25);
-  background: linear-gradient(135deg, rgba(75, 0, 130, 1), rgba(138, 43, 226, 0.95));
+  box-shadow: 0 8px 25px rgba(92, 31, 74, 0.4);
+  background: linear-gradient(135deg, rgba(92, 31, 74, 1), rgba(186, 74, 143, 0.95));
 }
 
 .scroll-to-top-btn:active {
@@ -49,10 +49,10 @@
 }
 
 .progress-ring-progress {
-  stroke: #A855F7;
+  stroke: rgba(186, 74, 143, 0.9);
   stroke-linecap: round;
   transition: stroke-dashoffset 0.1s ease;
-  filter: drop-shadow(0 0 6px rgba(168, 85, 247, 0.8));
+  filter: drop-shadow(0 0 6px rgba(186, 74, 143, 0.8));
 }
 
 .arrow-icon {

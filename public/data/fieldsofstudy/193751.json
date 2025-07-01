@@ -1,0 +1,107 @@
+[
+  {
+    "cipCode": "5101",
+    "programName": "Chiropractic.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 166,
+      "workingCount": 214
+    },
+    "earnings": {
+      "annual": 62660,
+      "monthly": 5222,
+      "byDemographic": {
+        "male": 71158,
+        "nonMale": 48538,
+        "pellRecipient": 69745,
+        "nonPellRecipient": 62265
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5131",
+    "programName": "Dietetics and Clinical Nutrition Services.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 66,
+      "workingCount": 23
+    },
+    "earnings": {
+      "annual": 47935,
+      "monthly": 3995,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5133",
+    "programName": "Alternative and Complementary Medicine and Medical Systems.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 7,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5199",
+    "programName": "Health Professions and Related Clinical Sciences, Other.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 23,
+      "workingCount": 16
+    },
+    "earnings": {
+      "annual": 76572,
+      "monthly": 6381,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  }
+]

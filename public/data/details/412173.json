@@ -3313,5 +3313,32 @@
   "MD_EARN_WNE_INDEP1_P11": "41472",
   "MD_EARN_WNE_MALE0_P11": "40853",
   "MD_EARN_WNE_MALE1_P11": "57172",
-  "SCORECARD_SECTOR": "8"
+  "SCORECARD_SECTOR": "8",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Nursing",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "20965"
+    },
+    {
+      "CIPDESC": "Rehabilitation and Therapeutic Professions",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Health Aides/Attendants/Orderlies",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "73445"
+    },
+    {
+      "CIPDESC": "Practical Nursing, Vocational Nursing and Nursing Assistants",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "38829"
+    }
+  ]
 }

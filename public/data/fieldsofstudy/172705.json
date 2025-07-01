@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "3906",
+    "programName": "Theological and Ministerial Studies.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 7,
+      "workingCount": 66
+    },
+    "earnings": {
+      "annual": 59095,
+      "monthly": 4925,
+      "byDemographic": {
+        "male": 63940,
+        "nonMale": 50051,
+        "pellRecipient": 48205,
+        "nonPellRecipient": 65675
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3906",
+    "programName": "Theological and Ministerial Studies.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 24,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3999",
+    "programName": "Theology and Religious Vocations, Other.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 28,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  }
+]

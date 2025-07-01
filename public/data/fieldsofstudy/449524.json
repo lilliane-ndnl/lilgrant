@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 11,
+      "workingCount": 25
+    },
+    "earnings": {
+      "annual": 60630,
+      "monthly": 5053,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 31,
+      "workingCount": 90
+    },
+    "earnings": {
+      "annual": 71448,
+      "monthly": 5954,
+      "byDemographic": {
+        "male": 84715,
+        "nonMale": 69801,
+        "pellRecipient": 67344,
+        "nonPellRecipient": 84359
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5139",
+    "programName": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 28,
+      "workingCount": 29
+    },
+    "earnings": {
+      "annual": 62205,
+      "monthly": 5184,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

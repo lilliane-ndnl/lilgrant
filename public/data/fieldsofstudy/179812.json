@@ -1,0 +1,86 @@
+[
+  {
+    "cipCode": "2601",
+    "programName": "Biology, General.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 90,
+      "workingCount": 79
+    },
+    "earnings": {
+      "annual": 62136,
+      "monthly": 5178,
+      "byDemographic": {
+        "male": 60817,
+        "nonMale": 62442,
+        "pellRecipient": 59047,
+        "nonPellRecipient": 62949
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5112",
+    "programName": "Medicine.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 0,
+      "workingCount": 192
+    },
+    "earnings": {
+      "annual": 235975,
+      "monthly": 19665,
+      "byDemographic": {
+        "male": 245577,
+        "nonMale": 220133,
+        "pellRecipient": 239110,
+        "nonPellRecipient": 233638
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5112",
+    "programName": "Medicine.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 235,
+      "workingCount": 222
+    },
+    "earnings": {
+      "annual": 190556,
+      "monthly": 15880,
+      "byDemographic": {
+        "male": 203725,
+        "nonMale": 181379,
+        "pellRecipient": 169356,
+        "nonPellRecipient": 194051
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5132",
+    "programName": "Bioethics/Medical Ethics.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 23,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

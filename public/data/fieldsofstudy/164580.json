@@ -1,0 +1,107 @@
+[
+  {
+    "cipCode": "2703",
+    "programName": "Applied Mathematics.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 30,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 607,
+      "workingCount": 380
+    },
+    "earnings": {
+      "annual": 110754,
+      "monthly": 9230,
+      "byDemographic": {
+        "male": 113973,
+        "nonMale": 105481,
+        "pellRecipient": 104573,
+        "nonPellRecipient": 115716
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 331,
+      "workingCount": 230
+    },
+    "earnings": {
+      "annual": 171656,
+      "monthly": 14305,
+      "byDemographic": {
+        "male": 177668,
+        "nonMale": 155847,
+        "pellRecipient": 161105,
+        "nonPellRecipient": 173393
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 69,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5213",
+    "programName": "Management Sciences and Quantitative Methods.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 34,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

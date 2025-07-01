@@ -3313,5 +3313,12 @@
   "MD_EARN_WNE_INDEP1_P11": "80556",
   "MD_EARN_WNE_MALE0_P11": "70635",
   "MD_EARN_WNE_MALE1_P11": "92074",
-  "SCORECARD_SECTOR": "5"
+  "SCORECARD_SECTOR": "5",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "65874"
+    }
+  ]
 }

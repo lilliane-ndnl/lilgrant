@@ -1,0 +1,149 @@
+[
+  {
+    "cipCode": "0183",
+    "programName": "Veterinary/Animal Health Technologies/Technicians.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 34,
+      "workingCount": 30
+    },
+    "earnings": {
+      "annual": 35032,
+      "monthly": 2919,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5100",
+    "programName": "Health Services/Allied Health/Health Sciences, General.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 21,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5106",
+    "programName": "Dental Support Services and Allied Professions.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 36,
+      "workingCount": 112
+    },
+    "earnings": {
+      "annual": 34735,
+      "monthly": 2895,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 35500,
+        "nonPellRecipient": 32697
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 15,
+      "workingCount": 43
+    },
+    "earnings": {
+      "annual": 36335,
+      "monthly": 3028,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 114,
+      "workingCount": 312
+    },
+    "earnings": {
+      "annual": 37296,
+      "monthly": 3108,
+      "byDemographic": {
+        "male": 38290,
+        "nonMale": 37033,
+        "pellRecipient": 37006,
+        "nonPellRecipient": 41972
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 12,
+      "workingCount": 41
+    },
+    "earnings": {
+      "annual": 64271,
+      "monthly": 5356,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 59537,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5135",
+    "programName": "Somatic Bodywork and Related Therapeutic Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 23,
+      "workingCount": 61
+    },
+    "earnings": {
+      "annual": 28461,
+      "monthly": 2372,
+      "byDemographic": {
+        "male": 32433,
+        "nonMale": 28362,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

@@ -3313,5 +3313,12 @@
   "MD_EARN_WNE_INDEP1_P11": "23674",
   "MD_EARN_WNE_MALE0_P11": "32822",
   "MD_EARN_WNE_MALE1_P11": "28218",
-  "SCORECARD_SECTOR": "42298"
+  "SCORECARD_SECTOR": "42298",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Liberal Arts and Sciences, General Studies and Humanities",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    }
+  ]
 }

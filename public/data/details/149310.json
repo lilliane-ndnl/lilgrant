@@ -3313,5 +3313,27 @@
   "MD_EARN_WNE_INDEP1_P11": "27038",
   "MD_EARN_WNE_MALE0_P11": "23873",
   "MD_EARN_WNE_MALE1_P11": "23455",
-  "SCORECARD_SECTOR": "26214"
+  "SCORECARD_SECTOR": "26214",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Electrical Engineering Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Criminal Justice and Corrections",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "33273"
+    },
+    {
+      "CIPDESC": "Health and Medical Administrative Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Accounting and Related Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    }
+  ]
 }

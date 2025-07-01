@@ -1,0 +1,23 @@
+[
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 100,
+      "workingCount": 399
+    },
+    "earnings": {
+      "annual": 82323,
+      "monthly": 6860,
+      "byDemographic": {
+        "male": 97545,
+        "nonMale": 66911,
+        "pellRecipient": 81734,
+        "nonPellRecipient": 85884
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

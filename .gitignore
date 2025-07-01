@@ -47,3 +47,6 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+
+# Large data files
+scripts/data_source/Most-Recent-Cohorts-Field-of-Study.csv

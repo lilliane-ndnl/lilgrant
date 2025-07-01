@@ -1,0 +1,44 @@
+[
+  {
+    "cipCode": "1002",
+    "programName": "Audiovisual Communications Technologies/Technicians.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 3,
+      "workingCount": 223
+    },
+    "earnings": {
+      "annual": 29161,
+      "monthly": 2430,
+      "byDemographic": {
+        "male": 28086,
+        "nonMale": 35362,
+        "pellRecipient": 28579,
+        "nonPellRecipient": 31476
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1002",
+    "programName": "Audiovisual Communications Technologies/Technicians.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 35,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

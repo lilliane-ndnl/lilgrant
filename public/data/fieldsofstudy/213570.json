@@ -1,0 +1,107 @@
+[
+  {
+    "cipCode": "1109",
+    "programName": "Computer Systems Networking and Telecommunications.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 15,
+      "workingCount": 30
+    },
+    "earnings": {
+      "annual": 41477,
+      "monthly": 3456,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4701",
+    "programName": "Electrical/Electronics Maintenance and Repair Technology.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 22,
+      "workingCount": 122
+    },
+    "earnings": {
+      "annual": 46461,
+      "monthly": 3872,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 44781,
+        "nonPellRecipient": 63894
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 3,
+      "workingCount": 19
+    },
+    "earnings": {
+      "annual": 33426,
+      "monthly": 2786,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 207,
+      "workingCount": 738
+    },
+    "earnings": {
+      "annual": 35025,
+      "monthly": 2919,
+      "byDemographic": {
+        "male": 39105,
+        "nonMale": 34461,
+        "pellRecipient": 34015,
+        "nonPellRecipient": 39169
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5139",
+    "programName": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 67,
+      "workingCount": 318
+    },
+    "earnings": {
+      "annual": 58852,
+      "monthly": 4904,
+      "byDemographic": {
+        "male": 73066,
+        "nonMale": 57501,
+        "pellRecipient": 58010,
+        "nonPellRecipient": 63216
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

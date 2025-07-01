@@ -3313,5 +3313,12 @@
   "MD_EARN_WNE_INDEP1_P11": "NA",
   "MD_EARN_WNE_MALE0_P11": "49617",
   "MD_EARN_WNE_MALE1_P11": "49657",
-  "SCORECARD_SECTOR": "44313"
+  "SCORECARD_SECTOR": "44313",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Funeral Service and Mortuary Science",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "59793"
+    }
+  ]
 }

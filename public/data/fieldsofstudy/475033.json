@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "1304",
+    "programName": "Educational Administration and Supervision.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 0,
+      "workingCount": 20
+    },
+    "earnings": {
+      "annual": 148774,
+      "monthly": 12398,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "1312",
+    "programName": "Teacher Education and Professional Development, Specific Levels and Methods.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 40,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1312",
+    "programName": "Teacher Education and Professional Development, Specific Levels and Methods.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 1713,
+      "workingCount": 542
+    },
+    "earnings": {
+      "annual": 91147,
+      "monthly": 7596,
+      "byDemographic": {
+        "male": 94341,
+        "nonMale": 89951,
+        "pellRecipient": 91039,
+        "nonPellRecipient": 91348
+      }
+    },
+    "deliveryMethod": 2
+  }
+]

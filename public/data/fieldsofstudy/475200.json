@@ -1,0 +1,107 @@
+[
+  {
+    "cipCode": "1312",
+    "programName": "Teacher Education and Professional Development, Specific Levels and Methods.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 16,
+      "workingCount": 50
+    },
+    "earnings": {
+      "annual": 54287,
+      "monthly": 4524,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 51003,
+        "nonPellRecipient": 56690
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2401",
+    "programName": "Liberal Arts and Sciences, General Studies and Humanities.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 36,
+      "workingCount": 44
+    },
+    "earnings": {
+      "annual": 54169,
+      "monthly": 4514,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3802",
+    "programName": "Religion/Religious Studies.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 1,
+      "workingCount": 18
+    },
+    "earnings": {
+      "annual": 43395,
+      "monthly": 3616,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 22,
+      "workingCount": 70
+    },
+    "earnings": {
+      "annual": 64039,
+      "monthly": 5337,
+      "byDemographic": {
+        "male": 68461,
+        "nonMale": 52115,
+        "pellRecipient": 75408,
+        "nonPellRecipient": 57972
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5203",
+    "programName": "Accounting and Related Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 5,
+      "workingCount": 33
+    },
+    "earnings": {
+      "annual": 80683,
+      "monthly": 6724,
+      "byDemographic": {
+        "male": 81917,
+        "nonMale": 76655,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

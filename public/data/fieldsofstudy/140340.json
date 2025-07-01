@@ -1,0 +1,485 @@
+[
+  {
+    "cipCode": "1102",
+    "programName": "Computer Programming.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "1102",
+    "programName": "Computer Programming.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 2,
+      "workingCount": 40
+    },
+    "earnings": {
+      "annual": 82894,
+      "monthly": 6908,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "1109",
+    "programName": "Computer Systems Networking and Telecommunications.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 0,
+      "workingCount": 17
+    },
+    "earnings": {
+      "annual": 53940,
+      "monthly": 4495,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "1109",
+    "programName": "Computer Systems Networking and Telecommunications.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 0,
+      "workingCount": 46
+    },
+    "earnings": {
+      "annual": 50860,
+      "monthly": 4238,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "1110",
+    "programName": "Computer/Information Technology Administration and Management.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 15,
+      "workingCount": 53
+    },
+    "earnings": {
+      "annual": 70181,
+      "monthly": 5848,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "2203",
+    "programName": "Legal Support Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 6,
+      "workingCount": 34
+    },
+    "earnings": {
+      "annual": 40021,
+      "monthly": 3335,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "2203",
+    "programName": "Legal Support Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 0,
+      "workingCount": 24
+    },
+    "earnings": {
+      "annual": 50061,
+      "monthly": 4172,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "4301",
+    "programName": "Criminal Justice and Corrections.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 5,
+      "workingCount": 75
+    },
+    "earnings": {
+      "annual": 63953,
+      "monthly": 5329,
+      "byDemographic": {
+        "male": 75854,
+        "nonMale": 52130,
+        "pellRecipient": 56898,
+        "nonPellRecipient": 78319
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "4303",
+    "programName": "Homeland Security.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 19,
+      "workingCount": 322
+    },
+    "earnings": {
+      "annual": 32536,
+      "monthly": 2711,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 31558,
+        "nonPellRecipient": 44493
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 24,
+      "workingCount": 340
+    },
+    "earnings": {
+      "annual": 34623,
+      "monthly": 2885,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 33930,
+        "nonPellRecipient": 50542
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 6,
+      "workingCount": 157
+    },
+    "earnings": {
+      "annual": 51340,
+      "monthly": 4278,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 16,
+      "workingCount": 89
+    },
+    "earnings": {
+      "annual": 33717,
+      "monthly": 2810,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 12,
+      "workingCount": 199
+    },
+    "earnings": {
+      "annual": 38011,
+      "monthly": 3168,
+      "byDemographic": {
+        "male": 58604,
+        "nonMale": 35657,
+        "pellRecipient": 36231,
+        "nonPellRecipient": 50120
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 37,
+      "workingCount": 193
+    },
+    "earnings": {
+      "annual": 81525,
+      "monthly": 6794,
+      "byDemographic": {
+        "male": 95142,
+        "nonMale": 80767,
+        "pellRecipient": 80272,
+        "nonPellRecipient": 89866
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 31,
+      "workingCount": 77
+    },
+    "earnings": {
+      "annual": 39668,
+      "monthly": 3306,
+      "byDemographic": {
+        "male": 47319,
+        "nonMale": 37742,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 8,
+      "workingCount": 160
+    },
+    "earnings": {
+      "annual": 65935,
+      "monthly": 5495,
+      "byDemographic": {
+        "male": 76795,
+        "nonMale": 60191,
+        "pellRecipient": 64667,
+        "nonPellRecipient": 68213
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 39,
+      "workingCount": 178
+    },
+    "earnings": {
+      "annual": 54354,
+      "monthly": 4530,
+      "byDemographic": {
+        "male": 68055,
+        "nonMale": 53604,
+        "pellRecipient": 51606,
+        "nonPellRecipient": 76099
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5203",
+    "programName": "Accounting and Related Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 2,
+      "workingCount": 46
+    },
+    "earnings": {
+      "annual": 31508,
+      "monthly": 2626,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5203",
+    "programName": "Accounting and Related Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 1,
+      "workingCount": 28
+    },
+    "earnings": {
+      "annual": 44236,
+      "monthly": 3686,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5203",
+    "programName": "Accounting and Related Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 1,
+      "workingCount": 44
+    },
+    "earnings": {
+      "annual": 63013,
+      "monthly": 5251,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5204",
+    "programName": "Business Operations Support and Assistant Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 14,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  }
+]

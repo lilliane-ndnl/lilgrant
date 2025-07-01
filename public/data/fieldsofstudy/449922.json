@@ -1,0 +1,44 @@
+[
+  {
+    "cipCode": "5120",
+    "programName": "Pharmacy, Pharmaceutical Sciences, and Administration.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 0,
+      "workingCount": 122
+    },
+    "earnings": {
+      "annual": 143879,
+      "monthly": 11990,
+      "byDemographic": {
+        "male": 147947,
+        "nonMale": 141147,
+        "pellRecipient": 144297,
+        "nonPellRecipient": 143480
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5120",
+    "programName": "Pharmacy, Pharmaceutical Sciences, and Administration.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 55,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

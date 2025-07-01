@@ -1,0 +1,44 @@
+[
+  {
+    "cipCode": "4704",
+    "programName": "Precision Systems Maintenance and Repair Technologies.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 432,
+      "workingCount": 29
+    },
+    "earnings": {
+      "annual": 59033,
+      "monthly": 4919,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "4704",
+    "programName": "Precision Systems Maintenance and Repair Technologies.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 650,
+      "workingCount": 31
+    },
+    "earnings": {
+      "annual": 74430,
+      "monthly": 6203,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  }
+]

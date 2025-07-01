@@ -1,0 +1,86 @@
+[
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 0,
+      "workingCount": 425
+    },
+    "earnings": {
+      "annual": 36560,
+      "monthly": 3047,
+      "byDemographic": {
+        "male": 60646,
+        "nonMale": 35688,
+        "pellRecipient": 35771,
+        "nonPellRecipient": 54808
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5115",
+    "programName": "Mental and Social Health Services and Allied Professions.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 0,
+      "workingCount": 176
+    },
+    "earnings": {
+      "annual": 47527,
+      "monthly": 3961,
+      "byDemographic": {
+        "male": 55751,
+        "nonMale": 46033,
+        "pellRecipient": 46817,
+        "nonPellRecipient": 52642
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 0,
+      "workingCount": 1664
+    },
+    "earnings": {
+      "annual": 90784,
+      "monthly": 7565,
+      "byDemographic": {
+        "male": 104878,
+        "nonMale": 89683,
+        "pellRecipient": 89614,
+        "nonPellRecipient": 94655
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 0,
+      "workingCount": 1252
+    },
+    "earnings": {
+      "annual": 118330,
+      "monthly": 9861,
+      "byDemographic": {
+        "male": 127669,
+        "nonMale": 116806,
+        "pellRecipient": 117257,
+        "nonPellRecipient": 120070
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

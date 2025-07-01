@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "1109",
+    "programName": "Computer Systems Networking and Telecommunications.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 2358,
+      "workingCount": 111
+    },
+    "earnings": {
+      "annual": 48354,
+      "monthly": 4030,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 46911,
+        "nonPellRecipient": 49903
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1110",
+    "programName": "Computer/Information Technology Administration and Management.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 445,
+      "workingCount": 131
+    },
+    "earnings": {
+      "annual": 53016,
+      "monthly": 4418,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 51463,
+        "nonPellRecipient": 52837
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "1110",
+    "programName": "Computer/Information Technology Administration and Management.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 36,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  }
+]

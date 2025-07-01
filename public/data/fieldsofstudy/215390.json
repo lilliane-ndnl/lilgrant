@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "1203",
+    "programName": "Funeral Service and Mortuary Science.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 22,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "1203",
+    "programName": "Funeral Service and Mortuary Science.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 135,
+      "workingCount": 67
+    },
+    "earnings": {
+      "annual": 55103,
+      "monthly": 4592,
+      "byDemographic": {
+        "male": 54493,
+        "nonMale": 50626,
+        "pellRecipient": 55962,
+        "nonPellRecipient": 52080
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1203",
+    "programName": "Funeral Service and Mortuary Science.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 0,
+      "workingCount": 25
+    },
+    "earnings": {
+      "annual": 46315,
+      "monthly": 3860,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 0
+  }
+]

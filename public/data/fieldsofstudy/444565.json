@@ -1,0 +1,44 @@
+[
+  {
+    "cipCode": "1205",
+    "programName": "Culinary Arts and Related Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 56,
+      "workingCount": 53
+    },
+    "earnings": {
+      "annual": 30990,
+      "monthly": 2583,
+      "byDemographic": {
+        "male": 27055,
+        "nonMale": 29711,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1205",
+    "programName": "Culinary Arts and Related Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 55,
+      "workingCount": 118
+    },
+    "earnings": {
+      "annual": 26286,
+      "monthly": 2191,
+      "byDemographic": {
+        "male": 34708,
+        "nonMale": 24869,
+        "pellRecipient": 25345,
+        "nonPellRecipient": 34655
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "cipCode": "0301",
+    "programName": "Natural Resources Conservation and Research.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 25,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1312",
+    "programName": "Teacher Education and Professional Development, Specific Levels and Methods.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 0,
+      "workingCount": 53
+    },
+    "earnings": {
+      "annual": 75318,
+      "monthly": 6277,
+      "byDemographic": {
+        "male": 73994,
+        "nonMale": 75560,
+        "pellRecipient": 75480,
+        "nonPellRecipient": 74651
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2401",
+    "programName": "Liberal Arts and Sciences, General Studies and Humanities.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 541,
+      "workingCount": 817
+    },
+    "earnings": {
+      "annual": 41864,
+      "monthly": 3489,
+      "byDemographic": {
+        "male": 42447,
+        "nonMale": 41568,
+        "pellRecipient": 40740,
+        "nonPellRecipient": 44425
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3001",
+    "programName": "Biological and Physical Sciences.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 136,
+      "workingCount": 155
+    },
+    "earnings": {
+      "annual": 45214,
+      "monthly": 3768,
+      "byDemographic": {
+        "male": 43718,
+        "nonMale": 46979,
+        "pellRecipient": 43673,
+        "nonPellRecipient": 50973
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4404",
+    "programName": "Public Administration.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 56,
+      "workingCount": 91
+    },
+    "earnings": {
+      "annual": 73539,
+      "monthly": 6128,
+      "byDemographic": {
+        "male": 72924,
+        "nonMale": 73328,
+        "pellRecipient": 68592,
+        "nonPellRecipient": 87249
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "cipCode": "0183",
+    "programName": "Veterinary/Animal Health Technologies/Technicians.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 93,
+      "workingCount": 231
+    },
+    "earnings": {
+      "annual": 38511,
+      "monthly": 3209,
+      "byDemographic": {
+        "male": 38461,
+        "nonMale": 38890,
+        "pellRecipient": 37899,
+        "nonPellRecipient": 43146
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

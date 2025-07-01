@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "2601",
+    "programName": "Biology, General.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 83,
+      "workingCount": 22
+    },
+    "earnings": {
+      "annual": 66375,
+      "monthly": 5531,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5112",
+    "programName": "Medicine.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 0,
+      "workingCount": 55
+    },
+    "earnings": {
+      "annual": 130919,
+      "monthly": 10910,
+      "byDemographic": {
+        "male": 97758,
+        "nonMale": 156453,
+        "pellRecipient": 0,
+        "nonPellRecipient": 125903
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5112",
+    "programName": "Medicine.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 98,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

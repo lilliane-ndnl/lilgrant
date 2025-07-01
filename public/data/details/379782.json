@@ -3313,5 +3313,22 @@
   "MD_EARN_WNE_INDEP1_P11": "52426",
   "MD_EARN_WNE_MALE0_P11": "51292",
   "MD_EARN_WNE_MALE1_P11": "51366",
-  "SCORECARD_SECTOR": "53200"
+  "SCORECARD_SECTOR": "53200",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Legal Research and Advanced Professional Studies",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Legal Support Services",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "42571"
+    },
+    {
+      "CIPDESC": "Legal Support Services",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "41234"
+    }
+  ]
 }

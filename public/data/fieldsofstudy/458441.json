@@ -1,0 +1,107 @@
+[
+  {
+    "cipCode": "1110",
+    "programName": "Computer/Information Technology Administration and Management.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 5,
+      "workingCount": 54
+    },
+    "earnings": {
+      "annual": 51570,
+      "monthly": 4298,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4301",
+    "programName": "Criminal Justice and Corrections.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 16,
+      "workingCount": 287
+    },
+    "earnings": {
+      "annual": 34449,
+      "monthly": 2871,
+      "byDemographic": {
+        "male": 44971,
+        "nonMale": 29729,
+        "pellRecipient": 33920,
+        "nonPellRecipient": 52164
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 47,
+      "workingCount": 519
+    },
+    "earnings": {
+      "annual": 27239,
+      "monthly": 2270,
+      "byDemographic": {
+        "male": 34871,
+        "nonMale": 27173,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 71,
+      "workingCount": 919
+    },
+    "earnings": {
+      "annual": 25324,
+      "monthly": 2110,
+      "byDemographic": {
+        "male": 27754,
+        "nonMale": 25037,
+        "pellRecipient": 24995,
+        "nonPellRecipient": 36224
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 21,
+      "workingCount": 201
+    },
+    "earnings": {
+      "annual": 28532,
+      "monthly": 2378,
+      "byDemographic": {
+        "male": 30514,
+        "nonMale": 27151,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

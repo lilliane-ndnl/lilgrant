@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 40,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5117",
+    "programName": "Optometry.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 98,
+      "workingCount": 161
+    },
+    "earnings": {
+      "annual": 105772,
+      "monthly": 8814,
+      "byDemographic": {
+        "male": 120859,
+        "nonMale": 102230,
+        "pellRecipient": 108099,
+        "nonPellRecipient": 103269
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5120",
+    "programName": "Pharmacy, Pharmaceutical Sciences, and Administration.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 47,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "4706",
+    "programName": "Vehicle Maintenance and Repair Technologies.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 83,
+      "workingCount": 3576
+    },
+    "earnings": {
+      "annual": 54442,
+      "monthly": 4537,
+      "byDemographic": {
+        "male": 54694,
+        "nonMale": 43115,
+        "pellRecipient": 53359,
+        "nonPellRecipient": 56418
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4706",
+    "programName": "Vehicle Maintenance and Repair Technologies.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 630,
+      "workingCount": 1252
+    },
+    "earnings": {
+      "annual": 54733,
+      "monthly": 4561,
+      "byDemographic": {
+        "male": 55111,
+        "nonMale": 34380,
+        "pellRecipient": 53861,
+        "nonPellRecipient": 58037
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4805",
+    "programName": "Precision Metal Working.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 152,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

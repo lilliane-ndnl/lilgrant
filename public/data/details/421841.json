@@ -3313,5 +3313,17 @@
   "MD_EARN_WNE_INDEP1_P11": "23433",
   "MD_EARN_WNE_MALE0_P11": "27650",
   "MD_EARN_WNE_MALE1_P11": "32169",
-  "SCORECARD_SECTOR": "9"
+  "SCORECARD_SECTOR": "9",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Drama/Theatre Arts and Stagecraft",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "20357"
+    },
+    {
+      "CIPDESC": "Drama/Theatre Arts and Stagecraft",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "18346"
+    }
+  ]
 }

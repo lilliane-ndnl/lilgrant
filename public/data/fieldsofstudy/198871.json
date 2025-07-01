@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "2401",
+    "programName": "Liberal Arts and Sciences, General Studies and Humanities.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 74,
+      "workingCount": 102
+    },
+    "earnings": {
+      "annual": 30281,
+      "monthly": 2523,
+      "byDemographic": {
+        "male": 30423,
+        "nonMale": 0,
+        "pellRecipient": 25522,
+        "nonPellRecipient": 39152
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2601",
+    "programName": "Biology, General.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 10,
+      "workingCount": 17
+    },
+    "earnings": {
+      "annual": 37363,
+      "monthly": 3114,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5201",
+    "programName": "Business/Commerce, General.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 6,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

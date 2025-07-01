@@ -1,0 +1,86 @@
+[
+  {
+    "cipCode": "1205",
+    "programName": "Culinary Arts and Related Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 58,
+      "workingCount": 160
+    },
+    "earnings": {
+      "annual": 38256,
+      "monthly": 3188,
+      "byDemographic": {
+        "male": 43333,
+        "nonMale": 34630,
+        "pellRecipient": 38418,
+        "nonPellRecipient": 38172
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1205",
+    "programName": "Culinary Arts and Related Services.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 11,
+      "workingCount": 35
+    },
+    "earnings": {
+      "annual": 35928,
+      "monthly": 2994,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 34617
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5209",
+    "programName": "Hospitality Administration/Management.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 4,
+      "workingCount": 21
+    },
+    "earnings": {
+      "annual": 38734,
+      "monthly": 3228,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5209",
+    "programName": "Hospitality Administration/Management.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

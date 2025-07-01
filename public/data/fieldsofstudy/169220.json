@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "4228",
+    "programName": "Clinical, Counseling and Applied Psychology.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 60,
+      "workingCount": 41
+    },
+    "earnings": {
+      "annual": 50953,
+      "monthly": 4246,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4228",
+    "programName": "Clinical, Counseling and Applied Psychology.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 0,
+      "workingCount": 20
+    },
+    "earnings": {
+      "annual": 79379,
+      "monthly": 6615,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "4228",
+    "programName": "Clinical, Counseling and Applied Psychology.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 12,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

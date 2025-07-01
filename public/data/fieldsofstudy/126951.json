@@ -1,0 +1,86 @@
+[
+  {
+    "cipCode": "1505",
+    "programName": "Environmental Control Technologies/Technicians.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 77,
+      "workingCount": 648
+    },
+    "earnings": {
+      "annual": 54059,
+      "monthly": 4505,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 51354,
+        "nonPellRecipient": 58536
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4706",
+    "programName": "Vehicle Maintenance and Repair Technologies.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 295,
+      "workingCount": 3856
+    },
+    "earnings": {
+      "annual": 47664,
+      "monthly": 3972,
+      "byDemographic": {
+        "male": 48172,
+        "nonMale": 35396,
+        "pellRecipient": 46015,
+        "nonPellRecipient": 54443
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4706",
+    "programName": "Vehicle Maintenance and Repair Technologies.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 49,
+      "workingCount": 410
+    },
+    "earnings": {
+      "annual": 52774,
+      "monthly": 4398,
+      "byDemographic": {
+        "male": 53451,
+        "nonMale": 38345,
+        "pellRecipient": 49337,
+        "nonPellRecipient": 61319
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4805",
+    "programName": "Precision Metal Working.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 345,
+      "workingCount": 829
+    },
+    "earnings": {
+      "annual": 48015,
+      "monthly": 4001,
+      "byDemographic": {
+        "male": 48271,
+        "nonMale": 41619,
+        "pellRecipient": 47452,
+        "nonPellRecipient": 49783
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

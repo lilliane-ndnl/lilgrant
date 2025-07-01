@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 502,
+      "workingCount": 1026
+    },
+    "earnings": {
+      "annual": 78480,
+      "monthly": 6540,
+      "byDemographic": {
+        "male": 93486,
+        "nonMale": 77237,
+        "pellRecipient": 78947,
+        "nonPellRecipient": 77271
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 90,
+      "workingCount": 39
+    },
+    "earnings": {
+      "annual": 89101,
+      "monthly": 7425,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5139",
+    "programName": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 444,
+      "workingCount": 371
+    },
+    "earnings": {
+      "annual": 56593,
+      "monthly": 4716,
+      "byDemographic": {
+        "male": 54898,
+        "nonMale": 57010,
+        "pellRecipient": 57720,
+        "nonPellRecipient": 55063
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

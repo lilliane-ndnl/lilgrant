@@ -1,0 +1,107 @@
+[
+  {
+    "cipCode": "2201",
+    "programName": "Law.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 165,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2202",
+    "programName": "Legal Research and Advanced Professional Studies.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 24,
+      "workingCount": 92
+    },
+    "earnings": {
+      "annual": 78559,
+      "monthly": 6547,
+      "byDemographic": {
+        "male": 76446,
+        "nonMale": 78673,
+        "pellRecipient": 72673,
+        "nonPellRecipient": 78901
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "2202",
+    "programName": "Legal Research and Advanced Professional Studies.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 0,
+      "workingCount": 195
+    },
+    "earnings": {
+      "annual": 79989,
+      "monthly": 6666,
+      "byDemographic": {
+        "male": 73841,
+        "nonMale": 82862,
+        "pellRecipient": 72980,
+        "nonPellRecipient": 83827
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "2202",
+    "programName": "Legal Research and Advanced Professional Studies.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 34,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2299",
+    "programName": "Legal Professions and Studies, Other.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 96,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  }
+]

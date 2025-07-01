@@ -1,0 +1,170 @@
+[
+  {
+    "cipCode": "1204",
+    "programName": "Cosmetology and Related Personal Grooming Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 0,
+      "workingCount": 506
+    },
+    "earnings": {
+      "annual": 19687,
+      "monthly": 1641,
+      "byDemographic": {
+        "male": 21162,
+        "nonMale": 19357,
+        "pellRecipient": 19713,
+        "nonPellRecipient": 21123
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1204",
+    "programName": "Cosmetology and Related Personal Grooming Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 7,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1504",
+    "programName": "Electromechanical Instrumentation and Maintenance Technologies/Technicians.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 7,
+      "workingCount": 121
+    },
+    "earnings": {
+      "annual": 53242,
+      "monthly": 4437,
+      "byDemographic": {
+        "male": 55525,
+        "nonMale": 30187,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1513",
+    "programName": "Drafting/Design Engineering Technologies/Technicians.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 0,
+      "workingCount": 20
+    },
+    "earnings": {
+      "annual": 45613,
+      "monthly": 3801,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5106",
+    "programName": "Dental Support Services and Allied Professions.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 12,
+      "workingCount": 411
+    },
+    "earnings": {
+      "annual": 29039,
+      "monthly": 2420,
+      "byDemographic": {
+        "male": 35342,
+        "nonMale": 28042,
+        "pellRecipient": 27632,
+        "nonPellRecipient": 33613
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 5,
+      "workingCount": 608
+    },
+    "earnings": {
+      "annual": 30741,
+      "monthly": 2562,
+      "byDemographic": {
+        "male": 37657,
+        "nonMale": 30499,
+        "pellRecipient": 29645,
+        "nonPellRecipient": 40836
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 44,
+      "workingCount": 1973
+    },
+    "earnings": {
+      "annual": 29811,
+      "monthly": 2484,
+      "byDemographic": {
+        "male": 32783,
+        "nonMale": 29108,
+        "pellRecipient": 29585,
+        "nonPellRecipient": 33525
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 0,
+      "workingCount": 146
+    },
+    "earnings": {
+      "annual": 37958,
+      "monthly": 3163,
+      "byDemographic": {
+        "male": 45254,
+        "nonMale": 37546,
+        "pellRecipient": 37398,
+        "nonPellRecipient": 41674
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

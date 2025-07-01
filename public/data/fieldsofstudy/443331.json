@@ -1,0 +1,107 @@
+[
+  {
+    "cipCode": "5106",
+    "programName": "Dental Support Services and Allied Professions.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 0,
+      "workingCount": 101
+    },
+    "earnings": {
+      "annual": 76042,
+      "monthly": 6337,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 74198,
+        "nonPellRecipient": 84616
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 0,
+      "workingCount": 22
+    },
+    "earnings": {
+      "annual": 65929,
+      "monthly": 5494,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5123",
+    "programName": "Rehabilitation and Therapeutic Professions.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 0,
+      "workingCount": 37
+    },
+    "earnings": {
+      "annual": 80787,
+      "monthly": 6732,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 87853,
+        "nonPellRecipient": 75565
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 778,
+      "workingCount": 1779
+    },
+    "earnings": {
+      "annual": 110377,
+      "monthly": 9198,
+      "byDemographic": {
+        "male": 122979,
+        "nonMale": 105852,
+        "pellRecipient": 109028,
+        "nonPellRecipient": 113512
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 0,
+      "workingCount": 27
+    },
+    "earnings": {
+      "annual": 140067,
+      "monthly": 11672,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 0
+  }
+]

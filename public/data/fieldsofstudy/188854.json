@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "5005",
+    "programName": "Drama/Theatre Arts and Stagecraft.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 248,
+      "workingCount": 397
+    },
+    "earnings": {
+      "annual": 20429,
+      "monthly": 1702,
+      "byDemographic": {
+        "male": 21105,
+        "nonMale": 19891,
+        "pellRecipient": 20445,
+        "nonPellRecipient": 20192
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5005",
+    "programName": "Drama/Theatre Arts and Stagecraft.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 28,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5005",
+    "programName": "Drama/Theatre Arts and Stagecraft.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 205,
+      "workingCount": 230
+    },
+    "earnings": {
+      "annual": 22591,
+      "monthly": 1883,
+      "byDemographic": {
+        "male": 23677,
+        "nonMale": 22469,
+        "pellRecipient": 22536,
+        "nonPellRecipient": 22600
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

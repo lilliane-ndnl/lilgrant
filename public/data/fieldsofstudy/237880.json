@@ -1,0 +1,23 @@
+[
+  {
+    "cipCode": "5112",
+    "programName": "Medicine.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 178,
+      "workingCount": 263
+    },
+    "earnings": {
+      "annual": 70706,
+      "monthly": 5892,
+      "byDemographic": {
+        "male": 71833,
+        "nonMale": 69418,
+        "pellRecipient": 72821,
+        "nonPellRecipient": 69102
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

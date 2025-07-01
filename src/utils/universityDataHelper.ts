@@ -127,6 +127,24 @@ export function formatMedianEarnings(earnings: string | number | null | undefine
     return `$${Math.round(numericEarnings / 1000)}k`;
 }
 
+/**
+ * Format earnings with proper handling of PrivacySuppressed and invalid values
+ */
+export function formatEarnings(earning: string | number | null | undefined): string {
+    // Handle null, undefined, and "PrivacySuppressed" strings
+    if (!earning || typeof earning === 'string' && earning.toLowerCase() === 'privacysuppressed') {
+        return 'N/A';
+    }
+
+    const numericEarning = parseFloat(String(earning));
+
+    if (isNaN(numericEarning)) {
+        return 'N/A';
+    }
+
+    return `$${numericEarning.toLocaleString()}`;
+}
+
 export const formatFullStateName = (stateAbbr: string | undefined): string => {
   if (!stateAbbr) return '';
   

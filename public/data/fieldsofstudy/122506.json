@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "5009",
+    "programName": "Music.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 41,
+      "workingCount": 25
+    },
+    "earnings": {
+      "annual": 27321,
+      "monthly": 2277,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5009",
+    "programName": "Music.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 66,
+      "workingCount": 87
+    },
+    "earnings": {
+      "annual": 38448,
+      "monthly": 3204,
+      "byDemographic": {
+        "male": 40251,
+        "nonMale": 36280,
+        "pellRecipient": 31742,
+        "nonPellRecipient": 43819
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5009",
+    "programName": "Music.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 25,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

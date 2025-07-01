@@ -1,0 +1,149 @@
+[
+  {
+    "cipCode": "2601",
+    "programName": "Biology, General.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 10,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2604",
+    "programName": "Cell/Cellular Biology and Anatomical Sciences.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 18,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 37,
+      "workingCount": 53
+    },
+    "earnings": {
+      "annual": 98018,
+      "monthly": 8168,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 49,
+      "workingCount": 80
+    },
+    "earnings": {
+      "annual": 124218,
+      "monthly": 10352,
+      "byDemographic": {
+        "male": 131556,
+        "nonMale": 120398,
+        "pellRecipient": 136416,
+        "nonPellRecipient": 121304
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5112",
+    "programName": "Medicine.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 257,
+      "workingCount": 452
+    },
+    "earnings": {
+      "annual": 230347,
+      "monthly": 19196,
+      "byDemographic": {
+        "male": 229809,
+        "nonMale": 230264,
+        "pellRecipient": 242232,
+        "nonPellRecipient": 224727
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5122",
+    "programName": "Public Health.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 36,
+      "workingCount": 24
+    },
+    "earnings": {
+      "annual": 78530,
+      "monthly": 6544,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5123",
+    "programName": "Rehabilitation and Therapeutic Professions.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 53,
+      "workingCount": 90
+    },
+    "earnings": {
+      "annual": 77479,
+      "monthly": 6457,
+      "byDemographic": {
+        "male": 79181,
+        "nonMale": 75254,
+        "pellRecipient": 77783,
+        "nonPellRecipient": 76672
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

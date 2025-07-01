@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "2609",
+    "programName": "Physiology, Pathology and Related Sciences.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 2,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2609",
+    "programName": "Physiology, Pathology and Related Sciences.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 1,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5117",
+    "programName": "Optometry.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 90,
+      "workingCount": 115
+    },
+    "earnings": {
+      "annual": 121702,
+      "monthly": 10142,
+      "byDemographic": {
+        "male": 118424,
+        "nonMale": 121988,
+        "pellRecipient": 139061,
+        "nonPellRecipient": 118956
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

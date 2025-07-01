@@ -1,0 +1,212 @@
+[
+  {
+    "cipCode": "1301",
+    "programName": "Education, General.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 20,
+      "workingCount": 16
+    },
+    "earnings": {
+      "annual": 76479,
+      "monthly": 6373,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5100",
+    "programName": "Health Services/Allied Health/Health Sciences, General.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 43,
+      "workingCount": 54
+    },
+    "earnings": {
+      "annual": 70276,
+      "monthly": 5856,
+      "byDemographic": {
+        "male": 66973,
+        "nonMale": 77749,
+        "pellRecipient": 61993,
+        "nonPellRecipient": 75442
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 68,
+      "workingCount": 120
+    },
+    "earnings": {
+      "annual": 145483,
+      "monthly": 12124,
+      "byDemographic": {
+        "male": 162495,
+        "nonMale": 135306,
+        "pellRecipient": 146009,
+        "nonPellRecipient": 145171
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5112",
+    "programName": "Medicine.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 128,
+      "workingCount": 348
+    },
+    "earnings": {
+      "annual": 214872,
+      "monthly": 17906,
+      "byDemographic": {
+        "male": 216844,
+        "nonMale": 213021,
+        "pellRecipient": 237133,
+        "nonPellRecipient": 205321
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5123",
+    "programName": "Rehabilitation and Therapeutic Professions.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 16,
+      "workingCount": 31
+    },
+    "earnings": {
+      "annual": 83658,
+      "monthly": 6972,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5123",
+    "programName": "Rehabilitation and Therapeutic Professions.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 47,
+      "workingCount": 36
+    },
+    "earnings": {
+      "annual": 82085,
+      "monthly": 6840,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 52,
+      "workingCount": 30
+    },
+    "earnings": {
+      "annual": 95304,
+      "monthly": 7942,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 42,
+      "workingCount": 24
+    },
+    "earnings": {
+      "annual": 175045,
+      "monthly": 14587,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 32,
+      "workingCount": 30
+    },
+    "earnings": {
+      "annual": 117983,
+      "monthly": 9832,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 4,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  }
+]

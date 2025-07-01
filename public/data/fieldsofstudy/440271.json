@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "1504",
+    "programName": "Electromechanical Instrumentation and Maintenance Technologies/Technicians.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 13,
+      "workingCount": 121
+    },
+    "earnings": {
+      "annual": 53242,
+      "monthly": 4437,
+      "byDemographic": {
+        "male": 55525,
+        "nonMale": 30187,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4702",
+    "programName": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 25,
+      "workingCount": 237
+    },
+    "earnings": {
+      "annual": 40824,
+      "monthly": 3402,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 39987,
+        "nonPellRecipient": 53625
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 6,
+      "workingCount": 1973
+    },
+    "earnings": {
+      "annual": 29811,
+      "monthly": 2484,
+      "byDemographic": {
+        "male": 32783,
+        "nonMale": 29108,
+        "pellRecipient": 29585,
+        "nonPellRecipient": 33525
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

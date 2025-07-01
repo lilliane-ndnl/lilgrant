@@ -62,8 +62,25 @@
   font-size: 1rem;
   border-radius: 24px;
   min-width: 120px;
-  box-shadow: none;
+  box-shadow: 0 4px 15px rgba(92, 31, 74, 0.3);
   margin-top: 0;
+  background: linear-gradient(135deg, rgba(92, 31, 74, 0.95), rgba(186, 74, 143, 0.9));
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(92, 31, 74, 0.4);
+  background: linear-gradient(135deg, rgba(92, 31, 74, 1), rgba(186, 74, 143, 0.95));
+}
+
+.search-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 15px rgba(92, 31, 74, 0.3);
 }
 
 @media (max-width: 700px) {

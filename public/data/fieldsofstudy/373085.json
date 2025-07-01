@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 4,
+      "workingCount": 224
+    },
+    "earnings": {
+      "annual": 32034,
+      "monthly": 2670,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 31412,
+        "nonPellRecipient": 35877
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 21,
+      "workingCount": 942
+    },
+    "earnings": {
+      "annual": 28785,
+      "monthly": 2399,
+      "byDemographic": {
+        "male": 32858,
+        "nonMale": 28383,
+        "pellRecipient": 28248,
+        "nonPellRecipient": 32618
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 10,
+      "workingCount": 128
+    },
+    "earnings": {
+      "annual": 38929,
+      "monthly": 3244,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 37124,
+        "nonPellRecipient": 48433
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

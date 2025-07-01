@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "5106",
+    "programName": "Dental Support Services and Allied Professions.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 18,
+      "workingCount": 36
+    },
+    "earnings": {
+      "annual": 33472,
+      "monthly": 2789,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 38,
+      "workingCount": 97
+    },
+    "earnings": {
+      "annual": 39630,
+      "monthly": 3303,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5138",
+    "programName": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 211,
+      "workingCount": 224
+    },
+    "earnings": {
+      "annual": 105648,
+      "monthly": 8804,
+      "byDemographic": {
+        "male": 114517,
+        "nonMale": 104598,
+        "pellRecipient": 104593,
+        "nonPellRecipient": 109240
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

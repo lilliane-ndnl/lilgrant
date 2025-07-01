@@ -1,0 +1,23 @@
+[
+  {
+    "cipCode": "5101",
+    "programName": "Chiropractic.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 137,
+      "workingCount": 73
+    },
+    "earnings": {
+      "annual": 49318,
+      "monthly": 4110,
+      "byDemographic": {
+        "male": 50366,
+        "nonMale": 47144,
+        "pellRecipient": 46096,
+        "nonPellRecipient": 48514
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

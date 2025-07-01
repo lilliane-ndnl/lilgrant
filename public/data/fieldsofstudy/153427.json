@@ -1,0 +1,86 @@
+[
+  {
+    "cipCode": "1503",
+    "programName": "Electrical Engineering Technologies/Technicians.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 24,
+      "workingCount": 45
+    },
+    "earnings": {
+      "annual": 56288,
+      "monthly": 4691,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "1503",
+    "programName": "Electrical Engineering Technologies/Technicians.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 28,
+      "workingCount": 35
+    },
+    "earnings": {
+      "annual": 59615,
+      "monthly": 4968,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 15,
+      "workingCount": 25
+    },
+    "earnings": {
+      "annual": 37669,
+      "monthly": 3139,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 32,
+      "workingCount": 90
+    },
+    "earnings": {
+      "annual": 30350,
+      "monthly": 2529,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 29886,
+        "nonPellRecipient": 30903
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

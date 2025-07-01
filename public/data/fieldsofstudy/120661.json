@@ -1,0 +1,170 @@
+[
+  {
+    "cipCode": "5106",
+    "programName": "Dental Support Services and Allied Professions.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 112,
+      "workingCount": 153
+    },
+    "earnings": {
+      "annual": 28046,
+      "monthly": 2337,
+      "byDemographic": {
+        "male": 34559,
+        "nonMale": 26316,
+        "pellRecipient": 26984,
+        "nonPellRecipient": 32503
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5106",
+    "programName": "Dental Support Services and Allied Professions.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 23,
+      "workingCount": 53
+    },
+    "earnings": {
+      "annual": 70328,
+      "monthly": 5861,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 36,
+      "workingCount": 80
+    },
+    "earnings": {
+      "annual": 37229,
+      "monthly": 3102,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 150,
+      "workingCount": 202
+    },
+    "earnings": {
+      "annual": 32607,
+      "monthly": 2717,
+      "byDemographic": {
+        "male": 38909,
+        "nonMale": 32070,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 22,
+      "workingCount": 53
+    },
+    "earnings": {
+      "annual": 65984,
+      "monthly": 5499,
+      "byDemographic": {
+        "male": 65968,
+        "nonMale": 64671,
+        "pellRecipient": 66069,
+        "nonPellRecipient": 61258
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 0,
+      "workingCount": 35
+    },
+    "earnings": {
+      "annual": 57205,
+      "monthly": 4767,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 7,
+      "workingCount": 58
+    },
+    "earnings": {
+      "annual": 59165,
+      "monthly": 4930,
+      "byDemographic": {
+        "male": 70143,
+        "nonMale": 50845,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5139",
+    "programName": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 110,
+      "workingCount": 58
+    },
+    "earnings": {
+      "annual": 59552,
+      "monthly": 4963,
+      "byDemographic": {
+        "male": 61096,
+        "nonMale": 59009,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

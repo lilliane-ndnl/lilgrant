@@ -3313,5 +3313,17 @@
   "MD_EARN_WNE_INDEP1_P11": "31911",
   "MD_EARN_WNE_MALE0_P11": "34608",
   "MD_EARN_WNE_MALE1_P11": "29651",
-  "SCORECARD_SECTOR": "9"
+  "SCORECARD_SECTOR": "9",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Veterinary/Animal Health Technologies/Technicians",
+      "CREDDESC": "Post-secondary certificate",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Veterinary/Animal Health Technologies/Technicians",
+      "CREDDESC": "Associate degree",
+      "EARN_MDN_4YR": "35272"
+    }
+  ]
 }

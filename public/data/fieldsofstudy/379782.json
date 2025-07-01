@@ -1,0 +1,44 @@
+[
+  {
+    "cipCode": "2203",
+    "programName": "Legal Support Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 158,
+      "workingCount": 152
+    },
+    "earnings": {
+      "annual": 44857,
+      "monthly": 3738,
+      "byDemographic": {
+        "male": 44840,
+        "nonMale": 44870,
+        "pellRecipient": 43520,
+        "nonPellRecipient": 55755
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "2203",
+    "programName": "Legal Support Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 43,
+      "workingCount": 49
+    },
+    "earnings": {
+      "annual": 44837,
+      "monthly": 3736,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  }
+]

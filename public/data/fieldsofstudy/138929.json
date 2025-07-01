@@ -1,0 +1,23 @@
+[
+  {
+    "cipCode": "2201",
+    "programName": "Law.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 76,
+      "workingCount": 247
+    },
+    "earnings": {
+      "annual": 69280,
+      "monthly": 5773,
+      "byDemographic": {
+        "male": 72051,
+        "nonMale": 65601,
+        "pellRecipient": 67560,
+        "nonPellRecipient": 71007
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "cipCode": "5117",
+    "programName": "Optometry.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 126,
+      "workingCount": 110
+    },
+    "earnings": {
+      "annual": 118651,
+      "monthly": 9888,
+      "byDemographic": {
+        "male": 134911,
+        "nonMale": 114738,
+        "pellRecipient": 115045,
+        "nonPellRecipient": 125375
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

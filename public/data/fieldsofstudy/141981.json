@@ -1,0 +1,170 @@
+[
+  {
+    "cipCode": "1003",
+    "programName": "Graphic Communications.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 25,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "1301",
+    "programName": "Education, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 33,
+      "workingCount": 31
+    },
+    "earnings": {
+      "annual": 57924,
+      "monthly": 4827,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2401",
+    "programName": "Liberal Arts and Sciences, General Studies and Humanities.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 26,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "3099",
+    "programName": "Multi/Interdisciplinary Studies, Other.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 79,
+      "workingCount": 29
+    },
+    "earnings": {
+      "annual": 75755,
+      "monthly": 6313,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4303",
+    "programName": "Homeland Security.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 0,
+      "workingCount": 19
+    },
+    "earnings": {
+      "annual": 46309,
+      "monthly": 3859,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "4404",
+    "programName": "Public Administration.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 139,
+      "workingCount": 117
+    },
+    "earnings": {
+      "annual": 53361,
+      "monthly": 4447,
+      "byDemographic": {
+        "male": 72030,
+        "nonMale": 48836,
+        "pellRecipient": 52727,
+        "nonPellRecipient": 53843
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "4501",
+    "programName": "Social Sciences, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 134,
+      "workingCount": 92
+    },
+    "earnings": {
+      "annual": 41676,
+      "monthly": 3473,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 42759,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 270,
+      "workingCount": 143
+    },
+    "earnings": {
+      "annual": 55729,
+      "monthly": 4644,
+      "byDemographic": {
+        "male": 57023,
+        "nonMale": 54247,
+        "pellRecipient": 51898,
+        "nonPellRecipient": 67025
+      }
+    },
+    "deliveryMethod": 2
+  }
+]

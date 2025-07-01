@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "5100",
+    "programName": "Health Services/Allied Health/Health Sciences, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 28,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5133",
+    "programName": "Alternative and Complementary Medicine and Medical Systems.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 28,
+      "workingCount": 40
+    },
+    "earnings": {
+      "annual": 33807,
+      "monthly": 2817,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 35807,
+        "nonPellRecipient": 31139
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5135",
+    "programName": "Somatic Bodywork and Related Therapeutic Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 91,
+      "workingCount": 200
+    },
+    "earnings": {
+      "annual": 29346,
+      "monthly": 2446,
+      "byDemographic": {
+        "male": 35727,
+        "nonMale": 28328,
+        "pellRecipient": 30910,
+        "nonPellRecipient": 25175
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

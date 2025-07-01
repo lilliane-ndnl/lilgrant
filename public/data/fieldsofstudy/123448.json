@@ -1,0 +1,44 @@
+[
+  {
+    "cipCode": "2200",
+    "programName": "Non-Professional General Legal Studies (Undergraduate).",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 72,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 3
+  },
+  {
+    "cipCode": "2201",
+    "programName": "Law.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 33,
+      "workingCount": 36
+    },
+    "earnings": {
+      "annual": 91935,
+      "monthly": 7661,
+      "byDemographic": {
+        "male": 102658,
+        "nonMale": 79149,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 2
+  }
+]

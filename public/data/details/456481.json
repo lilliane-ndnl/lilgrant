@@ -3313,5 +3313,27 @@
   "MD_EARN_WNE_INDEP1_P11": "41252",
   "MD_EARN_WNE_MALE0_P11": "46413",
   "MD_EARN_WNE_MALE1_P11": "40684",
-  "SCORECARD_SECTOR": "42744"
+  "SCORECARD_SECTOR": "42744",
+  "fieldsOfStudy": [
+    {
+      "CIPDESC": "Computer and Information Sciences",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Engineering, Other",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "PS"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Master's degree",
+      "EARN_MDN_4YR": "60559"
+    },
+    {
+      "CIPDESC": "Business Administration, Management and Operations",
+      "CREDDESC": "Bachelor's degree",
+      "EARN_MDN_4YR": "25994"
+    }
+  ]
 }

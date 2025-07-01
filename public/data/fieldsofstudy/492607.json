@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "4228",
+    "programName": "Clinical, Counseling and Applied Psychology.",
+    "credentialLevel": "Master's Degree",
+    "credentialCode": "5",
+    "graduates": {
+      "total": 10,
+      "workingCount": 566
+    },
+    "earnings": {
+      "annual": 69822,
+      "monthly": 5819,
+      "byDemographic": {
+        "male": 76058,
+        "nonMale": 68790,
+        "pellRecipient": 68382,
+        "nonPellRecipient": 71540
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4228",
+    "programName": "Clinical, Counseling and Applied Psychology.",
+    "credentialLevel": "Graduate/Professional Certificate",
+    "credentialCode": "8",
+    "graduates": {
+      "total": 4,
+      "workingCount": 82
+    },
+    "earnings": {
+      "annual": 68399,
+      "monthly": 5700,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 66947,
+        "nonPellRecipient": 71123
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5202",
+    "programName": "Business Administration, Management and Operations.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 0,
+      "workingCount": 21
+    },
+    "earnings": {
+      "annual": 101044,
+      "monthly": 8420,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

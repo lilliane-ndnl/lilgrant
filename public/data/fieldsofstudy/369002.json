@@ -1,0 +1,44 @@
+[
+  {
+    "cipCode": "2201",
+    "programName": "Law.",
+    "credentialLevel": "Doctoral Degree",
+    "credentialCode": "6",
+    "graduates": {
+      "total": 0,
+      "workingCount": 148
+    },
+    "earnings": {
+      "annual": 72836,
+      "monthly": 6070,
+      "byDemographic": {
+        "male": 73521,
+        "nonMale": 69087,
+        "pellRecipient": 72900,
+        "nonPellRecipient": 71429
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "2201",
+    "programName": "Law.",
+    "credentialLevel": "First Professional Degree",
+    "credentialCode": "7",
+    "graduates": {
+      "total": 48,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

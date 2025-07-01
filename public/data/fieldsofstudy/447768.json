@@ -1,0 +1,170 @@
+[
+  {
+    "cipCode": "5106",
+    "programName": "Dental Support Services and Allied Professions.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 60,
+      "workingCount": 113
+    },
+    "earnings": {
+      "annual": 31916,
+      "monthly": 2660,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 32168,
+        "nonPellRecipient": 34216
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5107",
+    "programName": "Health and Medical Administrative Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 87,
+      "workingCount": 176
+    },
+    "earnings": {
+      "annual": 35963,
+      "monthly": 2997,
+      "byDemographic": {
+        "male": 35782,
+        "nonMale": 35801,
+        "pellRecipient": 34775,
+        "nonPellRecipient": 41254
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 213,
+      "workingCount": 425
+    },
+    "earnings": {
+      "annual": 30182,
+      "monthly": 2515,
+      "byDemographic": {
+        "male": 35406,
+        "nonMale": 29256,
+        "pellRecipient": 30181,
+        "nonPellRecipient": 29730
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5108",
+    "programName": "Allied Health and Medical Assisting Services.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 0,
+      "workingCount": 33
+    },
+    "earnings": {
+      "annual": 76812,
+      "monthly": 6401,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5109",
+    "programName": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+    "credentialLevel": "Associate's Degree",
+    "credentialCode": "2",
+    "graduates": {
+      "total": 114,
+      "workingCount": 148
+    },
+    "earnings": {
+      "annual": 60351,
+      "monthly": 5029,
+      "byDemographic": {
+        "male": 69125,
+        "nonMale": 56302,
+        "pellRecipient": 60470,
+        "nonPellRecipient": 65114
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5118",
+    "programName": "Ophthalmic and Optometric Support Services and Allied Professions.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 46,
+      "workingCount": 71
+    },
+    "earnings": {
+      "annual": 36982,
+      "monthly": 3082,
+      "byDemographic": {
+        "male": 42223,
+        "nonMale": 34689,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5135",
+    "programName": "Somatic Bodywork and Related Therapeutic Services.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 0,
+      "workingCount": 83
+    },
+    "earnings": {
+      "annual": 23215,
+      "monthly": 1935,
+      "byDemographic": {
+        "male": 20459,
+        "nonMale": 25871,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 0
+  },
+  {
+    "cipCode": "5139",
+    "programName": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 229,
+      "workingCount": 309
+    },
+    "earnings": {
+      "annual": 56132,
+      "monthly": 4678,
+      "byDemographic": {
+        "male": 63911,
+        "nonMale": 54994,
+        "pellRecipient": 58246,
+        "nonPellRecipient": 50408
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

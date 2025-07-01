@@ -1,0 +1,65 @@
+[
+  {
+    "cipCode": "4702",
+    "programName": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 37,
+      "workingCount": 61
+    },
+    "earnings": {
+      "annual": 45173,
+      "monthly": 3764,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4706",
+    "programName": "Vehicle Maintenance and Repair Technologies.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 104,
+      "workingCount": 374
+    },
+    "earnings": {
+      "annual": 39477,
+      "monthly": 3290,
+      "byDemographic": {
+        "male": 39858,
+        "nonMale": 27770,
+        "pellRecipient": 38938,
+        "nonPellRecipient": 49648
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "4805",
+    "programName": "Precision Metal Working.",
+    "credentialLevel": "Undergraduate Certificate or Diploma",
+    "credentialCode": "1",
+    "graduates": {
+      "total": 82,
+      "workingCount": 589
+    },
+    "earnings": {
+      "annual": 40658,
+      "monthly": 3388,
+      "byDemographic": {
+        "male": 41301,
+        "nonMale": 32313,
+        "pellRecipient": 39790,
+        "nonPellRecipient": 44026
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

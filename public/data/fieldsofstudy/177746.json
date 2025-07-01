@@ -1,0 +1,107 @@
+[
+  {
+    "cipCode": "1003",
+    "programName": "Graphic Communications.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 40,
+      "workingCount": 29
+    },
+    "earnings": {
+      "annual": 38437,
+      "monthly": 3203,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "2313",
+    "programName": "Rhetoric and Composition/Writing Studies.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 5,
+      "workingCount": 0
+    },
+    "earnings": {
+      "annual": 0,
+      "monthly": 0,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5004",
+    "programName": "Design and Applied Arts.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 51,
+      "workingCount": 56
+    },
+    "earnings": {
+      "annual": 46472,
+      "monthly": 3873,
+      "byDemographic": {
+        "male": 46318,
+        "nonMale": 48548,
+        "pellRecipient": 46509,
+        "nonPellRecipient": 50250
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5006",
+    "programName": "Film/Video and Photographic Arts.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 17,
+      "workingCount": 19
+    },
+    "earnings": {
+      "annual": 43448,
+      "monthly": 3621,
+      "byDemographic": {
+        "male": 0,
+        "nonMale": 0,
+        "pellRecipient": 0,
+        "nonPellRecipient": 0
+      }
+    },
+    "deliveryMethod": 1
+  },
+  {
+    "cipCode": "5007",
+    "programName": "Fine and Studio Arts.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 58,
+      "workingCount": 83
+    },
+    "earnings": {
+      "annual": 35319,
+      "monthly": 2943,
+      "byDemographic": {
+        "male": 37939,
+        "nonMale": 33907,
+        "pellRecipient": 37074,
+        "nonPellRecipient": 33477
+      }
+    },
+    "deliveryMethod": 1
+  }
+]

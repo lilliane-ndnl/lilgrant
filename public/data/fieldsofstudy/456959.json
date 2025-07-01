@@ -1,0 +1,23 @@
+[
+  {
+    "cipCode": "5100",
+    "programName": "Health Services/Allied Health/Health Sciences, General.",
+    "credentialLevel": "Bachelor's Degree",
+    "credentialCode": "3",
+    "graduates": {
+      "total": 129,
+      "workingCount": 125
+    },
+    "earnings": {
+      "annual": 69555,
+      "monthly": 5796,
+      "byDemographic": {
+        "male": 69083,
+        "nonMale": 70237,
+        "pellRecipient": 67389,
+        "nonPellRecipient": 71538
+      }
+    },
+    "deliveryMethod": 1
+  }
+]
