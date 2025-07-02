@@ -43,10 +43,17 @@
 }
 
 .card-location {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 0.85rem;
-  margin: 0;
-  line-height: 1.2;
+  background: linear-gradient(135deg, rgba(138, 43, 226, 0.12), rgba(102, 126, 234, 0.08));
+  color: #ffffff;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border: 1px solid rgba(138, 43, 226, 0.2);
+  box-shadow: 0 2px 8px rgba(138, 43, 226, 0.08);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin: 4px 0;
 }
 
 .card-divider {
