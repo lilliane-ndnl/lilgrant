@@ -227,22 +227,33 @@ export function formatRegion(regionCode: string | number | null | undefined): st
     return regionMap[code] || 'N/A';
 }
 
-export function formatTestRequirement(code: string | number | undefined): string {
-  if (code === undefined || code === null) return 'Not Specified';
+export const formatTestRequirement = (policy: string | undefined, testScoresUsed: string | null | undefined): string => {
+  if (!policy) return 'Not Available';
   
-  const numericCode = typeof code === 'string' ? parseInt(code, 10) : code;
-  if (isNaN(numericCode)) return 'Not Specified';
-
-  const policyMap: { [key: number]: string } = {
-    1: 'Required',
-    2: 'Recommended',
-    3: 'Neither Required nor Recommended',
-    4: 'Not Specified',
-    5: 'Considered but Not Required'
+  // Map Common App test policies
+  const policyMap: { [key: string]: string } = {
+    'A': 'Test Required',
+    'F': 'Test Flexible - Multiple Options Available',
+    'I': 'Test Blind - Scores Not Considered',
+    'N': 'Test Optional',
+    'S': 'Test Required for Some Programs',
+    'SR': 'See School Requirements'
   };
 
-  return policyMap[numericCode] || 'Not Specified';
+  let basePolicy = policyMap[policy] || policy;
+
+  // If test scores are used but not required, indicate they're considered
+  if (policy === 'N' && testScoresUsed && testScoresUsed !== 'None') {
+    basePolicy = 'Test Optional - Will Consider if Submitted';
+  }
+
+  // Add specific test requirements if available
+  if (testScoresUsed && testScoresUsed !== 'None' && testScoresUsed !== 'See Website') {
+    basePolicy += ` (${testScoresUsed})`;
 }
+
+  return basePolicy;
+};
 
 export const formatCurrency = (value: number): string => {
   return new Intl.NumberFormat('en-US', {
@@ -257,4 +268,26 @@ export const formatPercentage = (value: number): string => {
     style: 'percent',
     maximumFractionDigits: 0
   }).format(value);
-}; 
+};
+
+export function getCompetitiveness(rate: number | null): string | null {
+  if (rate === null || isNaN(rate)) return null;
+
+  if (rate < 0.25) return 'making it a highly selective institution';
+  if (rate < 0.50) return 'making it a selective institution';
+  if (rate < 0.75) return 'which indicates a less selective admissions process';
+  return 'which indicates an accessible admissions process';
+}
+
+export function getTestingPolicyPhrase(code: string | undefined): string {
+  if (!code) return 'has an unspecified testing policy';
+  
+  const numericCode = parseInt(code, 10);
+  const policyMap: { [key: number]: string } = {
+    1: 'requires SAT/ACT scores for a complete application',
+    2: 'recommends submitting SAT/ACT scores',
+    3: 'does not use SAT/ACT scores in the admissions process',
+    5: 'considers SAT/ACT scores if submitted, but they are not required'
+  };
+  return policyMap[numericCode] || 'has an unspecified testing policy';
+} 

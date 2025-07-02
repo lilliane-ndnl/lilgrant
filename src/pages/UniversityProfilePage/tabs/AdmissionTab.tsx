@@ -1,6 +1,7 @@
 import React from 'react';
 import './AdmissionTab.css';
-import { formatTestRequirement } from '../../../utils/universityDataHelper';
+import { formatTestRequirement, getCompetitiveness, getTestingPolicyPhrase } from '../../../utils/universityDataHelper';
+import { formatDate } from '../../../utils/dateFormatter';
 
 interface AdmissionData {
   SAT_AVG: number | null;
@@ -20,39 +21,75 @@ interface AdmissionData {
   ADM_RATE: number | null;
   UGDS: number | null;
   INSTNM: string;
+  ADMCON1?: string;
+  ADMCON2?: string;
+  ADMCON3?: string;
+  ADMCON4?: string;
+  ADMCON5?: string;
+  ADMCON6?: string;
   ADMCON7: string;
+  ADMCON8?: string;
+  ADMCON9?: string;
+  APPLURL?: string;
   commonAppInfo?: {
-    applicationFee?: string;
-    applicationDeadline?: string;
-    applicationDeadlines?: {
-      regular?: string;
-      early?: string;
-      priority?: string;
-      rolling?: string;
-      earlyDecision?: string;
-      earlyAction?: string;
-      earlyDecision2?: string;
-      earlyAction2?: string;
+    acceptsCommonApp: boolean;
+    applicationDeadlines: {
+      earlyDecision: string | null;
+      earlyDecision2: string | null;
+      earlyAction: string | null;
+      earlyAction2: string | null;
+      restrictiveEarlyAction: string | null;
+      regular: string | null;
     };
-    earlyDecision?: boolean;
-    earlyAction?: boolean;
-    commonApp?: boolean;
-    requirements?: {
-      essays?: boolean;
-      interview?: boolean;
-      recommendations?: boolean;
-      satOrAct?: boolean;
-      satSubject?: boolean;
-      portfolio?: boolean;
-      audition?: boolean;
-      internationalStudents?: {
-        toefl?: boolean;
-        ielts?: boolean;
-        financialAid?: boolean;
+    applicationFees: {
+      domestic: string;
+      international: string;
+    };
+    requirements: {
+      personalEssayRequired: boolean;
+      writingSupplement: boolean;
+      coursesAndGrades: boolean;
+      portfolio: string | null;
+      testPolicy: string;
+      testScoresUsed: string | null;
+      internationalRequirements: string | null;
+    };
+    recommendations: {
+      teacherEvals: string;
+      otherEvals: string;
+      counselorRecommendation: boolean;
+      midYearReport: boolean;
+    };
+  };
+  admissionInfo?: {
+    applicationDeadlines: {
+      earlyDecision: string | null;
+      earlyDecision2: string | null;
+      earlyAction: string | null;
+      earlyAction2: string | null;
+      restrictiveEarlyAction: string | null;
+      regular: string | null;
+    };
+    applicationFees: {
+      domestic: string;
+      international: string;
+    };
+    acceptanceRate: string;
+    totalEnrolled: string;
+    satScores: {
+      reading: {
+        range: [string, string];
+      };
+      math: {
+        range: [string, string];
+      };
+    };
+    actScores: {
+      composite: {
+        range: [string, string];
       };
     };
   };
-  APPLURL?: string;
 }
 
 interface AdmissionTabProps {
@@ -62,13 +99,13 @@ interface AdmissionTabProps {
 const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
   // Helper function to format acceptance rate
   const formatAcceptanceRate = (rate: number | null) => {
-    if (rate === null || isNaN(rate)) return 'Not Available';
-    return `${(rate * 100).toFixed(1)}%`;
+    if (rate === null || isNaN(Number(rate))) return 'N/A';
+    return `${(Number(rate) * 100).toFixed(1)}%`;
   };
 
   // Helper function to format test scores
   const formatScore = (score: number | null): string => {
-    return score !== null ? score.toString() : 'N/A';
+    return score !== null ? score.toString() : 'Not Available';
   };
 
   // Helper function to format test scores
@@ -79,27 +116,30 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
 
   // Helper function to format application fees
   const formatFee = (fee: string | undefined) => {
-    if (!fee || fee === '0') return 'No Fee';
-    if (fee === 'See Website') return 'See School Website';
+    if (!fee) return 'Contact School';
+    if (fee === '0' || fee.toLowerCase() === 'no fee') return 'No Fee';
+    if (fee.toLowerCase().includes('see')) return 'See School Website';
     return `$${fee}`;
   };
 
   // Helper function to format test policy
-  const formatTestPolicy = (policy: string) => {
-    const policyMap: { [key: string]: string } = {
-      'A': 'Always Required',
-      'F': 'Test Flexible',
-      'I': 'Tests Ignored',
-      'N': 'Never Required',
-      'S': 'Sometimes Required',
-    };
-    return policyMap[policy] || policy;
+  const formatTestPolicy = (policy: string | undefined, testScoresUsed: string | null | undefined) => {
+    return formatTestRequirement(policy, testScoresUsed);
   };
 
-  // Helper function to format requirements
-  const formatRequirement = (value: boolean | undefined) => {
-    if (value === undefined) return 'Not Available';
-    return value ? 'Required' : 'Not Required';
+  // Helper function to format requirement status
+  const formatRequirement = (value: boolean | undefined | string | null) => {
+    if (value === null || value === undefined) return 'Not Available';
+    if (typeof value === 'boolean') {
+      return value ? 'Required' : 'Not Required';
+    }
+    if (typeof value === 'string') {
+      if (value === '1' || value.toLowerCase() === 'yes') return 'Required';
+      if (value === '0' || value.toLowerCase() === 'no') return 'Not Required';
+      if (value === 'SR') return 'See Requirements';
+      return value;
+    }
+    return 'Not Available';
   };
 
   // Custom pie chart component
@@ -192,191 +232,25 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
     );
   };
 
-  // Generate summary text
-  const acceptanceRate = formatAcceptanceRate(universityData.ADM_RATE);
-  const testingPolicy = formatTestRequirement(universityData.ADMCON7).toLowerCase();
-  let testingPolicyPhrase = 'requires the submission of SAT/ACT scores as a key part of the application';
+  // --- New, Definitive Summary Logic ---
+  const acceptanceRate = universityData.ADM_RATE;
+  const acceptanceRateText = formatAcceptanceRate(acceptanceRate);
+  const competitivenessPhrase = getCompetitiveness(acceptanceRate);
+  const testingPolicyPhrase = getTestingPolicyPhrase(universityData.ADMCON7);
 
-  if (testingPolicy === 'recommended') {
-    testingPolicyPhrase = 'recommends submitting SAT/ACT scores to strengthen your application';
-  } else if (testingPolicy === 'considered but not required') {
-    testingPolicyPhrase = 'considers SAT/ACT scores if submitted, but does not require them';
-  } else if (testingPolicy === 'neither required nor recommended') {
-    testingPolicyPhrase = 'does not require or recommend SAT/ACT scores';
+  let summaryPart1 = '';
+
+  // Create the first part of the summary, which includes the competitiveness line.
+  if (acceptanceRateText !== 'N/A' && competitivenessPhrase) {
+    summaryPart1 = `${universityData.INSTNM} has an acceptance rate of ${acceptanceRateText}, ${competitivenessPhrase}.`;
+  } else if (acceptanceRateText !== 'N/A') {
+    summaryPart1 = `${universityData.INSTNM} has an acceptance rate of ${acceptanceRateText}.`;
+  } else {
+    summaryPart1 = `${universityData.INSTNM} does not publicly report its acceptance rate.`;
   }
 
-  const summaryText = `${universityData.INSTNM} has an acceptance rate of ${acceptanceRate}. The university ${testingPolicyPhrase}. Students who were admitted and enrolled typically had admission test scores in the ranges shown above.`;
-
-  const totalEnrollment = universityData.UGDS ? Math.round(universityData.UGDS).toLocaleString() : 'N/A';
-
-  // Application Requirements Section
-  const renderApplicationRequirements = () => {
-    return (
-      <div className="requirements-section">
-        <h3>Application Requirements</h3>
-        <div className="requirements-grid">
-          <div className="requirement-item">
-            <span className="requirement-label">Application Fee</span>
-            <span className="requirement-value">
-              {universityData.commonAppInfo?.applicationFee || 'Contact school'}
-            </span>
-          </div>
-          
-          <div className="requirement-item">
-            <span className="requirement-label">Regular Decision Deadline</span>
-            <span className="requirement-value">
-              {universityData.commonAppInfo?.applicationDeadline || 'Contact school'}
-            </span>
-          </div>
-
-          <div className="requirement-item">
-            <span className="requirement-label">Early Decision</span>
-            <span className="requirement-value">
-              {universityData.commonAppInfo?.earlyDecision ? 'Available' : 'Not Available'}
-            </span>
-          </div>
-
-          <div className="requirement-item">
-            <span className="requirement-label">Early Action</span>
-            <span className="requirement-value">
-              {universityData.commonAppInfo?.earlyAction ? 'Available' : 'Not Available'}
-            </span>
-          </div>
-
-          <div className="requirement-item">
-            <span className="requirement-label">Common App</span>
-            <span className="requirement-value">
-              {universityData.commonAppInfo?.commonApp ? 'Accepted' : 'Not Accepted'}
-            </span>
-          </div>
-        </div>
-      </div>
-    );
-  };
-
-  // Testing Requirements Section
-  const renderTestingRequirements = () => {
-    const requirements = universityData.commonAppInfo?.requirements;
-    
-    return (
-      <div className="requirements-section">
-        <h3>Testing Requirements</h3>
-        <div className="requirements-grid">
-          <div className="requirement-item">
-            <span className="requirement-label">SAT/ACT</span>
-            <span className="requirement-value">
-              {requirements?.satOrAct ? 'Required' : 'Not Required'}
-            </span>
-          </div>
-          
-          {requirements?.satSubject !== undefined && (
-            <div className="requirement-item">
-              <span className="requirement-label">SAT Subject Tests</span>
-              <span className="requirement-value">
-                {requirements.satSubject ? 'Required' : 'Not Required'}
-              </span>
-            </div>
-          )}
-          
-          {requirements?.internationalStudents && (
-            <>
-              {requirements.internationalStudents.toefl !== undefined && (
-                <div className="requirement-item">
-                  <span className="requirement-label">TOEFL</span>
-                  <span className="requirement-value">
-                    {requirements.internationalStudents.toefl ? 'Required' : 'Not Required'}
-                  </span>
-                </div>
-              )}
-              
-              {requirements.internationalStudents.ielts !== undefined && (
-                <div className="requirement-item">
-                  <span className="requirement-label">IELTS</span>
-                  <span className="requirement-value">
-                    {requirements.internationalStudents.ielts ? 'Required' : 'Not Required'}
-                  </span>
-                </div>
-              )}
-            </>
-          )}
-        </div>
-      </div>
-    );
-  };
-
-  // Recommendations Section
-  const renderRecommendations = () => {
-    const requirements = universityData.commonAppInfo?.requirements;
-    
-    return (
-      <div className="requirements-section">
-        <h3>Additional Requirements</h3>
-        <div className="requirements-grid">
-          {requirements?.essays !== undefined && (
-            <div className="requirement-item">
-              <span className="requirement-label">Essays</span>
-              <span className="requirement-value">
-                {requirements.essays ? 'Required' : 'Not Required'}
-              </span>
-            </div>
-          )}
-          
-          {requirements?.recommendations !== undefined && (
-            <div className="requirement-item">
-              <span className="requirement-label">Recommendations</span>
-              <span className="requirement-value">
-                {requirements.recommendations ? 'Required' : 'Not Required'}
-              </span>
-            </div>
-          )}
-          
-          {requirements?.interview !== undefined && (
-            <div className="requirement-item">
-              <span className="requirement-label">Interview</span>
-              <span className="requirement-value">
-                {requirements.interview ? 'Required' : 'Not Required'}
-              </span>
-            </div>
-          )}
-          
-          {requirements?.portfolio !== undefined && (
-            <div className="requirement-item">
-              <span className="requirement-label">Portfolio</span>
-              <span className="requirement-value">
-                {requirements.portfolio ? 'Required' : 'Not Required'}
-              </span>
-            </div>
-          )}
-          
-          {requirements?.audition !== undefined && (
-            <div className="requirement-item">
-              <span className="requirement-label">Audition</span>
-              <span className="requirement-value">
-                {requirements.audition ? 'Required' : 'Not Required'}
-              </span>
-            </div>
-          )}
-        </div>
-      </div>
-    );
-  };
-
-  // Application Fees Section
-  const renderApplicationFees = () => {
-    return (
-      <div className="requirements-section">
-        <h3>Application Fees</h3>
-        <div className="requirements-grid">
-          <div className="requirement-item">
-            <span className="requirement-label">Application Fee</span>
-            <span className="requirement-value">
-              {universityData.commonAppInfo?.applicationFee || 'Contact school'}
-            </span>
-          </div>
-        </div>
-      </div>
-    );
-  };
+  // Combine all parts into the final paragraph.
+  const finalSummary = `${summaryPart1} The university ${testingPolicyPhrase}. ${(universityData.SATVR25 || universityData.ACTCM25) ? 'For applicants who provide them, the score ranges above illustrate the typical academic profile of admitted students.' : ''}`;
 
   return (
     <div className="admission-container">
@@ -384,12 +258,10 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
       <div className="admission-card">
         <h2>Admission Statistics</h2>
         <div className="admission-stats-grid">
-          {/* Left Column: Acceptance Rate Donut Chart */}
           <div className="acceptance-rate-container">
             <AcceptanceRatePieChart value={universityData.ADM_RATE} />
           </div>
 
-          {/* Right Column: Test Score Range Bars */}
           <div className="test-scores-container">
             {universityData.SATVR25 && universityData.SATVR75 && (
               renderScoreRangeBar(
@@ -416,26 +288,276 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
               )
             )}
           </div>
-          <p className="summary-text">{summaryText}</p>
+          <p className="summary-text">{finalSummary}</p>
         </div>
       </div>
 
-      {/* Card 2: Application Requirements */}
+      {/* Card 2: Application Information */}
       <div className="admission-card">
-        <h2>Application Requirements</h2>
-        {renderApplicationRequirements()}
-        {renderTestingRequirements()}
-        {renderRecommendations()}
-        {renderApplicationFees()}
-      </div>
-
-      {/* Card 3: Total Enrollment */}
-      <div className="admission-card">
-        <h2>Total Enrollment</h2>
-        <div className="enrollment-display">
-          <span className="enrollment-value">{totalEnrollment}</span>
-          <span className="enrollment-label">Undergraduate Students</span>
+        <h2>Application Information</h2>
+        
+        {/* Application Basics */}
+        <div className="requirements-section">
+          <h3>Application Basics</h3>
+          <div className="requirements-grid">
+            <div className="requirement-item">
+              <span className="requirement-label">Application Fee (Domestic)</span>
+              <span className="requirement-value">
+                {formatFee(universityData.commonAppInfo?.applicationFees?.domestic)}
+              </span>
+            </div>
+            {universityData.commonAppInfo?.applicationFees?.international && (
+              <div className="requirement-item">
+                <span className="requirement-label">Application Fee (International)</span>
+                <span className="requirement-value">
+                  {formatFee(universityData.commonAppInfo.applicationFees.international)}
+                </span>
+              </div>
+            )}
+            <div className="requirement-item">
+              <span className="requirement-label">Common App</span>
+              <span className="requirement-value">
+                {universityData.commonAppInfo ? (universityData.commonAppInfo.acceptsCommonApp ? 'Accepted' : 'Not Accepted') : 'Not Available'}
+              </span>
+            </div>
+            {universityData.APPLURL && (
+              <div className="requirement-item">
+                <span className="requirement-label">Application Portal</span>
+                <a 
+                  href={universityData.APPLURL} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="requirement-value link"
+                >
+                  Visit Application Portal
+                </a>
+              </div>
+            )}
+          </div>
         </div>
+
+        {/* Application Deadlines */}
+        <div className="requirements-section">
+          <h3>Application Deadlines</h3>
+          <div className="requirements-grid">
+            {universityData.commonAppInfo?.applicationDeadlines?.regular && (
+              <div className="requirement-item">
+                <span className="requirement-label">Regular Decision</span>
+                <span className="requirement-value">
+                  {formatDate(universityData.commonAppInfo.applicationDeadlines.regular)}
+                </span>
+              </div>
+            )}
+            {universityData.commonAppInfo?.applicationDeadlines?.earlyDecision && (
+              <div className="requirement-item">
+                <span className="requirement-label">Early Decision</span>
+                <span className="requirement-value">
+                  {formatDate(universityData.commonAppInfo.applicationDeadlines.earlyDecision)}
+                </span>
+              </div>
+            )}
+            {universityData.commonAppInfo?.applicationDeadlines?.earlyDecision2 && (
+              <div className="requirement-item">
+                <span className="requirement-label">Early Decision II</span>
+                <span className="requirement-value">
+                  {formatDate(universityData.commonAppInfo.applicationDeadlines.earlyDecision2)}
+                </span>
+              </div>
+            )}
+            {universityData.commonAppInfo?.applicationDeadlines?.earlyAction && (
+              <div className="requirement-item">
+                <span className="requirement-label">Early Action</span>
+                <span className="requirement-value">
+                  {formatDate(universityData.commonAppInfo.applicationDeadlines.earlyAction)}
+                </span>
+              </div>
+            )}
+            {universityData.commonAppInfo?.applicationDeadlines?.earlyAction2 && (
+              <div className="requirement-item">
+                <span className="requirement-label">Early Action II</span>
+                <span className="requirement-value">
+                  {formatDate(universityData.commonAppInfo.applicationDeadlines.earlyAction2)}
+                </span>
+              </div>
+            )}
+            {universityData.commonAppInfo?.applicationDeadlines?.restrictiveEarlyAction && (
+              <div className="requirement-item">
+                <span className="requirement-label">Restrictive Early Action</span>
+                <span className="requirement-value">
+                  {formatDate(universityData.commonAppInfo.applicationDeadlines.restrictiveEarlyAction)}
+                </span>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Required Documents */}
+        <div className="requirements-section">
+          <h3>Required Documents</h3>
+          <div className="requirements-grid">
+            {universityData.commonAppInfo?.requirements?.personalEssayRequired !== undefined && (
+              <div className="requirement-item">
+                <span className="requirement-label">Personal Essay</span>
+                <span className="requirement-value">
+                  {formatRequirement(universityData.commonAppInfo.requirements.personalEssayRequired)}
+                </span>
+              </div>
+            )}
+            {universityData.commonAppInfo?.requirements?.writingSupplement !== undefined && (
+              <div className="requirement-item">
+                <span className="requirement-label">Writing Supplement</span>
+                <span className="requirement-value">
+                  {formatRequirement(universityData.commonAppInfo.requirements.writingSupplement)}
+                </span>
+              </div>
+            )}
+            {universityData.commonAppInfo?.requirements?.coursesAndGrades !== undefined && (
+              <div className="requirement-item">
+                <span className="requirement-label">Courses and Grades</span>
+                <span className="requirement-value">
+                  {formatRequirement(universityData.commonAppInfo.requirements.coursesAndGrades)}
+                </span>
+              </div>
+            )}
+            {universityData.commonAppInfo?.requirements?.portfolio && (
+              <div className="requirement-item">
+                <span className="requirement-label">Portfolio</span>
+                <span className="requirement-value">
+                  {formatRequirement(universityData.commonAppInfo.requirements.portfolio)}
+                </span>
+              </div>
+            )}
+            {universityData.commonAppInfo?.requirements?.testPolicy && (
+              <div className="requirement-item">
+                <span className="requirement-label">Test Policy</span>
+                <span className="requirement-value">
+                  {formatTestPolicy(universityData.commonAppInfo.requirements.testPolicy, universityData.commonAppInfo.requirements.testScoresUsed)}
+                </span>
+              </div>
+            )}
+            {universityData.commonAppInfo?.requirements?.testScoresUsed && (
+              <div className="requirement-item">
+                <span className="requirement-label">Test Scores Used</span>
+                <span className="requirement-value">
+                  {universityData.commonAppInfo.requirements.testScoresUsed}
+                </span>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Recommendations */}
+        <div className="requirements-section">
+          <h3>Recommendations</h3>
+          <div className="requirements-grid">
+            {universityData.commonAppInfo?.recommendations?.teacherEvals && (
+              <div className="requirement-item">
+                <span className="requirement-label">Teacher Evaluations</span>
+                <span className="requirement-value">
+                  {universityData.commonAppInfo.recommendations.teacherEvals}
+                </span>
+              </div>
+            )}
+            {universityData.commonAppInfo?.recommendations?.otherEvals && (
+              <div className="requirement-item">
+                <span className="requirement-label">Other Evaluations</span>
+                <span className="requirement-value">
+                  {universityData.commonAppInfo.recommendations.otherEvals}
+                </span>
+              </div>
+            )}
+            {universityData.commonAppInfo?.recommendations?.counselorRecommendation !== undefined && (
+              <div className="requirement-item">
+                <span className="requirement-label">Counselor Recommendation</span>
+                <span className="requirement-value">
+                  {formatRequirement(universityData.commonAppInfo.recommendations.counselorRecommendation)}
+                </span>
+              </div>
+            )}
+            {universityData.commonAppInfo?.recommendations?.midYearReport !== undefined && (
+              <div className="requirement-item">
+                <span className="requirement-label">Mid-Year Report</span>
+                <span className="requirement-value">
+                  {formatRequirement(universityData.commonAppInfo.recommendations.midYearReport)}
+                </span>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* International Student Requirements */}
+        {universityData.commonAppInfo?.requirements?.internationalRequirements && (
+          <div className="requirements-section">
+            <h3>International Student Requirements</h3>
+            <div className="requirements-grid">
+              <div className="requirement-item">
+                <span className="requirement-label">Additional Requirements</span>
+                <span className="requirement-value">
+                  {universityData.commonAppInfo.requirements.internationalRequirements}
+                </span>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Additional Requirements from College Scorecard */}
+        {(universityData.ADMCON1 || universityData.ADMCON2 || universityData.ADMCON3 || 
+          universityData.ADMCON4 || universityData.ADMCON5 || universityData.ADMCON6 || 
+          universityData.ADMCON8 || universityData.ADMCON9) && (
+          <div className="requirements-section">
+            <h3>Additional Requirements</h3>
+            <div className="requirements-grid">
+              {universityData.ADMCON1 && (
+                <div className="requirement-item">
+                  <span className="requirement-label">Secondary School GPA</span>
+                  <span className="requirement-value">{formatRequirement(universityData.ADMCON1)}</span>
+                </div>
+              )}
+              {universityData.ADMCON2 && (
+                <div className="requirement-item">
+                  <span className="requirement-label">Secondary School Rank</span>
+                  <span className="requirement-value">{formatRequirement(universityData.ADMCON2)}</span>
+                </div>
+              )}
+              {universityData.ADMCON3 && (
+                <div className="requirement-item">
+                  <span className="requirement-label">Secondary School Record</span>
+                  <span className="requirement-value">{formatRequirement(universityData.ADMCON3)}</span>
+                </div>
+              )}
+              {universityData.ADMCON4 && (
+                <div className="requirement-item">
+                  <span className="requirement-label">College-Preparatory Program</span>
+                  <span className="requirement-value">{formatRequirement(universityData.ADMCON4)}</span>
+                </div>
+              )}
+              {universityData.ADMCON5 && (
+                <div className="requirement-item">
+                  <span className="requirement-label">Recommendations</span>
+                  <span className="requirement-value">{formatRequirement(universityData.ADMCON5)}</span>
+                </div>
+              )}
+              {universityData.ADMCON6 && (
+                <div className="requirement-item">
+                  <span className="requirement-label">Formal Competencies</span>
+                  <span className="requirement-value">{formatRequirement(universityData.ADMCON6)}</span>
+                </div>
+              )}
+              {universityData.ADMCON8 && (
+                <div className="requirement-item">
+                  <span className="requirement-label">TOEFL</span>
+                  <span className="requirement-value">{formatRequirement(universityData.ADMCON8)}</span>
+                </div>
+              )}
+              {universityData.ADMCON9 && (
+                <div className="requirement-item">
+                  <span className="requirement-label">Other Tests</span>
+                  <span className="requirement-value">{formatRequirement(universityData.ADMCON9)}</span>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

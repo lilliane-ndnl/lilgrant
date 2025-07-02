@@ -4,6 +4,8 @@
     gap: 2rem;
     padding: 1rem;
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .admission-card {
@@ -19,10 +21,12 @@
 
 .admission-card h2 {
     color: rgba(255, 255, 255, 0.95);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 700;
-    margin: 0 0 2rem 0;
+    margin: 0 0 1.5rem 0;
     text-align: left;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 0.75rem;
 }
 
 .admission-card h3 {
@@ -90,7 +94,6 @@
     font-size: 0.85rem;
     font-weight: 500;
     margin: 0.25rem 0;
-    text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
@@ -251,6 +254,73 @@
     color: #5C1F4A;
 }
 
+.requirements-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.requirements-section:last-child {
+    margin-bottom: 0;
+}
+
+.requirements-section h3 {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0 0 1.5rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.requirements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.25rem;
+}
+
+.requirement-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.requirement-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+.requirement-label {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    letter-spacing: 0.5px;
+}
+
+.requirement-value {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.requirement-value.link {
+    color: #BA4A8F;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.requirement-value.link:hover {
+    color: #D483BA;
+    text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .admission-stats-grid {
@@ -286,6 +356,10 @@
     .admission-card h3 {
         font-size: 1.2rem;
     }
+
+    .requirements-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
 }
 
 @media (max-width: 768px) {
@@ -294,15 +368,16 @@
     }
 
     .admission-card {
-        padding: 1rem;
+        padding: 1.5rem;
     }
 
     .admission-card h2 {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
 
     .admission-card h3 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .admission-stats-grid {
@@ -328,4 +403,33 @@
     .summary-text {
         font-size: 0.9rem;
     }
+
+    .requirements-section {
+        padding: 1rem;
+    }
+
+    .requirements-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .requirement-item {
+        padding: 0.75rem;
+    }
+
+    .requirement-value {
+        font-size: 1rem;
+    }
+}
+
+/* Remove enrollment-related styles */
+.enrollment-display {
+  display: none;
+}
+
+.enrollment-value {
+  display: none;
+}
+
+.enrollment-label {
+  display: none;
 } 
