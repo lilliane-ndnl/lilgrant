@@ -3850,5 +3850,73 @@
       "CREDDESC": "Post-secondary certificate",
       "EARN_MDN_4YR": "PrivacySuppressed"
     }
-  ]
+  ],
+  "commonAppInfo": {
+    "acceptsCommonApp": true,
+    "applicationDeadlines": {
+      "earlyDecision": "11/1/2024",
+      "earlyDecision2": "2/1/2025",
+      "earlyAction": "11/1/2024",
+      "earlyAction2": null,
+      "restrictiveEarlyAction": null,
+      "regular": "2025-02-01"
+    },
+    "applicationFees": {
+      "domestic": "60",
+      "international": "See Website"
+    },
+    "requirements": {
+      "personalEssayRequired": false,
+      "writingSupplement": false,
+      "coursesAndGrades": false,
+      "portfolio": null,
+      "testPolicy": "S",
+      "testScoresUsed": "SAT without Essay or ACT without Essay",
+      "internationalRequirements": "See Website"
+    },
+    "recommendations": {
+      "teacherEvals": "0",
+      "otherEvals": "0",
+      "counselorRecommendation": false,
+      "midYearReport": true
+    }
+  },
+  "admissionInfo": {
+    "applicationDeadlines": {
+      "earlyDecision": "11/1/2024",
+      "earlyDecision2": "2/1/2025",
+      "earlyAction": "11/1/2024",
+      "earlyAction2": null,
+      "restrictiveEarlyAction": null,
+      "regular": "2025-02-01"
+    },
+    "applicationFees": {
+      "domestic": "60",
+      "international": "See Website"
+    },
+    "acceptanceRate": "0.72",
+    "totalEnrolled": "10366",
+    "satScores": {
+      "reading": {
+        "range": [
+          "580",
+          "660"
+        ]
+      },
+      "math": {
+        "range": [
+          "550",
+          "640"
+        ]
+      }
+    },
+    "actScores": {
+      "composite": {
+        "range": [
+          "24",
+          "29"
+        ]
+      }
+    }
+  }
 }

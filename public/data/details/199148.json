@@ -4380,5 +4380,73 @@
       "CREDDESC": "Graduate/professional certificate",
       "EARN_MDN_4YR": "PrivacySuppressed"
     }
-  ]
+  ],
+  "commonAppInfo": {
+    "acceptsCommonApp": true,
+    "applicationDeadlines": {
+      "earlyDecision": null,
+      "earlyDecision2": null,
+      "earlyAction": "11/1/2024",
+      "earlyAction2": null,
+      "restrictiveEarlyAction": null,
+      "regular": "2025-03-01"
+    },
+    "applicationFees": {
+      "domestic": "65",
+      "international": "See Website"
+    },
+    "requirements": {
+      "personalEssayRequired": false,
+      "writingSupplement": false,
+      "coursesAndGrades": false,
+      "portfolio": null,
+      "testPolicy": "N",
+      "testScoresUsed": "SAT without Essay or ACT without Essay",
+      "internationalRequirements": "See Website"
+    },
+    "recommendations": {
+      "teacherEvals": "0",
+      "otherEvals": "0",
+      "counselorRecommendation": false,
+      "midYearReport": false
+    }
+  },
+  "admissionInfo": {
+    "applicationDeadlines": {
+      "earlyDecision": null,
+      "earlyDecision2": null,
+      "earlyAction": "11/1/2024",
+      "earlyAction2": null,
+      "restrictiveEarlyAction": null,
+      "regular": "2025-03-01"
+    },
+    "applicationFees": {
+      "domestic": "65",
+      "international": "See Website"
+    },
+    "acceptanceRate": "0.8983",
+    "totalEnrolled": "13848",
+    "satScores": {
+      "reading": {
+        "range": [
+          "560",
+          "660"
+        ]
+      },
+      "math": {
+        "range": [
+          "540",
+          "620"
+        ]
+      }
+    },
+    "actScores": {
+      "composite": {
+        "range": [
+          "22",
+          "27"
+        ]
+      }
+    }
+  }
 }

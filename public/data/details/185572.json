@@ -3860,5 +3860,73 @@
       "CREDDESC": "Graduate/professional certificate",
       "EARN_MDN_4YR": "PrivacySuppressed"
     }
-  ]
+  ],
+  "commonAppInfo": {
+    "acceptsCommonApp": true,
+    "applicationDeadlines": {
+      "earlyDecision": "11/15/2024",
+      "earlyDecision2": null,
+      "earlyAction": "12/1/2024",
+      "earlyAction2": null,
+      "restrictiveEarlyAction": null,
+      "regular": "2025-03-01"
+    },
+    "applicationFees": {
+      "domestic": "60",
+      "international": "0"
+    },
+    "requirements": {
+      "personalEssayRequired": true,
+      "writingSupplement": true,
+      "coursesAndGrades": false,
+      "portfolio": null,
+      "testPolicy": "N",
+      "testScoresUsed": "See Website",
+      "internationalRequirements": null
+    },
+    "recommendations": {
+      "teacherEvals": "1",
+      "otherEvals": "0",
+      "counselorRecommendation": false,
+      "midYearReport": false
+    }
+  },
+  "admissionInfo": {
+    "applicationDeadlines": {
+      "earlyDecision": "11/15/2024",
+      "earlyDecision2": null,
+      "earlyAction": "12/1/2024",
+      "earlyAction2": null,
+      "restrictiveEarlyAction": null,
+      "regular": "2025-03-01"
+    },
+    "applicationFees": {
+      "domestic": "60",
+      "international": "0"
+    },
+    "acceptanceRate": "0.8954",
+    "totalEnrolled": "3831",
+    "satScores": {
+      "reading": {
+        "range": [
+          "570",
+          "640"
+        ]
+      },
+      "math": {
+        "range": [
+          "555",
+          "630"
+        ]
+      }
+    },
+    "actScores": {
+      "composite": {
+        "range": [
+          "24",
+          "28"
+        ]
+      }
+    }
+  }
 }

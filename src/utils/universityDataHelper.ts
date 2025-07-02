@@ -200,7 +200,7 @@ export const formatFullStateName = (stateAbbr: string | undefined): string => {
   };
   
   return stateNames[stateAbbr] || stateAbbr;
-};
+}; 
 
 /**
  * Format the region based on the REGION code

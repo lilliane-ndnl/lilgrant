@@ -6,11 +6,12 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 8px 32px rgba(92, 31, 74, 0.25);
     padding: 1.5rem;
-    margin-bottom: 0;
+    margin: 1rem;
+    width: calc(100% - 2rem);
 }
 
 .fields-of-study-container h2 {
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.95);
     font-size: 1.6rem;
     font-weight: 700;
     margin: 0 0 0.75rem 0;
@@ -63,6 +64,7 @@
 }
 
 .table-container {
+    width: 100%;
     background: rgba(92, 31, 74, 0.2);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -73,7 +75,6 @@
     overflow-x: auto;
     max-height: 500px;
     overflow-y: auto;
-    position: relative;
 }
 
 .table-container table {
@@ -98,7 +99,7 @@
 }
 
 .table-container th {
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.95);
     font-weight: 600;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     padding: 1.25rem 1rem;
@@ -144,7 +145,7 @@
 }
 
 .program-name {
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.95);
     font-weight: 500;
     margin-bottom: 0.25rem;
 }

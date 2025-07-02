@@ -4380,5 +4380,73 @@
       "CREDDESC": "Doctoral degree",
       "EARN_MDN_4YR": "PrivacySuppressed"
     }
-  ]
+  ],
+  "commonAppInfo": {
+    "acceptsCommonApp": true,
+    "applicationDeadlines": {
+      "earlyDecision": null,
+      "earlyDecision2": null,
+      "earlyAction": null,
+      "earlyAction2": null,
+      "restrictiveEarlyAction": null,
+      "regular": "2025-06-02"
+    },
+    "applicationFees": {
+      "domestic": "75",
+      "international": "See Website"
+    },
+    "requirements": {
+      "personalEssayRequired": true,
+      "writingSupplement": false,
+      "coursesAndGrades": false,
+      "portfolio": null,
+      "testPolicy": "S",
+      "testScoresUsed": "SAT without Essay or ACT without Essay",
+      "internationalRequirements": "See Website"
+    },
+    "recommendations": {
+      "teacherEvals": "0",
+      "otherEvals": "0",
+      "counselorRecommendation": false,
+      "midYearReport": false
+    }
+  },
+  "admissionInfo": {
+    "applicationDeadlines": {
+      "earlyDecision": null,
+      "earlyDecision2": null,
+      "earlyAction": null,
+      "earlyAction2": null,
+      "restrictiveEarlyAction": null,
+      "regular": "2025-06-02"
+    },
+    "applicationFees": {
+      "domestic": "75",
+      "international": "See Website"
+    },
+    "acceptanceRate": "0.6953",
+    "totalEnrolled": "37175",
+    "satScores": {
+      "reading": {
+        "range": [
+          "580",
+          "660"
+        ]
+      },
+      "math": {
+        "range": [
+          "570",
+          "670"
+        ]
+      }
+    },
+    "actScores": {
+      "composite": {
+        "range": [
+          "23",
+          "28"
+        ]
+      }
+    }
+  }
 }

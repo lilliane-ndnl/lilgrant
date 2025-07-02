@@ -3585,5 +3585,73 @@
       "CREDDESC": "Bachelor's degree",
       "EARN_MDN_4YR": "PS"
     }
-  ]
+  ],
+  "commonAppInfo": {
+    "acceptsCommonApp": true,
+    "applicationDeadlines": {
+      "earlyDecision": null,
+      "earlyDecision2": null,
+      "earlyAction": null,
+      "earlyAction2": null,
+      "restrictiveEarlyAction": null,
+      "regular": "7/26/2025"
+    },
+    "applicationFees": {
+      "domestic": "50",
+      "international": "I or T"
+    },
+    "requirements": {
+      "personalEssayRequired": false,
+      "writingSupplement": false,
+      "coursesAndGrades": false,
+      "portfolio": null,
+      "testPolicy": "S",
+      "testScoresUsed": "SAT without Essay or ACT without Essay",
+      "internationalRequirements": "I or T"
+    },
+    "recommendations": {
+      "teacherEvals": "0",
+      "otherEvals": "0",
+      "counselorRecommendation": false,
+      "midYearReport": false
+    }
+  },
+  "admissionInfo": {
+    "applicationDeadlines": {
+      "earlyDecision": null,
+      "earlyDecision2": null,
+      "earlyAction": null,
+      "earlyAction2": null,
+      "restrictiveEarlyAction": null,
+      "regular": "7/26/2025"
+    },
+    "applicationFees": {
+      "domestic": "50",
+      "international": "I or T"
+    },
+    "acceptanceRate": "0.6855",
+    "totalEnrolled": "4244",
+    "satScores": {
+      "reading": {
+        "range": [
+          "420",
+          "530"
+        ]
+      },
+      "math": {
+        "range": [
+          "400",
+          "520"
+        ]
+      }
+    },
+    "actScores": {
+      "composite": {
+        "range": [
+          "14",
+          "18"
+        ]
+      }
+    }
+  }
 }

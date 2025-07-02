@@ -3875,5 +3875,73 @@
       "CREDDESC": "Master's degree",
       "EARN_MDN_4YR": "PrivacySuppressed"
     }
-  ]
+  ],
+  "commonAppInfo": {
+    "acceptsCommonApp": true,
+    "applicationDeadlines": {
+      "earlyDecision": "11/1/2024",
+      "earlyDecision2": "1/7/2025",
+      "earlyAction": "11/1/2024",
+      "earlyAction2": null,
+      "restrictiveEarlyAction": null,
+      "regular": "2025-01-07"
+    },
+    "applicationFees": {
+      "domestic": "70",
+      "international": "See Website"
+    },
+    "requirements": {
+      "personalEssayRequired": true,
+      "writingSupplement": false,
+      "coursesAndGrades": false,
+      "portfolio": null,
+      "testPolicy": "N",
+      "testScoresUsed": "SAT without Essay or ACT without Essay",
+      "internationalRequirements": "See Website"
+    },
+    "recommendations": {
+      "teacherEvals": "1",
+      "otherEvals": "0",
+      "counselorRecommendation": false,
+      "midYearReport": true
+    }
+  },
+  "admissionInfo": {
+    "applicationDeadlines": {
+      "earlyDecision": "11/1/2024",
+      "earlyDecision2": "1/7/2025",
+      "earlyAction": "11/1/2024",
+      "earlyAction2": null,
+      "restrictiveEarlyAction": null,
+      "regular": "2025-01-07"
+    },
+    "applicationFees": {
+      "domestic": "70",
+      "international": "See Website"
+    },
+    "acceptanceRate": "0.4384",
+    "totalEnrolled": "6235",
+    "satScores": {
+      "reading": {
+        "range": [
+          "660",
+          "730"
+        ]
+      },
+      "math": {
+        "range": [
+          "680",
+          "770"
+        ]
+      }
+    },
+    "actScores": {
+      "composite": {
+        "range": [
+          "30",
+          "33"
+        ]
+      }
+    }
+  }
 }

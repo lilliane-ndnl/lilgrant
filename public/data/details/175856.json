@@ -3855,5 +3855,73 @@
       "CREDDESC": "Master's degree",
       "EARN_MDN_4YR": "PS"
     }
-  ]
+  ],
+  "commonAppInfo": {
+    "acceptsCommonApp": true,
+    "applicationDeadlines": {
+      "earlyDecision": null,
+      "earlyDecision2": null,
+      "earlyAction": null,
+      "earlyAction2": null,
+      "restrictiveEarlyAction": null,
+      "regular": "Rolling"
+    },
+    "applicationFees": {
+      "domestic": "25",
+      "international": "I or T"
+    },
+    "requirements": {
+      "personalEssayRequired": false,
+      "writingSupplement": false,
+      "coursesAndGrades": false,
+      "portfolio": null,
+      "testPolicy": "N",
+      "testScoresUsed": "None",
+      "internationalRequirements": "I or T"
+    },
+    "recommendations": {
+      "teacherEvals": "0",
+      "otherEvals": "0",
+      "counselorRecommendation": false,
+      "midYearReport": false
+    }
+  },
+  "admissionInfo": {
+    "applicationDeadlines": {
+      "earlyDecision": null,
+      "earlyDecision2": null,
+      "earlyAction": null,
+      "earlyAction2": null,
+      "restrictiveEarlyAction": null,
+      "regular": "Rolling"
+    },
+    "applicationFees": {
+      "domestic": "25",
+      "international": "I or T"
+    },
+    "acceptanceRate": "0.9103",
+    "totalEnrolled": "4769",
+    "satScores": {
+      "reading": {
+        "range": [
+          "440",
+          "550"
+        ]
+      },
+      "math": {
+        "range": [
+          "410",
+          "530"
+        ]
+      }
+    },
+    "actScores": {
+      "composite": {
+        "range": [
+          "15",
+          "20"
+        ]
+      }
+    }
+  }
 }

@@ -314,7 +314,7 @@ const UniversityProfilePage: React.FC = () => {
       </div>
 
       <p className="data-source-disclaimer">
-        All data, unless specified otherwise (e.g., International Admission), is sourced from the U.S. Department of Education.<br />
+        Data is sourced from the U.S. Department of Education, Common Application, U.S. News, and other verified sources.<br />
         LilGrant does not claim ownership of this data and presents it for informational purposes.
       </p>
 

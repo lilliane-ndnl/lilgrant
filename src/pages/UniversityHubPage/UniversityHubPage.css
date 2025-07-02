@@ -47,81 +47,38 @@
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* 1. Introduction Section */
-.introduction-section {
-  padding: 3rem 5%;
+/* Hub Header */
+.hub-header {
   text-align: center;
-  margin-bottom: 2rem;
-}
-
-.intro-container {
+  padding: 2rem 1rem 3rem;
   max-width: 800px;
   margin: 0 auto;
 }
 
-.introduction-section h1 {
+.hub-header h1 {
   font-size: 3rem;
   font-weight: 700;
-  color: #FFFFFF;
-  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  margin: 0 0 1.5rem 0;
+  color: #ffffff;
+  margin: 0 0 1.5rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   line-height: 1.2;
 }
 
-.introduction-section p {
+.hub-header p {
   font-size: 1.2rem;
-  color: #FFFFFF;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   line-height: 1.6;
-  opacity: 0.9;
+  color: rgba(255, 255, 255, 0.9);
   margin: 0;
-}
-
-/* 4. Universities Section */
-.universities-section {
-  padding: 2rem 5%;
-}
-
-.universities-container {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-.results-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.results-header h2 {
-  color: #2c3e50;
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin: 0;
-  text-shadow: none;
-}
-
-.collection-badge {
-  background: linear-gradient(135deg, #8A2BE2, #9370DB);
-  color: white;
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  text-transform: capitalize;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-.universities-grid {
+.university-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
-  margin: 2rem auto;
+  margin: 2rem 0;
   width: 100%;
+  padding: 0 1rem;
 }
 
 .no-results {
@@ -148,170 +105,70 @@
   text-shadow: none;
 }
 
+.search-section {
+  margin-bottom: 2rem;
+}
+
+.data-source-disclaimer {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  line-height: 1.5;
+  max-width: 1200px;
+  font-style: italic;
+  white-space: normal;
+  display: block;
+}
+
+.results-info {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+  padding: 0.35rem 1.5rem;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1rem;
+  display: inline-block;
+  margin: 1rem auto 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.results-info p {
+  margin: 0;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
-  .universities-grid {
+  .university-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
 }
 
-@media (max-width: 640px) {
-  .universities-grid {
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-    padding: 0 1rem;
-  }
-}
-
 @media (max-width: 768px) {
   .university-hub-page {
-    padding: 1rem 0;
+    padding: 1rem;
   }
   
-  .introduction-section {
-    padding: 2rem 3%;
-  }
-  
-  .introduction-section h1 {
-    font-size: 2.5rem;
-  }
-  
-  .introduction-section p {
-    font-size: 1.1rem;
-  }
-  
-  .universities-section {
-    padding: 1.5rem 3%;
-  }
-  
-  .results-header h2 {
-    font-size: 1.5rem;
+  .university-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding: 0 0.5rem;
   }
 }
 
 @media (max-width: 480px) {
-  .introduction-section {
-    padding: 1.5rem 2%;
+  .university-hub-page {
+    padding: 0.5rem;
   }
   
-  .introduction-section h1 {
-    font-size: 2rem;
-  }
-  
-  .introduction-section p {
-    font-size: 1rem;
-  }
-  
-  .universities-section {
-    padding: 1rem 2%;
-  }
-  
-  .results-header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .results-header h2 {
-    font-size: 1.3rem;
+  .university-grid {
+    padding: 0;
   }
 }
-
-.hub-tabs {
-  display: flex;
-  gap: 12px;
-  margin-bottom: 24px;
-  /* Remove border and background for new style */
-  background: none;
-  border: none;
-}
-
-.scrollable-tabs {
-  overflow-x: auto;
-  white-space: nowrap;
-  padding: 10px 0 10px 0;
-  border-radius: 32px;
-  background: rgba(255,255,255,0.18);
-  box-shadow: 0 2px 12px rgba(120, 80, 180, 0.06);
-  margin-bottom: 32px;
-  scrollbar-width: thin;
-  scrollbar-color: #b39ddb #f3e5f5;
-}
-
-.scrollable-tabs::-webkit-scrollbar {
-  height: 8px;
-}
-.scrollable-tabs::-webkit-scrollbar-thumb {
-  background: #b39ddb;
-  border-radius: 8px;
-}
-.scrollable-tabs::-webkit-scrollbar-track {
-  background: none !important;
-  border-radius: 16px;
-}
-
-.hub-tab {
-  border: none;
-  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
-  color: #4b2067;
-  font-weight: 600;
-  font-size: 1rem;
-  padding: 10px 28px;
-  border-radius: 24px;
-  cursor: pointer;
-  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
-  margin-right: 8px;
-  margin-bottom: 0;
-  outline: none;
-  box-shadow: 0 2px 8px rgba(120, 80, 180, 0.04);
-  white-space: nowrap;
-}
-
-.hub-tab.active {
-  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
-  color: #fff;
-  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.12);
-}
-
-.hub-tab:focus {
-  outline: 2px solid #b39ddb;
-}
-
-.btn-primary, .all-filters-btn, .filters-glass button, .filters-glass .btn-primary {
-  border-radius: 32px !important;
-}
-
-.error-message {
-  text-align: center;
-  padding: 2rem;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 2rem auto;
-  max-width: 600px;
-}
-
-.error-message h2 {
-  color: #e53e3e;
-  margin-bottom: 1rem;
-}
-
-.error-message p {
-  color: #4a5568;
-}
-
-.search-section {
-  margin-bottom: 2rem;
-}
-
-.results-info {
-  margin: 1rem 0;
-  color: #4a5568;
-}
-
-.university-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0;
-} 

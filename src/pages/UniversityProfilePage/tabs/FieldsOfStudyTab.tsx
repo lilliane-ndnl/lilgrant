@@ -64,7 +64,7 @@ const FieldsOfStudyTab: React.FC<{ unitId: string }> = ({ unitId }) => {
       }
     };
 
-    fetchData();
+      fetchData();
   }, [unitId]);
 
   const handleViewModeChange = (mode: ViewMode) => {

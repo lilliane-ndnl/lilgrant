@@ -2,35 +2,124 @@ import React from 'react';
 import './AdmissionTab.css';
 import { formatTestRequirement } from '../../../utils/universityDataHelper';
 
+interface AdmissionData {
+  SAT_AVG: number | null;
+  SAT_AVG_25: number | null;
+  SAT_AVG_75: number | null;
+  SATVR25: number | null;
+  SATVR75: number | null;
+  SATMT25: number | null;
+  SATMT75: number | null;
+  ACTCM25: number | null;
+  ACTCM75: number | null;
+  ACTCMMID: number | null;
+  ACTEN25: number | null;
+  ACTEN75: number | null;
+  ACTMT25: number | null;
+  ACTMT75: number | null;
+  ADM_RATE: number | null;
+  UGDS: number | null;
+  INSTNM: string;
+  ADMCON7: string;
+  commonAppInfo?: {
+    applicationFee?: string;
+    applicationDeadline?: string;
+    applicationDeadlines?: {
+      regular?: string;
+      early?: string;
+      priority?: string;
+      rolling?: string;
+      earlyDecision?: string;
+      earlyAction?: string;
+      earlyDecision2?: string;
+      earlyAction2?: string;
+    };
+    earlyDecision?: boolean;
+    earlyAction?: boolean;
+    commonApp?: boolean;
+    requirements?: {
+      essays?: boolean;
+      interview?: boolean;
+      recommendations?: boolean;
+      satOrAct?: boolean;
+      satSubject?: boolean;
+      portfolio?: boolean;
+      audition?: boolean;
+      internationalStudents?: {
+        toefl?: boolean;
+        ielts?: boolean;
+        financialAid?: boolean;
+      };
+    };
+  };
+  APPLURL?: string;
+}
+
 interface AdmissionTabProps {
-  universityData: any;
+  universityData: AdmissionData;
 }
 
 const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
-  // Helper function to format percentage
-  const formatAcceptanceRate = (value: number | undefined) => {
-    if (value === undefined || value === null) return 'N/A';
-    return `${Math.round(value * 100)}%`;
+  // Helper function to format acceptance rate
+  const formatAcceptanceRate = (rate: number | null) => {
+    if (rate === null || isNaN(rate)) return 'Not Available';
+    return `${(rate * 100).toFixed(1)}%`;
+  };
+
+  // Helper function to format test scores
+  const formatScore = (score: number | null): string => {
+    return score !== null ? score.toString() : 'N/A';
+  };
+
+  // Helper function to format test scores
+  const formatScoreRange = (min: number | null, max: number | null) => {
+    if (min === null || max === null || isNaN(min) || isNaN(max)) return 'Not Available';
+    return `${Math.round(min)} - ${Math.round(max)}`;
+  };
+
+  // Helper function to format application fees
+  const formatFee = (fee: string | undefined) => {
+    if (!fee || fee === '0') return 'No Fee';
+    if (fee === 'See Website') return 'See School Website';
+    return `$${fee}`;
+  };
+
+  // Helper function to format test policy
+  const formatTestPolicy = (policy: string) => {
+    const policyMap: { [key: string]: string } = {
+      'A': 'Always Required',
+      'F': 'Test Flexible',
+      'I': 'Tests Ignored',
+      'N': 'Never Required',
+      'S': 'Sometimes Required',
+    };
+    return policyMap[policy] || policy;
+  };
+
+  // Helper function to format requirements
+  const formatRequirement = (value: boolean | undefined) => {
+    if (value === undefined) return 'Not Available';
+    return value ? 'Required' : 'Not Required';
   };
 
   // Custom pie chart component
-  const AcceptanceRatePieChart: React.FC<{ value: number }> = ({ value }) => {
-    const percentage = value * 100;
-    const radius = 45;
+  const AcceptanceRatePieChart: React.FC<{ value: number | null }> = ({ value }) => {
+    const percentage = value !== null ? value * 100 : 0;
+    const radius = 60;
     const circumference = 2 * Math.PI * radius;
     const strokeDasharray = `${(percentage * circumference) / 100} ${circumference}`;
     
     return (
       <div className="pie-chart-container">
-        <svg width="120" height="120" viewBox="0 0 120 120">
+        <svg width="160" height="160" viewBox="0 0 160 160">
           {/* Background circle */}
           <circle
-            cx="60"
-            cy="60"
-            r={radius}
+            cx="80"
+            cy="80"
+            r="60"
             fill="none"
             stroke="#E8E8E8"
-            strokeWidth="10"
+            strokeWidth="12"
           />
           {/* Progress circle with gradient */}
           <defs>
@@ -41,15 +130,15 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
             </linearGradient>
           </defs>
           <circle
-            cx="60"
-            cy="60"
-            r={radius}
+            cx="80"
+            cy="80"
+            r="60"
             fill="none"
             stroke="url(#gradientAccepted)"
-            strokeWidth="10"
+            strokeWidth="12"
             strokeDasharray={strokeDasharray}
             strokeDashoffset={circumference * 0.25} // Start from top
-            transform="rotate(-90 60 60)" // Rotate to start from top
+            transform="rotate(-90 80 80)" // Rotate to start from top
           />
         </svg>
         <div className="acceptance-rate-value">
@@ -57,18 +146,6 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
         </div>
       </div>
     );
-  };
-
-  // Helper function to format SAT/ACT scores
-  const formatScore = (value: number | undefined) => {
-    if (value === undefined || value === null) return 'Not Available';
-    return Math.round(value).toString();
-  };
-
-  // Helper function to format score ranges
-  const formatScoreRange = (min: number | undefined, max: number | undefined) => {
-    if (min === undefined || max === undefined) return 'Not Available';
-    return `${Math.round(min)} - ${Math.round(max)}`;
   };
 
   // Debug log
@@ -88,7 +165,9 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
   });
 
   // Function to render score range bar
-  const renderScoreRangeBar = (min: number, max: number, fullRange: [number, number], label: string) => {
+  const renderScoreRangeBar = (min: number | null, max: number | null, fullRange: [number, number], label: string) => {
+    if (min === null || max === null) return null;
+    
     const width = ((max - min) / (fullRange[1] - fullRange[0])) * 100;
     const left = ((min - fullRange[0]) / (fullRange[1] - fullRange[0])) * 100;
     
@@ -128,6 +207,177 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
 
   const summaryText = `${universityData.INSTNM} has an acceptance rate of ${acceptanceRate}. The university ${testingPolicyPhrase}. Students who were admitted and enrolled typically had admission test scores in the ranges shown above.`;
 
+  const totalEnrollment = universityData.UGDS ? Math.round(universityData.UGDS).toLocaleString() : 'N/A';
+
+  // Application Requirements Section
+  const renderApplicationRequirements = () => {
+    return (
+      <div className="requirements-section">
+        <h3>Application Requirements</h3>
+        <div className="requirements-grid">
+          <div className="requirement-item">
+            <span className="requirement-label">Application Fee</span>
+            <span className="requirement-value">
+              {universityData.commonAppInfo?.applicationFee || 'Contact school'}
+            </span>
+          </div>
+          
+          <div className="requirement-item">
+            <span className="requirement-label">Regular Decision Deadline</span>
+            <span className="requirement-value">
+              {universityData.commonAppInfo?.applicationDeadline || 'Contact school'}
+            </span>
+          </div>
+
+          <div className="requirement-item">
+            <span className="requirement-label">Early Decision</span>
+            <span className="requirement-value">
+              {universityData.commonAppInfo?.earlyDecision ? 'Available' : 'Not Available'}
+            </span>
+          </div>
+
+          <div className="requirement-item">
+            <span className="requirement-label">Early Action</span>
+            <span className="requirement-value">
+              {universityData.commonAppInfo?.earlyAction ? 'Available' : 'Not Available'}
+            </span>
+          </div>
+
+          <div className="requirement-item">
+            <span className="requirement-label">Common App</span>
+            <span className="requirement-value">
+              {universityData.commonAppInfo?.commonApp ? 'Accepted' : 'Not Accepted'}
+            </span>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  // Testing Requirements Section
+  const renderTestingRequirements = () => {
+    const requirements = universityData.commonAppInfo?.requirements;
+    
+    return (
+      <div className="requirements-section">
+        <h3>Testing Requirements</h3>
+        <div className="requirements-grid">
+          <div className="requirement-item">
+            <span className="requirement-label">SAT/ACT</span>
+            <span className="requirement-value">
+              {requirements?.satOrAct ? 'Required' : 'Not Required'}
+            </span>
+          </div>
+          
+          {requirements?.satSubject !== undefined && (
+            <div className="requirement-item">
+              <span className="requirement-label">SAT Subject Tests</span>
+              <span className="requirement-value">
+                {requirements.satSubject ? 'Required' : 'Not Required'}
+              </span>
+            </div>
+          )}
+          
+          {requirements?.internationalStudents && (
+            <>
+              {requirements.internationalStudents.toefl !== undefined && (
+                <div className="requirement-item">
+                  <span className="requirement-label">TOEFL</span>
+                  <span className="requirement-value">
+                    {requirements.internationalStudents.toefl ? 'Required' : 'Not Required'}
+                  </span>
+                </div>
+              )}
+              
+              {requirements.internationalStudents.ielts !== undefined && (
+                <div className="requirement-item">
+                  <span className="requirement-label">IELTS</span>
+                  <span className="requirement-value">
+                    {requirements.internationalStudents.ielts ? 'Required' : 'Not Required'}
+                  </span>
+                </div>
+              )}
+            </>
+          )}
+        </div>
+      </div>
+    );
+  };
+
+  // Recommendations Section
+  const renderRecommendations = () => {
+    const requirements = universityData.commonAppInfo?.requirements;
+    
+    return (
+      <div className="requirements-section">
+        <h3>Additional Requirements</h3>
+        <div className="requirements-grid">
+          {requirements?.essays !== undefined && (
+            <div className="requirement-item">
+              <span className="requirement-label">Essays</span>
+              <span className="requirement-value">
+                {requirements.essays ? 'Required' : 'Not Required'}
+              </span>
+            </div>
+          )}
+          
+          {requirements?.recommendations !== undefined && (
+            <div className="requirement-item">
+              <span className="requirement-label">Recommendations</span>
+              <span className="requirement-value">
+                {requirements.recommendations ? 'Required' : 'Not Required'}
+              </span>
+            </div>
+          )}
+          
+          {requirements?.interview !== undefined && (
+            <div className="requirement-item">
+              <span className="requirement-label">Interview</span>
+              <span className="requirement-value">
+                {requirements.interview ? 'Required' : 'Not Required'}
+              </span>
+            </div>
+          )}
+          
+          {requirements?.portfolio !== undefined && (
+            <div className="requirement-item">
+              <span className="requirement-label">Portfolio</span>
+              <span className="requirement-value">
+                {requirements.portfolio ? 'Required' : 'Not Required'}
+              </span>
+            </div>
+          )}
+          
+          {requirements?.audition !== undefined && (
+            <div className="requirement-item">
+              <span className="requirement-label">Audition</span>
+              <span className="requirement-value">
+                {requirements.audition ? 'Required' : 'Not Required'}
+              </span>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  };
+
+  // Application Fees Section
+  const renderApplicationFees = () => {
+    return (
+      <div className="requirements-section">
+        <h3>Application Fees</h3>
+        <div className="requirements-grid">
+          <div className="requirement-item">
+            <span className="requirement-label">Application Fee</span>
+            <span className="requirement-value">
+              {universityData.commonAppInfo?.applicationFee || 'Contact school'}
+            </span>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div className="admission-container">
       {/* Card 1: Admission Statistics */}
@@ -136,7 +386,7 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
         <div className="admission-stats-grid">
           {/* Left Column: Acceptance Rate Donut Chart */}
           <div className="acceptance-rate-container">
-            <AcceptanceRatePieChart value={universityData.ADM_RATE || 0} />
+            <AcceptanceRatePieChart value={universityData.ADM_RATE} />
           </div>
 
           {/* Right Column: Test Score Range Bars */}
@@ -170,14 +420,21 @@ const AdmissionTab: React.FC<AdmissionTabProps> = ({ universityData }) => {
         </div>
       </div>
 
-      {/* Card 2: Application Information */}
+      {/* Card 2: Application Requirements */}
       <div className="admission-card">
-        <h2>Application Information</h2>
-        <div className="info-grid">
-          <div className="info-item">
-            <span className="info-label">Testing Policy</span>
-            <span className="info-value">{formatTestRequirement(universityData.ADMCON7)}</span>
-          </div>
+        <h2>Application Requirements</h2>
+        {renderApplicationRequirements()}
+        {renderTestingRequirements()}
+        {renderRecommendations()}
+        {renderApplicationFees()}
+      </div>
+
+      {/* Card 3: Total Enrollment */}
+      <div className="admission-card">
+        <h2>Total Enrollment</h2>
+        <div className="enrollment-display">
+          <span className="enrollment-value">{totalEnrollment}</span>
+          <span className="enrollment-label">Undergraduate Students</span>
         </div>
       </div>
     </div>

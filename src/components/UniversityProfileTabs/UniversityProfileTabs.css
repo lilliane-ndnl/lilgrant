@@ -130,6 +130,14 @@
 .scholarship-notes-box {
   background: rgba(255, 255, 255, 0.15) !important;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  width: 100% !important;
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 1.5rem !important;
+  line-height: 1.6 !important;
+  text-align: justify !important;
+  hyphens: auto !important;
+  word-wrap: break-word !important;
 }
 
 /* Responsive Design */

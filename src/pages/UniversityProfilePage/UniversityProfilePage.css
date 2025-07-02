@@ -732,4 +732,17 @@
   border-color: #8A2BE2;
   box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.1);
   background: rgba(255,255,255,0.95);
+}
+
+.data-source-disclaimer {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  line-height: 1.5;
+  max-width: 1200px;
+  font-style: italic;
+  white-space: normal;
+  display: block;
 } 
