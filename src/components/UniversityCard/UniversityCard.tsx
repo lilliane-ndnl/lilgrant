@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './UniversityCard.css';
-import { Link } from 'react-router-dom';
 import { formatCurrency, formatPercentage } from '../../utils/universityDataHelper';
 
 interface UniversityCardProps {
@@ -19,6 +19,13 @@ interface UniversityCardProps {
 }
 
 const UniversityCard: React.FC<UniversityCardProps> = ({ university }) => {
+  const navigate = useNavigate();
+
+  const handleViewProfile = useCallback(() => {
+    const slug = String(university.id);
+    navigate(`/university/${slug}`);
+  }, [navigate, university.id]);
+
   // Convert string values to numbers where needed
   const admRate = university.ADM_RATE ? Number(university.ADM_RATE) : undefined;
   const cost = university.COSTT4_A ? Number(university.COSTT4_A) : undefined;
@@ -26,33 +33,37 @@ const UniversityCard: React.FC<UniversityCardProps> = ({ university }) => {
   const enrollment = university.UGDS ? Number(university.UGDS) : undefined;
 
   return (
-    <Link to={`/university/${university.id}`} className="university-card">
-      <h3 className="card-title">{university.name}</h3>
-      <div className="tag-container">
-        <span className="card-location">
-          {university.city}, {university.state}
-        </span>
+    <div className="university-card glassmorphism-box">
+      <div className="card-header">
+        <h3 className="card-title">{university.name}</h3>
+        <p className="card-location">{university.city}, {university.state}</p>
       </div>
-      
-      <div className="card-info">
-        <div className="info-row">
-          <span className="info-label">Acceptance Rate</span>
-          <span className="info-value">{admRate ? formatPercentage(admRate) : 'N/A'}</span>
+
+      <hr className="card-divider" />
+
+      <div className="card-metrics">
+        <div className="metric-row">
+          <span>Acceptance Rate</span>
+          <span>{admRate ? formatPercentage(admRate) : 'N/A'}</span>
         </div>
-        <div className="info-row">
-          <span className="info-label">Average Annual Cost</span>
-          <span className="info-value">{cost ? formatCurrency(cost) : 'N/A'}</span>
+        <div className="metric-row">
+          <span>Average Annual Cost</span>
+          <span>{cost ? formatCurrency(cost) : 'N/A'}</span>
         </div>
-        <div className="info-row">
-          <span className="info-label">Median Earnings</span>
-          <span className="info-value">{earnings ? formatCurrency(earnings) : 'N/A'}</span>
+        <div className="metric-row">
+          <span>Median Earnings</span>
+          <span>{earnings ? formatCurrency(earnings) : 'N/A'}</span>
         </div>
-        <div className="info-row">
-          <span className="info-label">School Size</span>
-          <span className="info-value">{enrollment ? `${enrollment.toLocaleString()} students` : 'N/A'}</span>
+        <div className="metric-row">
+          <span>School Size</span>
+          <span>{enrollment ? `${enrollment.toLocaleString()} students` : 'N/A'}</span>
         </div>
       </div>
-    </Link>
+
+      <button className="btn-primary btn-small" onClick={handleViewProfile}>
+        View Profile
+      </button>
+    </div>
   );
 };
 
