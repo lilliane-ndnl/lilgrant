@@ -36,7 +36,7 @@ const UniversityHubPage: React.FC = () => {
     primaryFocus: '',
     religiousAffiliation: ''
   });
-  const itemsPerPage = 12;
+  const itemsPerPage = 28;
 
   useEffect(() => {
     const fetchUniversities = async () => {
