@@ -19,10 +19,11 @@ interface UniversityData {
   NPT4_PUB: string | number;
   NPT4_PRIV: string | number;
   MD_EARN_WNE_P10: string | number;
-  sourceList: string[];
-  slug: string;
-  primaryFocus: string;
-  religious: string;
+  COSTT4_A?: string | number;
+  sourceList?: string[];
+  slug?: string;
+  primaryFocus?: string;
+  religious?: string;
 }
 
 const UniversityHubPage: React.FC = () => {

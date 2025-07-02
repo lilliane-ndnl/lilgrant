@@ -5,20 +5,26 @@ import { formatCurrency, formatPercentage } from '../../utils/universityDataHelp
 
 interface UniversityCardProps {
   university: {
-    id: string;
+    id: string | number;
     name: string;
     city: string;
     state: string;
-    ADM_RATE?: number;
-    COSTT4_A?: number;
-    MD_EARN_WNE_P10?: number;
-    UGDS?: number;
-    type?: string;
-    size?: string;
+    ADM_RATE?: string | number;
+    COSTT4_A?: string | number;
+    MD_EARN_WNE_P10?: string | number;
+    UGDS?: string | number;
+    CONTROL?: string | number;
+    LOCALE?: string | number;
   };
 }
 
 const UniversityCard: React.FC<UniversityCardProps> = ({ university }) => {
+  // Convert string values to numbers where needed
+  const admRate = university.ADM_RATE ? Number(university.ADM_RATE) : undefined;
+  const cost = university.COSTT4_A ? Number(university.COSTT4_A) : undefined;
+  const earnings = university.MD_EARN_WNE_P10 ? Number(university.MD_EARN_WNE_P10) : undefined;
+  const enrollment = university.UGDS ? Number(university.UGDS) : undefined;
+
   return (
     <Link to={`/university/${university.id}`} className="university-card">
       <h3 className="card-title">{university.name}</h3>
@@ -26,26 +32,24 @@ const UniversityCard: React.FC<UniversityCardProps> = ({ university }) => {
         <span className="card-location">
           {university.city}, {university.state}
         </span>
-        {university.type && <span className="info-tag">{university.type}</span>}
-        {university.size && <span className="info-tag">{university.size}</span>}
       </div>
       
       <div className="card-info">
         <div className="info-row">
           <span className="info-label">Acceptance Rate</span>
-          <span className="info-value">{university.ADM_RATE ? formatPercentage(university.ADM_RATE) : 'N/A'}</span>
+          <span className="info-value">{admRate ? formatPercentage(admRate) : 'N/A'}</span>
         </div>
         <div className="info-row">
           <span className="info-label">Average Annual Cost</span>
-          <span className="info-value">{university.COSTT4_A ? formatCurrency(university.COSTT4_A) : 'N/A'}</span>
+          <span className="info-value">{cost ? formatCurrency(cost) : 'N/A'}</span>
         </div>
         <div className="info-row">
           <span className="info-label">Median Earnings</span>
-          <span className="info-value">{university.MD_EARN_WNE_P10 ? formatCurrency(university.MD_EARN_WNE_P10) : 'N/A'}</span>
+          <span className="info-value">{earnings ? formatCurrency(earnings) : 'N/A'}</span>
         </div>
         <div className="info-row">
           <span className="info-label">School Size</span>
-          <span className="info-value">{university.UGDS ? `${university.UGDS.toLocaleString()} students` : 'N/A'}</span>
+          <span className="info-value">{enrollment ? `${enrollment.toLocaleString()} students` : 'N/A'}</span>
         </div>
       </div>
     </Link>
