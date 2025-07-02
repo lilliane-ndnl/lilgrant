@@ -1,8 +1,8 @@
 /* UniversityCard Styles - Glassmorphism */
 .university-card {
   background: rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
-  padding: 1.25rem;
+  border-radius: 16px;
+  padding: 1.5rem;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
@@ -39,14 +39,6 @@
   overflow: hidden;
 }
 
-.card-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  align-items: center;
-  margin: 0.25rem 0;
-}
-
 .card-location {
   background: linear-gradient(135deg, rgba(138, 43, 226, 0.12), rgba(102, 126, 234, 0.08));
   color: #ffffff;
@@ -59,32 +51,8 @@
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   display: inline-flex;
   align-items: center;
-  white-space: nowrap;
-}
-
-.card-info {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.75rem;
-  margin-top: 0.5rem;
-}
-
-.info-item {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
-.info-label {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 0.875rem;
-  font-weight: 400;
-}
-
-.info-value {
-  color: #ffffff;
-  font-size: 1rem;
-  font-weight: 500;
+  width: fit-content;
+  margin: 0;
 }
 
 .card-divider {
@@ -163,6 +131,52 @@
 .btn-primary.btn-small:active {
   transform: translateY(0);
   box-shadow: 0 4px 15px rgba(92, 31, 74, 0.3);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.info-label {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.info-value {
+  font-weight: 500;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.info-tag {
+  background: linear-gradient(135deg, rgba(138, 43, 226, 0.12), rgba(102, 126, 234, 0.08));
+  color: #ffffff;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  border: 1px solid rgba(138, 43, 226, 0.2);
+  box-shadow: 0 2px 8px rgba(138, 43, 226, 0.08);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {

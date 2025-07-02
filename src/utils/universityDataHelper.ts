@@ -242,4 +242,19 @@ export function formatTestRequirement(code: string | number | undefined): string
   };
 
   return policyMap[numericCode] || 'Not Specified';
-} 
+}
+
+export const formatCurrency = (value: number): string => {
+  return new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    maximumFractionDigits: 0
+  }).format(value);
+};
+
+export const formatPercentage = (value: number): string => {
+  return new Intl.NumberFormat('en-US', {
+    style: 'percent',
+    maximumFractionDigits: 0
+  }).format(value);
+}; 
