@@ -92,10 +92,21 @@ const OverviewTab: React.FC<OverviewTabProps> = ({ universityData }) => {
       <div className="overview-card">
         <h2>At a Glance</h2>
         <div className="info-grid">
+          {/* First Row */}
           <div className="info-item">
             <h3>School Type</h3>
             <p>{formatSchoolType(universityData.CONTROL)}</p>
           </div>
+          <div className="info-item">
+            <h3>Highest Degree Awarded</h3>
+            <p>{formatHighestDegree(universityData.HIGHDEG)}</p>
+          </div>
+          <div className="info-item">
+            <h3>Student-to-Faculty Ratio</h3>
+            <p>{formatStudentFacultyRatio(universityData.STUFACR)}</p>
+          </div>
+          
+          {/* Second Row */}
           <div className="info-item">
             <h3>Setting</h3>
             <p>{formatLocale(universityData.LOCALE)}</p>
@@ -107,14 +118,6 @@ const OverviewTab: React.FC<OverviewTabProps> = ({ universityData }) => {
           <div className="info-item">
             <h3>Region</h3>
             <p>{formatRegion(universityData.REGION)}</p>
-          </div>
-          <div className="info-item">
-            <h3>Highest Degree Awarded</h3>
-            <p>{formatHighestDegree(universityData.HIGHDEG)}</p>
-          </div>
-          <div className="info-item">
-            <h3>Student-to-Faculty Ratio</h3>
-            <p>{formatStudentFacultyRatio(universityData.STUFACR)}</p>
           </div>
         </div>
       </div>

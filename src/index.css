@@ -47,7 +47,8 @@ html {
   font-weight: 400;
   
   /* Animated gradient background */
-  background: linear-gradient(135deg, #A7C7E7 0%, #B1A2D6 25%, #C8A2C8 50%, #E0BBE4 75%, #A7C7E7 100%);
+  background: #654EA3;
+  background: linear-gradient(180deg, rgba(101, 78, 163, 1) 0%, rgba(234, 175, 200, 1) 100%);
   background-size: 300% 300%;
   animation: movingGradient 20s ease infinite;
   
@@ -60,13 +61,13 @@ html {
 /* Keyframes for the moving gradient animation */
 @keyframes movingGradient {
   0% {
-    background-position: 0% 50%;
+    background-position: 50% 0%;
   }
   50% {
-    background-position: 100% 50%;
+    background-position: 50% 100%;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 50% 0%;
   }
 }
 

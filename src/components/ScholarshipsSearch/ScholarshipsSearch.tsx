@@ -57,10 +57,6 @@ const ScholarshipsSearch: React.FC<ScholarshipsSearchProps> = ({
             <option key={level} value={level}>{level}</option>
           ))}
         </select>
-        {/* Optionally, add a search button for accessibility */}
-        <button className="btn-primary search-btn" type="button">
-          Search
-        </button>
       </div>
     </section>
   );
