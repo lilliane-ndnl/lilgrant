@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import ElegantPagination from '../../components/ElegantPagination/ElegantPagination';
-import UniversityData from '../../components/UniversityData/UniversityData';
 import './ResourcesPage.css'
 
 const ResourcesPage = () => {
@@ -29,12 +28,6 @@ const ResourcesPage = () => {
     <div style={{ paddingTop: '100px', color: 'white', maxWidth: '800px', margin: '0 auto', padding: '0 20px' }}>
       <h1 style={{ textAlign: 'center', marginBottom: '40px', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Helpful Resources</h1>
       <p style={{ textAlign: 'center', marginBottom: '30px', lineHeight: '1.6', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.3)' }}>Curated articles, tools, and guides to aid your scholarship journey.</p>
-      
-      {/* University Data Section */}
-      <div className="glassmorphism-box" style={{ padding: '20px', marginBottom: '30px' }}>
-        <h2 style={{ textAlign: 'center', marginBottom: '20px', textShadow: '1px 1px 3px rgba(0, 0, 0, 0.4)' }}>University Database</h2>
-        <UniversityData />
-      </div>
 
       {/* Resources with Pagination */}
       {currentResources.map(resource => (
