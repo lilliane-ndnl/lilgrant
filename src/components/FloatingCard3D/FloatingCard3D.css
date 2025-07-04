@@ -1,0 +1,131 @@
+.floating-card-3d-container {
+  padding: 20px;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.floating-card-3d {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.1s ease-out, background 0.4s cubic-bezier(0.4,0,0.2,1);
+  border-radius: 24px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.18),
+    rgba(255, 255, 255, 0.08)
+  );
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 
+    0 8px 32px rgba(31, 38, 135, 0.15),
+    0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.floating-card-3d::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at var(--glare-x) var(--glare-y),
+    rgba(255, 255, 255, 0.8),
+    transparent 50%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+
+.floating-card-3d:hover::before {
+  opacity: var(--glare-opacity, 0.5);
+}
+
+.floating-card-3d-content {
+  position: relative;
+  z-index: 1;
+  padding: 24px;
+  transform: translateZ(50px);
+  transition: transform 0.3s ease-out;
+}
+
+.floating-card-3d-glare {
+  position: absolute;
+  inset: -100%;
+  background: radial-gradient(
+    circle at var(--glare-x) var(--glare-y),
+    rgba(255, 255, 255, 0.8),
+    transparent 25%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+  transform: translateZ(20px);
+}
+
+.floating-card-3d:hover .floating-card-3d-glare {
+  opacity: var(--glare-opacity, 0.5);
+}
+
+/* Add rainbow edge effect */
+.floating-card-3d::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 128, 0.2),
+    rgba(255, 140, 0, 0.2),
+    rgba(0, 255, 200, 0.2),
+    rgba(0, 128, 255, 0.2)
+  );
+  border-radius: 24px;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.floating-card-3d:hover::after {
+  opacity: 1;
+}
+
+/* Smooth animation for content */
+.floating-card-3d:hover .floating-card-3d-content {
+  transform: translateZ(75px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .floating-card-3d-container {
+    padding: 15px;
+  }
+
+  .floating-card-3d-content {
+    padding: 20px;
+    transform: translateZ(30px);
+  }
+
+  .floating-card-3d:hover .floating-card-3d-content {
+    transform: translateZ(45px);
+  }
+}
+
+@media (max-width: 480px) {
+  .floating-card-3d-container {
+    padding: 10px;
+  }
+
+  .floating-card-3d-content {
+    padding: 16px;
+    transform: translateZ(20px);
+  }
+
+  .floating-card-3d:hover .floating-card-3d-content {
+    transform: translateZ(30px);
+  }
+}
+
+.floating-card-3d:hover {
+  background: linear-gradient(135deg, #85ACD4 0%, #D497FC 47%, #F7A3C8 100%);
+} 

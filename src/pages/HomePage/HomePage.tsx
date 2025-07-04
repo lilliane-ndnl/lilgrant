@@ -1,39 +1,78 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import HeroSection from '../../components/HeroSection/HeroSection'
-import FeatureCard from '../../components/FeatureCard/FeatureCard'
-import { FaStar, FaUniversity, FaBook } from 'react-icons/fa'
-import './HomePage.css'
+import FloatingCard3D from '../../components/FloatingCard3D/FloatingCard3D'
+import DStar3D from '../../components/Showcase3DIcons/3DStar'
+import DBookStack3D from '../../components/Showcase3DIcons/3DBookStack'
+import DBuilding3D from '../../components/Showcase3DIcons/3DBuilding'
 
-const features = [
-  {
-    icon: FaStar,
-    title: 'Scholarship Discovery',
-    description: 'Explore a hand-picked database of scholarships, with a special focus on simplifying the search for international students.',
-    link: '/scholarships',
-  },
-  {
-    icon: FaUniversity,
-    title: 'University Hub',
-    description: 'Explore universities with detailed profiles, acceptance rates, and financial aid information.',
-    link: '/universities',
-  },
-  {
-    icon: FaBook,
-    title: 'Guidance & Resources',
-    description: 'Get expert tips, strategic guides, and curated resources to give your application an edge.',
-    link: '/resources',
-  },
-]
-
-const HomePage = () => {
+const HomePage: React.FC = () => {
   return (
     <div className="home-page">
       <HeroSection />
-      <section className="features-section">
-        <h2 className="features-title">What Makes LilGrant Special?</h2>
-        <div className="features-grid">
-          {features.map((feature, idx) => (
-            <FeatureCard key={idx} {...feature} />
-          ))}
+      {/* 3D Cards Showcase */}
+      <section className="floating-cards-showcase">
+        <h2>Discover Your Path</h2>
+        <div className="floating-cards-grid">
+          <Link to="/scholarships" className="showcase-card-link">
+            <FloatingCard3D>
+              <div className="showcase-card">
+                <DStar3D />
+                <h3>Scholarship Discovery</h3>
+                <p>Access our growing hand-picked database of 400+ scholarship opportunities. We focus on finding and detailing financial aid options available to international students to help you fund your education.</p>
+                <div className="card-stats">
+                  <div className="stat">
+                    <span className="stat-number">400+</span>
+                    <span className="stat-label">Scholarships</span>
+                  </div>
+                  <div className="stat">
+                    <span className="stat-number">50+</span>
+                    <span className="stat-label">Countries</span>
+                  </div>
+                </div>
+              </div>
+            </FloatingCard3D>
+          </Link>
+
+          <Link to="/universities" className="showcase-card-link">
+            <FloatingCard3D perspective={1200} maxRotation={20}>
+              <div className="showcase-card">
+                <DBuilding3D />
+                <h3>University Hub</h3>
+                <p>Explore more than 4,000 U.S. institutions. Our database is specifically curated to provide international students with the detailed insights on academics, cost, and career outcomes needed to find the perfect fit.</p>
+                <div className="card-stats">
+                  <div className="stat">
+                    <span className="stat-number">4000+</span>
+                    <span className="stat-label">Schools</span>
+                  </div>
+                  <div className="stat">
+                    <span className="stat-number">1000+</span>
+                    <span className="stat-label">Programs</span>
+                  </div>
+                </div>
+              </div>
+            </FloatingCard3D>
+          </Link>
+
+          <Link to="/resources" className="showcase-card-link">
+            <FloatingCard3D perspective={1500} glareIntensity={0.7}>
+              <div className="showcase-card">
+                <DBookStack3D />
+                <h3>Guidance & Resources</h3>
+                <p>From application checklists to tips for navigating student life in the U.S.; including dorm shopping, budgeting, and career advice: our resources are here to support you at every step.</p>
+                <div className="card-stats">
+                  <div className="stat">
+                    <span className="stat-number">100+</span>
+                    <span className="stat-label">Resources</span>
+                  </div>
+                  <div className="stat">
+                    <span className="stat-number">24/7</span>
+                    <span className="stat-label">Support</span>
+                  </div>
+                </div>
+              </div>
+            </FloatingCard3D>
+          </Link>
         </div>
       </section>
     </div>

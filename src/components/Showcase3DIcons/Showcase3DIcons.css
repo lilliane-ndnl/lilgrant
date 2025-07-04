@@ -1,0 +1,15 @@
+.showcase-3d-star, .showcase-3d-book, .showcase-3d-building {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: 0 auto 18px auto;
+  filter: drop-shadow(0 8px 24px rgba(80, 0, 120, 0.18));
+  transition: filter 0.3s, transform 0.3s;
+}
+
+.floating-card-3d:hover .showcase-3d-star,
+.floating-card-3d:hover .showcase-3d-book,
+.floating-card-3d:hover .showcase-3d-building {
+  filter: drop-shadow(0 16px 40px rgba(80, 0, 120, 0.28));
+  transform: scale(1.12) rotateX(8deg) rotateY(-8deg);
+} 
