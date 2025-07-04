@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import AdvancedUniversitySearch from '../../components/AdvancedUniversitySearch/AdvancedUniversitySearch';
 import type { SearchFilters } from '../../components/AdvancedUniversitySearch/AdvancedUniversitySearch';
 import UniversityCard from '../../components/UniversityCard/UniversityCard';
-import Pagination from '../../components/Pagination/Pagination';
+import ElegantPagination from '../../components/ElegantPagination/ElegantPagination';
 import LoadingBar from '../../components/LoadingBar/LoadingBar';
 import './UniversityHubPage.css';
 
@@ -100,6 +100,9 @@ const UniversityHubPage: React.FC = () => {
     return (
       <div className="university-hub-page">
         <LoadingBar />
+        <div className="loading-container">
+          <p>Loading universities...</p>
+        </div>
       </div>
     );
   }
@@ -159,12 +162,10 @@ const UniversityHubPage: React.FC = () => {
       )}
 
       {totalPages > 1 && (
-        <Pagination
+        <ElegantPagination
           currentPage={currentPage}
           totalPages={totalPages}
           onPageChange={handlePageChange}
-          totalItems={filteredUniversities.length}
-          itemsPerPage={itemsPerPage}
         />
       )}
     </div>

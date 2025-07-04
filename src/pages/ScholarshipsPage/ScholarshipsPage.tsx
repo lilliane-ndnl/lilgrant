@@ -4,6 +4,8 @@ import ScholarshipDetailModal from '../../components/ScholarshipDetailModal/Scho
 import { PerformanceMonitor, logMemoryUsage } from '../../utils/performance'
 import ScholarshipsSearch from '../../components/ScholarshipsSearch/ScholarshipsSearch'
 import type { ScholarshipsSearchFilters } from '../../components/ScholarshipsSearch/ScholarshipsSearch'
+import LoadingBar from '../../components/LoadingBar/LoadingBar'
+import ElegantPagination from '../../components/ElegantPagination/ElegantPagination'
 import './ScholarshipsPage.css'
 
 interface ScholarshipData {
@@ -125,12 +127,10 @@ const ScholarshipsPage = () => {
   if (loading) {
     return (
       <div className="scholarships-page">
+        <LoadingBar />
         <div className="page-header">
           <h1>Available Scholarships</h1>
           <p>Loading scholarship opportunities...</p>
-        </div>
-        <div className="loading-spinner">
-          <div className="spinner"></div>
         </div>
       </div>
     )
@@ -182,37 +182,12 @@ const ScholarshipsPage = () => {
           ))}
         </div>
 
-        {/* Pagination */}
         {totalPages > 1 && (
-          <div className="pagination">
-            <button
-              onClick={() => handlePageChange(currentPage - 1)}
-              disabled={currentPage === 1}
-              className="pagination-btn btn-primary"
-            >
-              Previous
-            </button>
-            
-            <div className="pagination-numbers">
-              {Array.from({ length: totalPages }, (_, i) => i + 1).map(page => (
-                <button
-                  key={page}
-                  onClick={() => handlePageChange(page)}
-                  className={`pagination-number ${page === currentPage ? 'active' : ''}`}
-                >
-                  {page}
-                </button>
-              ))}
-            </div>
-            
-            <button
-              onClick={() => handlePageChange(currentPage + 1)}
-              disabled={currentPage === totalPages}
-              className="pagination-btn btn-primary"
-            >
-              Next
-            </button>
-          </div>
+          <ElegantPagination
+            currentPage={currentPage}
+            totalPages={totalPages}
+            onPageChange={handlePageChange}
+          />
         )}
 
         {filteredScholarships.length === 0 && !loading && (
@@ -235,11 +210,13 @@ const ScholarshipsPage = () => {
         )}
       </div>
 
-      <ScholarshipDetailModal
-        scholarship={selectedScholarship}
-        isOpen={isModalOpen}
-        onClose={handleCloseModal}
-      />
+      {selectedScholarship && (
+        <ScholarshipDetailModal
+          isOpen={isModalOpen}
+          onClose={handleCloseModal}
+          scholarship={selectedScholarship}
+        />
+      )}
     </div>
   )
 }

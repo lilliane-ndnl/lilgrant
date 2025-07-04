@@ -225,9 +225,11 @@ const UniversityProfilePage: React.FC = () => {
   // Enhanced defensive rendering
   if (loading) {
     return (
-      <div className="loading-container">
+      <div className="university-profile-page">
         <LoadingBar />
-        <p>Loading university data...</p>
+        <div className="loading-container">
+          <p>Loading university information...</p>
+        </div>
       </div>
     );
   }

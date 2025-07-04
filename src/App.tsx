@@ -13,6 +13,7 @@ import BlogPage from './pages/BlogPage/BlogPage'
 import AboutPage from './pages/AboutPage/AboutPage'
 import UniversityHubPage from './pages/UniversityHubPage/UniversityHubPage'
 import UniversityProfilePage from './pages/UniversityProfilePage/UniversityProfilePage'
+import RouteTransition from './components/RouteTransition/RouteTransition'
 
 function App() {
   const headerRef = useRef<HTMLElement>(null)
@@ -34,16 +35,18 @@ function App() {
       <div className="app">
         <Header ref={headerRef} />
         <main className="main-content" style={{ paddingTop: headerHeight }}>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/scholarships" element={<ScholarshipsPage />} />
-            <Route path="/scholarships/:scholarshipId" element={<ScholarshipDetailPage />} />
-            <Route path="/universities" element={<UniversityHubPage />} />
-            <Route path="/university/:universityId" element={<UniversityProfilePage />} />
-            <Route path="/resources" element={<ResourcesPage />} />
-            <Route path="/blog" element={<BlogPage />} />
-            <Route path="/about" element={<AboutPage />} />
-          </Routes>
+          <RouteTransition>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/scholarships" element={<ScholarshipsPage />} />
+              <Route path="/scholarships/:scholarshipId" element={<ScholarshipDetailPage />} />
+              <Route path="/universities" element={<UniversityHubPage />} />
+              <Route path="/university/:universityId" element={<UniversityProfilePage />} />
+              <Route path="/resources" element={<ResourcesPage />} />
+              <Route path="/blog" element={<BlogPage />} />
+              <Route path="/about" element={<AboutPage />} />
+            </Routes>
+          </RouteTransition>
         </main>
         <Footer />
         <ScrollToTopButton />

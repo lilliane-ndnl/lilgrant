@@ -1,0 +1,139 @@
+.elegant-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* Previous/Next buttons - matching scholarship card's learn-more-btn */
+.pagination-nav-btn {
+  background: linear-gradient(135deg, rgba(92, 31, 74, 0.95), rgba(186, 74, 143, 0.9));
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(92, 31, 74, 0.3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  min-width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-nav-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(92, 31, 74, 0.4);
+  background: linear-gradient(135deg, rgba(92, 31, 74, 1), rgba(186, 74, 143, 0.95));
+}
+
+.pagination-nav-btn:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 4px 15px rgba(92, 31, 74, 0.3);
+}
+
+.pagination-nav-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Page numbers container */
+.pagination-numbers {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Page number buttons - matching scholarship card's amount tag */
+.pagination-number {
+  background: linear-gradient(135deg, rgba(138, 43, 226, 0.12), rgba(102, 126, 234, 0.08));
+  color: #ffffff;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border: 1px solid rgba(138, 43, 226, 0.2);
+  box-shadow: 0 2px 8px rgba(138, 43, 226, 0.08);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-number:hover:not(.active) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(138, 43, 226, 0.15);
+  background: linear-gradient(135deg, rgba(138, 43, 226, 0.18), rgba(102, 126, 234, 0.12));
+}
+
+.pagination-number.active {
+  background: linear-gradient(135deg, rgba(138, 43, 226, 0.3), rgba(102, 126, 234, 0.25));
+  border-color: rgba(138, 43, 226, 0.4);
+  box-shadow: 0 4px 15px rgba(138, 43, 226, 0.2);
+  transform: translateY(-1px);
+}
+
+.pagination-ellipsis {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  padding: 6px 8px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  user-select: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .elegant-pagination {
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .pagination-nav-btn {
+    padding: 10px 20px;
+    font-size: 0.85rem;
+    min-width: 100px;
+  }
+
+  .pagination-number {
+    padding: 5px 12px;
+    font-size: 0.8rem;
+    min-width: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .elegant-pagination {
+    gap: 0.75rem;
+    padding: 0.75rem;
+  }
+
+  .pagination-nav-btn {
+    padding: 8px 16px;
+    font-size: 0.8rem;
+    min-width: 90px;
+  }
+
+  .pagination-numbers {
+    width: 100%;
+    justify-content: center;
+    order: -1;
+    margin-bottom: 0.75rem;
+  }
+
+  .pagination-number {
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    min-width: 32px;
+  }
+} 
