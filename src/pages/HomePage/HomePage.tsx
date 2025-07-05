@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import HeroSection from '../../components/HeroSection/HeroSection'
+import './HomePage.css'
 import FloatingCard3D from '../../components/FloatingCard3D/FloatingCard3D'
 import DStar3D from '../../components/Showcase3DIcons/3DStar'
 import DBookStack3D from '../../components/Showcase3DIcons/3DBookStack'
@@ -10,9 +11,10 @@ const HomePage: React.FC = () => {
   return (
     <div className="home-page">
       <HeroSection />
+      
       {/* 3D Cards Showcase */}
       <section className="floating-cards-showcase">
-        <h2>Discover Your Path</h2>
+        <h2 className="discover-path-title">Discover Your Path</h2>
         <div className="floating-cards-grid">
           <Link to="/scholarships" className="showcase-card-link">
             <FloatingCard3D>
@@ -59,7 +61,7 @@ const HomePage: React.FC = () => {
               <div className="showcase-card">
                 <DBookStack3D />
                 <h3>Guidance & Resources</h3>
-                <p>From application checklists to tips for navigating student life in the U.S.; including dorm shopping, budgeting, and career advice: our resources are here to support you at every step.</p>
+                <p>From application checklists to tips for navigating student life in the U.S. — including dorm shopping, budgeting, and career advice — our resources are here to support you at every step.</p>
                 <div className="card-stats">
                   <div className="stat">
                     <span className="stat-number">100+</span>
