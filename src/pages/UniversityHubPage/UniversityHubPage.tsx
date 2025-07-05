@@ -5,6 +5,7 @@ import UniversityCard from '../../components/UniversityCard/UniversityCard';
 import ElegantPagination from '../../components/ElegantPagination/ElegantPagination';
 import LoadingBar from '../../components/LoadingBar/LoadingBar';
 import Enhanced3DBuilding from '../../components/Showcase3DIcons/Enhanced3DBuilding';
+import UniversityConstellation from '../../components/UniversityConstellation/UniversityConstellation';
 import './UniversityHubPage.css';
 
 // Interface matching the new summary.json structure
@@ -32,6 +33,7 @@ const UniversityHubPage: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [allUniversities, setAllUniversities] = useState<UniversityData[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
+  const [viewMode, setViewMode] = useState<'grid' | 'constellation'>('constellation');
   const [filters, setFilters] = useState<SearchFilters>({
     searchTerm: '',
     state: '',
@@ -97,6 +99,12 @@ const UniversityHubPage: React.FC = () => {
     setCurrentPage(1);
   };
 
+  const handleUniversityClick = (university: UniversityData) => {
+    // Navigate to university profile or show details
+    console.log('Selected university:', university);
+    // You can implement navigation here
+  };
+
   if (loading) {
     return (
       <div className="university-hub-page">
@@ -138,6 +146,21 @@ const UniversityHubPage: React.FC = () => {
         <p>Found {filteredUniversities.length} institutions</p>
       </div>
 
+      <div className="view-mode-toggle">
+        <button
+          className={`toggle-btn ${viewMode === 'constellation' ? 'active' : ''}`}
+          onClick={() => setViewMode('constellation')}
+        >
+          🌟 3D Constellation
+        </button>
+        <button
+          className={`toggle-btn ${viewMode === 'grid' ? 'active' : ''}`}
+          onClick={() => setViewMode('grid')}
+        >
+          📋 Grid View
+        </button>
+      </div>
+
       <div className="search-section">
         <AdvancedUniversitySearch
           filters={filters}
@@ -150,22 +173,32 @@ const UniversityHubPage: React.FC = () => {
         LilGrant does not claim ownership of this data and presents it for informational purposes.
       </p>
 
-      {currentUniversities.length > 0 ? (
-        <div className="university-grid">
-          {currentUniversities.map((university) => (
-            <UniversityCard
-              key={university.id}
-              university={university}
-            />
-          ))}
-        </div>
+      {viewMode === 'constellation' ? (
+        <UniversityConstellation
+          universities={filteredUniversities}
+          onUniversityClick={handleUniversityClick}
+          isLoading={loading}
+        />
       ) : (
-        <div className="no-results">
-          <h3>No Institutions Found</h3>
-        </div>
+        <>
+          {currentUniversities.length > 0 ? (
+            <div className="university-grid">
+              {currentUniversities.map((university) => (
+                <UniversityCard
+                  key={university.id}
+                  university={university}
+                />
+              ))}
+            </div>
+          ) : (
+            <div className="no-results">
+              <h3>No Institutions Found</h3>
+            </div>
+          )}
+        </>
       )}
 
-      {totalPages > 1 && (
+      {viewMode === 'grid' && totalPages > 1 && (
         <ElegantPagination
           currentPage={currentPage}
           totalPages={totalPages}
