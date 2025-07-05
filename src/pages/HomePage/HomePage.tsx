@@ -6,11 +6,15 @@ import FloatingCard3D from '../../components/FloatingCard3D/FloatingCard3D'
 import DStar3D from '../../components/Showcase3DIcons/3DStar'
 import DBookStack3D from '../../components/Showcase3DIcons/3DBookStack'
 import DBuilding3D from '../../components/Showcase3DIcons/3DBuilding'
+import PathVisualization3D from '../../components/PathVisualization3D/PathVisualization3D'
 
 const HomePage: React.FC = () => {
   return (
     <div className="home-page">
       <HeroSection />
+      
+      {/* 3D Path Visualization */}
+      <PathVisualization3D />
       
       {/* 3D Cards Showcase */}
       <section className="floating-cards-showcase">
