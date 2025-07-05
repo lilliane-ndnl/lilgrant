@@ -92,32 +92,56 @@
 }
 
 .scholarships-page {
-  min-height: 100vh;
-  padding-top: 120px;
-  padding-bottom: 60px;
+  min-height: calc(100vh - 80px);
+  padding: 1.5rem;
+  background: transparent;
   max-width: 1600px;
   margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
-.page-header {
+.hub-header {
   text-align: center;
-  margin-bottom: 2rem;
+  padding: 1rem 1rem 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.page-header h1 {
-  font-size: 2.5rem;
-  color: white;
-  margin-bottom: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+.hub-header h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 0.75rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  line-height: 1.2;
 }
 
-.page-header p {
+.hub-header p {
   font-size: 1.1rem;
+  line-height: 1.5;
   color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 1rem;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.results-info {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+  padding: 0.25rem 1.25rem;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 0.95rem;
+  display: inline-block;
+  margin: 0.75rem auto 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.results-info p {
+  margin: 0;
 }
 
 .scholarships-count {
@@ -356,47 +380,36 @@
 /* Responsive design */
 @media (max-width: 768px) {
   .scholarships-page {
-    padding-top: 140px;
-    padding-bottom: 60px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
   }
-
-  .page-header {
-    margin-bottom: 1.5rem;
+  .hub-header {
+    padding: 0.75rem 1rem 1rem;
   }
-
-  .page-header h1 {
-    font-size: 2rem;
+  .hub-header h1 {
+    font-size: 2.25rem;
+    margin: 0 0 0.5rem;
   }
-
   .scholarships-grid {
     grid-template-columns: 1fr;
     gap: 16px;
   }
-
   .filters-row {
     flex-direction: column;
     align-items: center;
   }
-
   .filter-select {
     width: 100%;
     max-width: 300px;
   }
-
   .search-input {
     max-width: 100%;
   }
-
   .pagination {
     gap: 0.5rem;
   }
-
   .pagination-numbers {
     gap: 0.25rem;
   }
-
   .pagination-number {
     width: 35px;
     height: 35px;
@@ -406,24 +419,17 @@
 
 @media (max-width: 480px) {
   .scholarships-page {
-    padding-top: 140px;
-    padding-bottom: 60px;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding: 0.5rem;
   }
-
-  .page-header h1 {
+  .hub-header h1 {
     font-size: 1.75rem;
   }
-
-  .page-header p {
+  .hub-header p {
     font-size: 1rem;
   }
-
   .filters-container {
     padding: 1rem;
   }
-
   .pagination-btn {
     padding: 8px 12px;
     font-size: 0.9rem;

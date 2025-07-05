@@ -4,6 +4,7 @@ import type { SearchFilters } from '../../components/AdvancedUniversitySearch/Ad
 import UniversityCard from '../../components/UniversityCard/UniversityCard';
 import ElegantPagination from '../../components/ElegantPagination/ElegantPagination';
 import LoadingBar from '../../components/LoadingBar/LoadingBar';
+import Enhanced3DBuilding from '../../components/Showcase3DIcons/Enhanced3DBuilding';
 import './UniversityHubPage.css';
 
 // Interface matching the new summary.json structure
@@ -121,6 +122,9 @@ const UniversityHubPage: React.FC = () => {
   return (
     <div className="university-hub-page">
       <div className="hub-header">
+        <div className="page-icon-container">
+          <Enhanced3DBuilding />
+        </div>
         <h1>University Hub</h1>
         <p>
           Explore our comprehensive database of universities across the United States. 

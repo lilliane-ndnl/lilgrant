@@ -6,6 +6,7 @@ import ScholarshipsSearch from '../../components/ScholarshipsSearch/Scholarships
 import type { ScholarshipsSearchFilters } from '../../components/ScholarshipsSearch/ScholarshipsSearch'
 import LoadingBar from '../../components/LoadingBar/LoadingBar'
 import ElegantPagination from '../../components/ElegantPagination/ElegantPagination'
+import Enhanced3DStar from '../../components/Showcase3DIcons/Enhanced3DStar'
 import './ScholarshipsPage.css'
 
 interface ScholarshipData {
@@ -155,12 +156,17 @@ const ScholarshipsPage = () => {
 
   return (
     <div className="scholarships-page">
-      <div className="page-header">
-        <h1>Available Scholarships</h1>
-        <p>Discover funding opportunities for your educational journey</p>
-        <div className="scholarships-count">
-          {filteredScholarships.length} scholarship{filteredScholarships.length !== 1 ? 's' : ''} found
+      <div className="hub-header">
+        <div className="page-icon-container">
+          <Enhanced3DStar />
         </div>
+        <h1>Available Scholarships</h1>
+        <p>
+          Discover funding opportunities for your educational journey. Use the filters below to find scholarships that match your background, interests, and goals.
+        </p>
+      </div>
+      <div className="results-info">
+        <p>{filteredScholarships.length} scholarship{filteredScholarships.length !== 1 ? 's' : ''} found</p>
       </div>
 
       {/* Unified Search and Filter Controls */}

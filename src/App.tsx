@@ -36,16 +36,16 @@ function App() {
         <Header ref={headerRef} />
         <main className="main-content" style={{ paddingTop: headerHeight }}>
           <RouteTransition>
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/scholarships" element={<ScholarshipsPage />} />
-              <Route path="/scholarships/:scholarshipId" element={<ScholarshipDetailPage />} />
-              <Route path="/universities" element={<UniversityHubPage />} />
-              <Route path="/university/:universityId" element={<UniversityProfilePage />} />
-              <Route path="/resources" element={<ResourcesPage />} />
-              <Route path="/blog" element={<BlogPage />} />
-              <Route path="/about" element={<AboutPage />} />
-            </Routes>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/scholarships" element={<ScholarshipsPage />} />
+            <Route path="/scholarships/:scholarshipId" element={<ScholarshipDetailPage />} />
+            <Route path="/universities" element={<UniversityHubPage />} />
+            <Route path="/university/:universityId" element={<UniversityProfilePage />} />
+            <Route path="/resources" element={<ResourcesPage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/about" element={<AboutPage />} />
+          </Routes>
           </RouteTransition>
         </main>
         <Footer />

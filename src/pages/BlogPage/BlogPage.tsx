@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import ElegantPagination from '../../components/ElegantPagination/ElegantPagination';
+import Enhanced3DLaptop from '../../components/Showcase3DIcons/3DQuill';
 import './BlogPage.css'
 
 const BlogPage = () => {
@@ -26,8 +27,15 @@ const BlogPage = () => {
 
   return (
     <div style={{ paddingTop: '100px', color: 'white', maxWidth: '800px', margin: '0 auto', padding: '0 20px' }}>
-      <h1 style={{ textAlign: 'center', marginBottom: '40px', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>LilGrant Blog & Articles</h1>
-      <p style={{ textAlign: 'center', marginBottom: '30px', lineHeight: '1.6', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.3)' }}>Tips, news, and opinions about scholarships from Lilliane and the community.</p>
+      <div className="hub-header">
+        <div className="page-icon-container">
+          <Enhanced3DLaptop />
+        </div>
+        <h1>LilGrant Blog & Articles</h1>
+        <p>
+          Tips, news, and opinions about scholarships from Lilliane and the community. Read the latest insights and advice to help you succeed on your scholarship journey.
+        </p>
+      </div>
       
       {currentArticles.map(article => (
         <div key={article.id} className="glassmorphism-box" style={{ padding: '20px', marginBottom: '20px' }}>

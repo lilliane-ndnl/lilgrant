@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import ElegantPagination from '../../components/ElegantPagination/ElegantPagination';
+import Enhanced3DBookStack from '../../components/Showcase3DIcons/Enhanced3DBookStack';
 import './ResourcesPage.css'
 
 const ResourcesPage = () => {
@@ -26,8 +27,15 @@ const ResourcesPage = () => {
 
   return (
     <div style={{ paddingTop: '100px', color: 'white', maxWidth: '800px', margin: '0 auto', padding: '0 20px' }}>
-      <h1 style={{ textAlign: 'center', marginBottom: '40px', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Helpful Resources</h1>
-      <p style={{ textAlign: 'center', marginBottom: '30px', lineHeight: '1.6', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.3)' }}>Curated articles, tools, and guides to aid your scholarship journey.</p>
+      <div className="hub-header">
+        <div className="page-icon-container">
+          <Enhanced3DBookStack />
+        </div>
+        <h1>Helpful Resources</h1>
+        <p>
+          Curated articles, tools, and guides to aid your scholarship journey. Explore practical tips, planning advice, and resources for every step of your application process.
+        </p>
+      </div>
 
       {/* Resources with Pagination */}
       {currentResources.map(resource => (

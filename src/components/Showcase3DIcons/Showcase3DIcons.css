@@ -12,4 +12,109 @@
 .floating-card-3d:hover .showcase-3d-building {
   filter: drop-shadow(0 16px 40px rgba(80, 0, 120, 0.28));
   transform: scale(1.12) rotateX(8deg) rotateY(-8deg);
+}
+
+/* Enhanced 3D Icons Styles */
+.enhanced-3d-star,
+.enhanced-3d-building,
+.enhanced-3d-book,
+.showcase-3d-quill {
+  width: 140px;
+  height: 140px;
+  display: block;
+  margin: 0 auto;
+  filter: none;
+  transition: transform 0.3s ease;
+}
+
+.enhanced-3d-star:hover,
+.enhanced-3d-building:hover,
+.enhanced-3d-book:hover,
+.showcase-3d-quill:hover {
+  transform: scale(1.05);
+}
+
+/* Page Icon Container Styles */
+.page-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0;
+  border-radius: 0;
+  background: none;
+  backdrop-filter: none;
+  border: none;
+  box-shadow: none;
+  transition: none;
+}
+
+.page-icon-container:hover {
+  background: none;
+  border: none;
+  box-shadow: none;
+  transform: none;
+}
+
+/* Specific icon animations */
+.enhanced-3d-star .sparkles circle {
+  animation: twinkle 2s ease-in-out infinite;
+}
+
+.enhanced-3d-building .main-windows rect,
+.enhanced-3d-building .side-windows rect,
+.enhanced-3d-building .front-windows rect,
+.enhanced-3d-building .library-windows rect {
+  animation: windowGlow 3s ease-in-out infinite;
+}
+
+.enhanced-3d-book .floating-pages rect {
+  animation: float 4s ease-in-out infinite;
+}
+
+.enhanced-3d-book .knowledge-particles circle {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Animation keyframes */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 0.2; }
+}
+
+@keyframes windowGlow {
+  0%, 100% { opacity: 0.9; }
+  50% { opacity: 0.4; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .enhanced-3d-star,
+  .enhanced-3d-building,
+  .enhanced-3d-book,
+  .showcase-3d-quill {
+    width: 100px;
+    height: 100px;
+  }
+  .page-icon-container {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .enhanced-3d-star,
+  .enhanced-3d-building,
+  .enhanced-3d-book,
+  .showcase-3d-quill {
+    width: 70px;
+    height: 70px;
+  }
+  .page-icon-container {
+    margin-bottom: 10px;
+  }
 } 
